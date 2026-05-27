@@ -4,97 +4,143 @@ import { useSelector, useDispatch } from "react-redux"
 import { login } from "./auth/authSlice"
 
 const Login = () => {
-  const [ loginForm, setLoginForm ] = useState({ email: "", password: "", formStatus: false })
+  const [loginForm, setLoginForm] = useState({ email: "", password: "", formStatus: false })
+  const [errorMessage, setErrorMessage] = useState("")
+  const [touched, setTouched] = useState({ email: false, password: false })
 
   const dispatch = useDispatch()
-
-  const { loading, isLoggedIn, user } = useSelector((state) => state.auth)
-
+  const { loading, isLoggedIn } = useSelector((state) => state.auth)
   const navigate = useNavigate()
 
   useEffect(() => {
     if (isLoggedIn) {
-      if (localStorage.getItem("location")) {
-        navigate(localStorage.getItem("location"))
-      }
-      else {
-        navigate("/admin/dashboard")
+      const location = localStorage.getItem("location")
+      navigate(location || "/admin/dashboard")
+    }
+  }, [isLoggedIn, navigate])
+
+  const validateEmail = (email) => /^\S+@\S+\.\S+$/.test(email)
+  const validatePassword = (password) => password.trim().length >= 4
+  const isFormValid = (email, password) => validateEmail(email) && validatePassword(password)
+
+  const handleSubmit = async (event) => {
+    event?.preventDefault()
+    if (!loginForm.formStatus || loading) {
+      setErrorMessage("Please enter a valid email and password before submitting.")
+      return
+    }
+
+    setErrorMessage("")
+    try {
+      await dispatch(login({ email: loginForm.email, password: loginForm.password })).unwrap()
+    }
+    catch (error) {
+      console.log(error, error.response)
+      const message = error?.message
+      if (message === "Request failed with status code 401") {
+        setErrorMessage("Invalid email or password. Please try again.")
+      } else {
+        setErrorMessage("Unable to connect to the server. Please try again.")
       }
     }
-  }, [isLoggedIn])
-  
-  const handleSubmit = async () => {
-    dispatch(login(loginForm))
   }
 
-  useEffect(() => {
-    if (isLoggedIn) {
-      if (localStorage.getItem("location")) {
-        navigate(localStorage.getItem("location"))
-      }
-      else {
-        navigate("/admin/dashboard")
-      }
-    }
-  }, [isLoggedIn])
-
   const handleLoginForm = (e, field) => {
-    setLoginForm((l) => {
-      const status = field === "email" ? 
-          e.target.value.length >= 3 && l.password.length >= 3
-        :
-          l.email.length >= 3 && e.target.value.length >= 3
+    const value = e.target.value
+    setTouched((prev) => ({ ...prev, [field]: true }))
+    setLoginForm((prev) => {
+      const next = {
+        ...prev,
+        [field]: value,
+      }
       return {
-        ...loginForm,
-        email: field === "email" ? e.target.value : l.email,
-        password: field === "password" ? e.target.value : l.password,
-        formStatus: status
-      }}
-    )
+        ...next,
+        formStatus: isFormValid(next.email, next.password),
+      }
+    })
   }
 
   return (
-    <>
-      <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Login now!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-              quasi. In deleniti eaque aut repudiandae et a id nisi.
-            </p>
-          </div>
-          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <div className="card-body">
-              <fieldset className="fieldset">
-                <label className="label">Username</label>
+    <div className="hero bg-base-200 min-h-screen">
+      <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="text-center lg:text-left">
+          <h1 className="text-5xl font-bold">Login now!</h1>
+          <p className="py-6">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+            quasi. In deleniti eaque aut repudiandae et a id nisi.
+          </p>
+        </div>
+
+        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+          <div className="card-body">
+            <form onSubmit={handleSubmit} noValidate>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Email</span>
+                </label>
                 <input
                   value={loginForm.email}
                   onChange={(e) => handleLoginForm(e, "email")}
-                  type="text" className="input" placeholder="Email" />
-                <label className="label">Password</label>
+                  onBlur={() => setTouched((prev) => ({ ...prev, email: true }))}
+                  type="email"
+                  className={`input input-bordered ${touched.email && !validateEmail(loginForm.email) ? "input-error" : ""}`}
+                  placeholder="Email"
+                  aria-invalid={touched.email && !validateEmail(loginForm.email)}
+                />
+                {touched.email && !validateEmail(loginForm.email) && (
+                  <label className="label">
+                    <span className="label-text-alt text-error">Enter a valid email address.</span>
+                  </label>
+                )}
+              </div>
+
+              <div className="form-control mt-4">
+                <label className="label">
+                  <span className="label-text">Password</span>
+                </label>
                 <input
                   value={loginForm.password}
                   onChange={(e) => handleLoginForm(e, "password")}
-                  type="password" className="input" placeholder="Password" />
-                <div><a className="link link-hover">Forgot password?</a></div>
+                  onBlur={() => setTouched((prev) => ({ ...prev, password: true }))}
+                  type="password"
+                  className={`input input-bordered ${touched.password && !validatePassword(loginForm.password) ? "input-error" : ""}`}
+                  placeholder="Password"
+                  aria-invalid={touched.password && !validatePassword(loginForm.password)}
+                />
+                {touched.password && !validatePassword(loginForm.password) && (
+                  <label className="label">
+                    <span className="label-text-alt text-error">Password must be at least 8 characters.</span>
+                  </label>
+                )}
+              </div>
+
+              <div className="form-control mt-4">
                 <button
-                  onClick={handleSubmit}
-                  className="btn btn-primary mt-4" disabled={!loginForm.formStatus}>Login</button>
-              </fieldset>
+                  type="submit"
+                  className="btn btn-primary"
+                  disabled={!loginForm.formStatus || loading}
+                >
+                  {loading ? "Logging in..." : "Login"}
+                </button>
+              </div>
+            </form>
+
+            <div className="mt-4">
+              <a className="link link-hover">Forgot password?</a>
             </div>
+
+            {errorMessage && (
+              <div role="alert" className="alert alert-error shadow-lg mt-4" aria-live="assertive">
+                <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>{errorMessage}</span>
+              </div>
+            )}
           </div>
         </div>
       </div>
-      {loginForm.error && (
-        <div role="alert" className="alert alert-error">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>Error! Task failed successfully.</span>
-        </div>
-      )}
-    </>
+    </div>
   )
 }
 
