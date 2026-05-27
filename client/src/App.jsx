@@ -7,6 +7,8 @@ import Navbar from "./Navbar"
 import Home from "./Home"
 import Login from "./Login"
 import Dashboard from "./admin/Dashboard"
+import USStudentProgramMap from "./admin/USStudentProgramMap"
+import Weekly from "./admin/Weekly"
 import NoMatch from "./NoMatch"
 import "./App.css"
 
@@ -42,6 +44,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<PrivateRoute />}>
           <Route path="dashboard" element={<Dashboard />} />
+          <Route path="programs" element={<USStudentProgramMap />} />
+          <Route path="weekly" element={<Weekly />} />
         </Route>
         <Route path="*" element={<NoMatch />} />
       </Routes>
