@@ -1,9 +1,12 @@
 import { useEffect } from "react"
+import { Link, useNavigate } from "react-router"
 import ReactECharts from "echarts-for-react"
 import * as echarts from "echarts"
 import usaJson from "./us-states.json"
 
 const USStudentProgramMap =() => {
+  const navigate = useNavigate()
+
   useEffect(() => {
     echarts.registerMap("USA", usaJson)
   }, [])
@@ -84,6 +87,16 @@ const USStudentProgramMap =() => {
       areaColor: "#ec4899",
     },
   }));
+
+  const events = {
+    "click": (params) => {
+      // If clicked on a state, navigate to that state's program page
+      if (highlightedStates.includes(params.name)) {
+        navigate(`/admin/programs/${params.name}`)
+      }
+    },
+    // "legendselectchanged": (params) => console.log(params),
+  }
 
   const option = {
     backgroundColor: "transparent",
@@ -175,6 +188,11 @@ const USStudentProgramMap =() => {
           areaColor: "#27272a",
         },
         data: chartData,
+        // point: {
+        //   events: {
+        //     click: (e) => { console.log(this); console.log(e.point.category); console.log(e.point.y);  }
+        //   }
+        // },
       },
     ],
   };
@@ -196,55 +214,57 @@ const USStudentProgramMap =() => {
             option={option}
             style={{ height: "700px", width: "100%" }}
             opts={{ renderer: "svg" }}
+            onEvents={events}
           />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-8">
           {Object.entries(stateData).map(([code, state]) => (
-            <div
-              key={code}
-              className="bg-base-100 border border-neutral rounded-2xl p-5"
-            >
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-primary">{state.name}</h3>
-                <div className="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm font-medium">
-                  {code}
+            <Link key={code} to={`/admin/programs/${state.name}`}>
+              <div
+                className="bg-base-100 border border-neutral rounded-2xl p-5"
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-xl font-semibold text-primary">{state.name}</h3>
+                  <div className="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm font-medium">
+                    {code}
+                  </div>
                 </div>
-              </div>
 
-              <div className="space-y-2 text-sm text-accent">
-                <div className="flex justify-between">
-                  <span>Applied</span>
-                  <span>{state.applied}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Accepted</span>
-                  <span>{state.accepted}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Completed</span>
-                  <span>{state.completed}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Retention</span>
-                  <span>
-                    {retentionRate(state.completed, state.accepted)}
-                  </span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Attendance</span>
-                  <span>{state.attendance}%</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Jobs</span>
-                  <span>{state.jobs}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Tech Jobs</span>
-                  <span>{state.techJobs}</span>
+                <div className="space-y-2 text-sm text-accent">
+                  <div className="flex justify-between">
+                    <span>Applied</span>
+                    <span>{state.applied}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Accepted</span>
+                    <span>{state.accepted}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Completed</span>
+                    <span>{state.completed}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Retention</span>
+                    <span>
+                      {retentionRate(state.completed, state.accepted)}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Attendance</span>
+                    <span>{state.attendance}%</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Jobs</span>
+                    <span>{state.jobs}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Tech Jobs</span>
+                    <span>{state.techJobs}</span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
