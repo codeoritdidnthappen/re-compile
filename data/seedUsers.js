@@ -2,8 +2,9 @@ import "dotenv/config"
 import axios from "axios"
 import { generateUsers } from "./generateUsers.js"
 
-const numberOfUsers = 10
-const users = generateUsers(numberOfUsers)
+const numberOfUsers = 1
+const users = await generateUsers(numberOfUsers)
+// console.log("users", users)
 
 let interval = null
 let index = 0

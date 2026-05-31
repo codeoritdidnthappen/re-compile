@@ -9,6 +9,8 @@ import "./strategies/local.js"
 import "./strategies/jwt.js"
 import authIndex from "./auth/index.js"
 import userIndex from "./users/userIndex.js"
+import classIndex from "./class/classIndex.js"
+import attendanceIndex from "./attendance/attendanceIndex.js"
 
 const app = express()
 const port = process.env.PORT || 8000
@@ -33,6 +35,8 @@ app.get("/", (req, res) => {
 
 app.use("/auth", authIndex)
 app.use("/user", userIndex)
+app.use("/class", classIndex)
+app.use("/attendance", attendanceIndex)
 
 try {
   const mongodbURI = process.env.MONGODB_URI || ""

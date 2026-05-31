@@ -11,7 +11,7 @@ const generateUser = async () => {
     email: `${firstName.charAt(0).toLowerCase()}${lastName.toLowerCase()}@${faker.internet.domainName()}`,
     username: `${firstName.charAt(0).toLowerCase()}${lastName.toLowerCase()}`,
     password: password,
-    roles: [ faker.helpers.arrayElement([ "User", "Admin" ]) ],
+    roles: [ faker.helpers.arrayElement([ "Case Manager" ]) ],
     avatar: ""
   }
 }
@@ -19,7 +19,7 @@ const generateUser = async () => {
 export const generateUsers = async (length) => {
   const users = []
   for (let i = 0; i < length; i++) {
-    users.push(generateUser())
+    users.push(await generateUser())
   }
   return users
 }

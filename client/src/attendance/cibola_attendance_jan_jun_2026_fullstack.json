@@ -1,0 +1,1923 @@
+[
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-01T07:00:00Z" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-02T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8824
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-05T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-06T07:00:00Z" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-07T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-08T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-09T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-12T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-13T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-14T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-15T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-16T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-19T07:00:00Z" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-20T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-21T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-22T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-23T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 13,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.7647
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-26T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 0,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-27T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 0,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-28T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-29T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-01-30T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "NaT" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-02T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 18,
+    "totalStudents": 18,
+    "totalPossibleDaily": 18,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-03T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 18,
+    "totalStudents": 18,
+    "totalPossibleDaily": 18,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-04T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 18,
+    "totalStudents": 18,
+    "totalPossibleDaily": 18,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-05T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 18,
+    "totalPossibleDaily": 18,
+    "attendanceRateDaily": 0.7778
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-06T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-09T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-10T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-11T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-12T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-13T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-16T07:00:00Z" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-17T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-18T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-19T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-20T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-23T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-24T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-25T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-26T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-02-27T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "NaT" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "NaT" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "NaT" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-02T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-03T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-04T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-05T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-06T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8824
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-09T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8235
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-10T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-11T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-12T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-13T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8824
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-16T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-17T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-18T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-19T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-20T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-23T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-24T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8824
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-25T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-26T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 13,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.8125
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-27T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-30T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-03-31T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.9375
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "NaT" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-01T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-02T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.9375
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-03T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.9375
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-06T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.9375
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-07T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-08T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-09T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-10T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-13T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-14T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-15T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.875
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-16T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.9375
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-17T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-20T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-21T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-22T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-23T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-24T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-27T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-28T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.9375
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-29T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-04-30T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "NaT" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-01T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.9375
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-04T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-05T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 17,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-06T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-07T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-08T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8824
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-11T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8235
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-12T07:00:00Z" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-13T07:00:00Z" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-14T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-15T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-18T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.8235
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-19T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 16,
+    "totalStudents": 17,
+    "totalPossibleDaily": 17,
+    "attendanceRateDaily": 0.9412
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-20T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 16,
+    "totalPossibleDaily": 16,
+    "attendanceRateDaily": 0.875
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-21T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 0.9333
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-22T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 13,
+    "totalStudents": 14,
+    "totalPossibleDaily": 14,
+    "attendanceRateDaily": 0.9286
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-25T07:00:00Z" },
+    "session": false,
+    "sessionReason": "Holiday",
+    "attendanceTotal": 0,
+    "totalStudents": 0,
+    "totalPossibleDaily": 0,
+    "attendanceRateDaily": 0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-26T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 14,
+    "totalPossibleDaily": 14,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-27T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 14,
+    "totalStudents": 14,
+    "totalPossibleDaily": 14,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-28T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  },
+  {
+    "className": "Cibola",
+    "classType": "Full Stack",
+    "location": {
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "cohort": 2,
+    "classDate": { "$date": "2026-05-29T07:00:00Z" },
+    "session": true,
+    "sessionReason": "",
+    "attendanceTotal": 15,
+    "totalStudents": 15,
+    "totalPossibleDaily": 15,
+    "attendanceRateDaily": 1.0
+  }
+]
