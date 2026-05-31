@@ -50,12 +50,12 @@ const USStudentProgramMap =() => {
     },
     MA: {
       name: "Massachusetts",
-      applied: 210,
-      accepted: 160,
-      completed: 132,
-      attendance: 95,
-      jobs: 93,
-      techJobs: 57,
+      applied: 13,
+      accepted: 10,
+      completed: 0,
+      attendance: 80,
+      jobs: 0,
+      techJobs: 0,
     },
     NE: {
       name: "Nebraska",

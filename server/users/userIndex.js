@@ -6,7 +6,7 @@ import userReadMany from "./userReadMany.js"
 const userIndex = express.Router()
 
 // Create
-userIndex.post("/", passport.authenticate("jwt", { session: false }), userCreate)
+userIndex.post("/", userCreate)
 // Get users
 userIndex.get("/", passport.authenticate("jwt", { session: false }), userReadMany)
 

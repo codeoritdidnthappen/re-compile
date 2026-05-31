@@ -1,0 +1,51 @@
+import { useEffect } from "react"
+import { useDispatch, useSelector } from "react-redux"
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts"
+import { getAttendance } from "../attendance/attendanceSlice/"
+
+const AttendanceChart = () => {
+  const dispatch = useDispatch()
+
+  const { attendance } = useSelector((state) => state.attendance)
+  const { loading, isLoggedIn } = useSelector((state) => state.auth)
+
+  useEffect(() => {
+
+    const getAttendanceData = async () => {
+      console.log("getAttendance")
+      const token = localStorage.getItem("token")
+      dispatch(getAttendance(token))
+    }
+    getAttendanceData()
+  }, [])
+
+  return (
+    <section className="">
+      <div className="flex justify-center mt-10">
+        <LineChart
+          width={1500}
+          height={500}
+          data={attendance}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Line type="monotone" dataKey="Perryville" stroke="var(--color-primary)" activeDot={{ r: 8 }} strokeWidth={3} />
+          <Line type="monotone" dataKey="Cibola" stroke="var(--color-secondary)" strokeWidth={2} />
+          <Line type="monotone" dataKey="Whetstone" stroke="var(--color-accent)" strokeWidth={2} />
+          <Line type="monotone" dataKey="RedRock" stroke="var(--color-info)" strokeWidth={2} />
+        </LineChart>
+      </div>
+    </section>
+  )
+}
+
+export default AttendanceChart

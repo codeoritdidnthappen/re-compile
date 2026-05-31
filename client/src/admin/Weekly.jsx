@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react"
-import report from "./weekly.data.json"
+import report from "./data/weekly.data.json"
 
 const Weekly = () => {
   const [sortConfig, setSortConfig] = useState({ key: "state", direction: "asc" })
@@ -108,7 +108,7 @@ const Weekly = () => {
               {fields.map((field) => {
                 console.log(row[field])
                 return(
-                  <td key={field} className="text-primary">{row[field]}</td>
+                  <td key={field} className="text-primary text-center">{row[field]}</td>
                 )
               })}
             </tr>
