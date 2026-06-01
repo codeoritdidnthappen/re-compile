@@ -3,37 +3,42 @@ import mongoose from "mongoose"
 const Schema = mongoose.Schema
 
 const studentSchema = new Schema({
+  docId: { type: String, default: "" },
+  firstName: { type: String, default: "" },
+  middleInitial: { type: String, default: "" },
+  lastName: { type: String, default: "" },
+  teachingAssistant: { type: Boolean, default: false },
   location: {
     state: { type: String, default: "" },
     address: { type: String, default: "" },
-    prisonName: { type: String, default: "" },
-    unitName: { type: String, default: "" }
+    site: { type: String, default: "" },
+    unit: { type: String, default: "" }
   },
   classesTaken: [
     {
       startDate: { type: Date },
       endDate: { type: Date },
-      cohortNumber: { type: Number },
+      cohort: { type: Number },
       title: { type: String, default: "" },
       description: { type: String, default: "" },
-      skillsLearned: [String],
+      skillsLearned: [ String ],
       modulesCompleted: { type: Number, default: 0 },
       projectsCompleted: { type: Number, default: 0 }
     },
   ],
-  becameTA: { type: Boolean, default: false },
   incarceration: [
     {
       charges: [String],
+      sentenceDate: { type: Date },
       intakeDate: { type: Date },
       releaseDate: { type: Date },
-      photoLink: { type: String, default: "" },
-      docId: { type: String, default: "" }
+      photoLink: { type: String, default: "" }
     },
   ],
-  prisonClassesAndPrograms: [
+  workPrograms: [
     {
-      classOrProgram: { type: String, default: "" },
+      title: { type: String, default: "" },
+      type: { type: String, default: "" },
       instructor: { type: String, default: "" },
       institution: { type: String, default: "" }
     },

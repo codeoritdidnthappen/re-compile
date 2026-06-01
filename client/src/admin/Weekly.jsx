@@ -11,17 +11,14 @@ const Weekly = () => {
   }, [])
 
   const currentWeek = weeks[currentWeekIndex] || null
-  console.log("currentWeek", currentWeek)
 
   const filteredReport = useMemo(() => {
     if (!report || report.length === 0 || !currentWeek) return []
-    console.log("filteredReport", "report:", report, "currentWeek:", currentWeek, report.filter(item => item.week === currentWeek)[0].week.data)
     return report.filter(item => item.week === currentWeek)[0].week.data
   }, [currentWeek])
 
   const fields = useMemo(() => {
     if (!filteredReport || filteredReport.length === 0) return []
-    console.log("fields", Object.keys(filteredReport[0]))
     return Object.keys(filteredReport[0])
   }, [filteredReport])
 
@@ -43,7 +40,6 @@ const Weekly = () => {
       const bString = String(bValue).toLowerCase()
       return direction === "asc" ? aString.localeCompare(bString) : bString.localeCompare(aString)
     })
-    console.log("sortedData", sortedData)
     return sortedData
   }, [sortConfig, filteredReport])
 
@@ -105,12 +101,7 @@ const Weekly = () => {
         <tbody>
           {sortedReport.map((row, idx) => (
             <tr key={idx}>
-              {fields.map((field) => {
-                console.log(row[field])
-                return(
-                  <td key={field} className="text-primary text-center">{row[field]}</td>
-                )
-              })}
+              {fields.map((field) => <td key={field} className="text-primary text-center">{row[field]}</td>)}
             </tr>
           ))}
         </tbody>

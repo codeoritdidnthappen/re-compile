@@ -12,7 +12,6 @@ const AttendanceChart = () => {
   useEffect(() => {
 
     const getAttendanceData = async () => {
-      console.log("getAttendance")
       const token = localStorage.getItem("token")
       dispatch(getAttendance(token))
     }
