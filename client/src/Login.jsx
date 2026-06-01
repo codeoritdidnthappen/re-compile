@@ -35,7 +35,6 @@ const Login = () => {
       await dispatch(login({ email: loginForm.email, password: loginForm.password })).unwrap()
     }
     catch (error) {
-      console.log(error, error.response)
       const message = error?.message
       if (message === "Request failed with status code 401") {
         setErrorMessage("Invalid email or password. Please try again.")

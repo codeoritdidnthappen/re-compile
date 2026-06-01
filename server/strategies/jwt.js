@@ -20,7 +20,7 @@ passport.use(
       // Find user based on id in token, and make sure token is in users token list (i.e. logged in)
       // TODO: make sure token is in users token list
       const user = await userModel.findOne({ _id })
-      console.log("jwt user", user)
+      // console.log("jwt user", user)
 
       if (!user) {
         return done(null, false)

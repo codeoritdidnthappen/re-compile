@@ -19,11 +19,9 @@ const attendanceSlice = createSlice({
     builder
       // Get attendance
       .addCase(getAttendance.pending, (state, action) => {
-        console.log("getAttendance.pending")
         state.loading = true
       })
       .addCase(getAttendance.fulfilled, (state, action) => {
-        console.log("getAttendance.fulfilled", action.payload)
         state.attendance = action.payload.attendance
         state.loading = false
       })

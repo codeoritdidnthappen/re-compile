@@ -5,8 +5,6 @@ import StudentList from "./StudentList"
 const Dashboard = () => {
   const { user } = useSelector((state) => state.auth)
 
-  console.log("user", user, user.roles)
-
   return (
     <>
       {user?.roles?.includes("Admin") && (
