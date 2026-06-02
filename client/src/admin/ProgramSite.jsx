@@ -42,6 +42,12 @@ const ProgramSite = () => {
     return headerDate
   }
 
+  useEffect(() => {
+    console.log("attendance", attendance)
+    console.log("bruh why isn't this null")
+  }, [attendance])
+  
+
   return (
     <>
       {attendance ? (

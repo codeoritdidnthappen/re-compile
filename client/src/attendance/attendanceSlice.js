@@ -3,6 +3,7 @@ import attendanceService from './attendanceService'
 
 const initialState = {
   loading: false,
+  attendanceSummary: null,
   attendance: null
 }
 
@@ -27,7 +28,7 @@ const attendanceSlice = createSlice({
         state.loading = true
       })
       .addCase(getAttendanceSummary.fulfilled, (state, action) => {
-        state.attendance = action.payload.attendance
+        state.attendanceSummary = action.payload.attendance
         state.loading = false
       })
       .addCase(getAttendanceSummary.rejected, (state, action) => {

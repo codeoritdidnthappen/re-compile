@@ -6,7 +6,7 @@ import { getAttendanceSummary } from "../attendance/attendanceSlice"
 const AttendanceChart = ({ abbreviation }) => {
   const dispatch = useDispatch()
 
-  const { attendance } = useSelector((state) => state.attendance)
+  const { attendanceSummary } = useSelector((state) => state.attendance)
   const { loading, isLoggedIn } = useSelector((state) => state.auth)
 
   useEffect(() => {
@@ -21,11 +21,11 @@ const AttendanceChart = ({ abbreviation }) => {
   return (
     <section className="">
       <div className="flex justify-center mt-10">
-        {attendance ? (
+        {attendanceSummary ? (
           <LineChart
             width={1500}
             height={500}
-            data={attendance}
+            data={attendanceSummary}
             margin={{
               top: 5,
               right: 30,
@@ -44,7 +44,7 @@ const AttendanceChart = ({ abbreviation }) => {
             <Line type="monotone" dataKey="RedRock" stroke="var(--color-info)" strokeWidth={2} />
           </LineChart>
         ) : (
-          <div>Loading</div>
+          <div className="h-125">Loading</div>
         )}
       </div>
     </section>
