@@ -41,7 +41,7 @@ const AttendanceChart = ({ abbreviation }) => {
             <Line type="monotone" dataKey="Perryville" stroke="var(--color-primary)" activeDot={{ r: 8 }} strokeWidth={3} />
             <Line type="monotone" dataKey="Cibola" stroke="var(--color-secondary)" strokeWidth={2} />
             <Line type="monotone" dataKey="Whetstone" stroke="var(--color-accent)" strokeWidth={2} />
-            <Line type="monotone" dataKey="RedRock" stroke="var(--color-info)" strokeWidth={2} />
+            <Line type="monotone" dataKey="RedRock" stroke="var(--color-neutral)" strokeWidth={2} />
           </LineChart>
         ) : (
           <div className="h-125">Loading</div>

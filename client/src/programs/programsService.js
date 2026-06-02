@@ -7,6 +7,12 @@ const programsService = {
       `${server}/program/${year}`,
       { headers: { Authorization: `Bearer ${token}` } }
     )
+  },
+  getProgram: async (token, stateName) => {
+    return await axios.get(
+      `${server}/program/state/${stateName}`,
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
   }
 }
 

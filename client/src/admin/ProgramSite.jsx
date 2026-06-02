@@ -42,12 +42,6 @@ const ProgramSite = () => {
     return headerDate
   }
 
-  useEffect(() => {
-    console.log("attendance", attendance)
-    console.log("bruh why isn't this null")
-  }, [attendance])
-  
-
   return (
     <>
       {attendance ? (
@@ -95,7 +89,7 @@ const ProgramSite = () => {
                 <div className="text-left space-y-2 text-lg font-bold">
                   <p className="text-secondary">{attendance.metadata.classDays}</p>
                   <p className="text-secondary">{attendance.metadata.classHours}</p>
-                  <p className="text-secondary">1234 Main St.</p>
+                  <p className="text-secondary">{attendance.metadata.address}</p>
                   <p className="text-secondary"></p>
                 </div>
               </div>

@@ -6,6 +6,7 @@ const programSchema = new Schema({
     name: String,
     year: Number,
     abbreviation: String,
+    sites: [],
     applied: Number,
     accepted: Number,
     completed: Number,

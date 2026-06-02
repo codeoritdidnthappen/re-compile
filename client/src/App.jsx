@@ -47,7 +47,7 @@ function App() {
         <Route path="/admin" element={<PrivateRoute />}>
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="programs" element={<USStudentProgramMap />} />
-          <Route path="programs/:state" element={<StudentProgramState />} />
+          <Route path="programs/:stateName" element={<StudentProgramState />} />
           <Route path="sites/:site" element={<ProgramSite />} />
           {/* <Route path="weekly" element={<Weekly />} /> */}
         </Route>
