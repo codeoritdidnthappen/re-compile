@@ -18,6 +18,12 @@ const StudentProgramState = () => {
   useEffect(() => {
     console.log("currentState", currentState)
   }, [currentState])
+
+  const convertStateToAbbreviation = (stateName) => {
+  const name = stateName.trim().toUpperCase()
+  const stateMap = { "ARIZONA": "AZ", "FLORIDA": "FL", "MASSACHUSSETTS": "MA", "NEBRASKA": "NE", "SOUTHCAROLINA": "SC" }
+  return stateMap[name] || null
+}
   
   /*
   Jelani Attikos
@@ -147,7 +153,7 @@ const StudentProgramState = () => {
                 <BreadCrumbs state={stateGroup.state} />
               </div>
 
-              {stateGroup.state === "Arizona" && <AttendanceChart />}
+              {stateGroup.state === "Arizona" && <AttendanceChart abbreviation={convertStateToAbbreviation(state)} />}
 
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                 {stateGroup.prisons.map((site) => (

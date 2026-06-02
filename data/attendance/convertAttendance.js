@@ -165,7 +165,7 @@ function toTitleCase(str) {
 // ---------------------------------------------------------------------------
 // Core sheet parser
 // ---------------------------------------------------------------------------
-function parseSheet(sheet, sheetName) {
+function parseSheet(sheet) {
   // -- Metadata rows 2-5 --
   const instructor  = cellVal(sheet, "B2");
   const ta          = cellVal(sheet, "B3");
@@ -290,7 +290,6 @@ function parseSheet(sheet, sheetName) {
   if (statsRow) {
     // statsRow is 1-based; convert to 0-based for cell lookup
     const presentR  = statsRow - 1;      // 0-based row for "Number of students present"
-    const absentR   = statsRow;           // 0-based row for "Number of students absent"
     const possibleR = statsRow + 1;       // 0-based row for "Total Possible"
 
     for (const col of dateColKeys) {
@@ -331,7 +330,7 @@ function parseSheet(sheet, sheetName) {
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
-const result = {};
+const result = [];
 
 for (const sheetName of sheetsToProcess) {
   if (!workbook.Sheets[sheetName]) {
@@ -339,10 +338,10 @@ for (const sheetName of sheetsToProcess) {
     continue;
   }
   const sheet = workbook.Sheets[sheetName];
-  result[sheetName] = parseSheet(sheet, sheetName);
-  const r = result[sheetName];
+  const parsed = parseSheet(sheet);
+  result.push({ month: sheetName, ...parsed });
   console.log(
-    `Parsed "${sheetName}": ${r.students.length} students, ${r.classDays.length} class days`
+    `Parsed "${sheetName}": ${parsed.students.length} students, ${parsed.classDays.length} class days`
   );
 }
 

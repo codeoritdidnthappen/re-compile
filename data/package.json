@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "seed:users": "node seedUsers.js",
-    "seed:students": "node seedStudents.js"
+    "seed:students": "node seedStudents.js",
+    "seed:programs": "node seedPrograms.js"
   },
   "keywords": [],
   "author": "",

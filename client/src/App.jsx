@@ -10,7 +10,7 @@ import Dashboard from "./admin/Dashboard"
 import USStudentProgramMap from "./admin/USStudentProgramMap"
 import StudentProgramState from "./admin/StudentProgramState"
 import ProgramSite from "./admin/ProgramSite"
-import Weekly from "./admin/Weekly"
+// import Weekly from "./admin/Weekly"
 import NoMatch from "./NoMatch"
 import "./App.css"
 
@@ -49,7 +49,7 @@ function App() {
           <Route path="programs" element={<USStudentProgramMap />} />
           <Route path="programs/:state" element={<StudentProgramState />} />
           <Route path="sites/:site" element={<ProgramSite />} />
-          <Route path="weekly" element={<Weekly />} />
+          {/* <Route path="weekly" element={<Weekly />} /> */}
         </Route>
         <Route path="*" element={<NoMatch />} />
       </Routes>

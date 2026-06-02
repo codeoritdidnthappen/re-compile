@@ -1,19 +1,19 @@
 import { useMemo, useState } from "react"
 import { useParams } from "react-router"
-import perryville from "./data/perryville-attendance-report.data.json"
-import cibola from "./data/cibola-attendance-report.data.json"
-import whetstone from "./data/whetstone-attendance-report.data.json"
-import redRock from "./data/red-rock-attendance-report.data.json"
-import fsp from "./data/fsp-attendance-report.data.json"
-import lowell from "./data/lowell-attendance-report.data.json"
-import wakulla from "./data/wakulla-attendance-report.data.json"
-import ncci from "./data/ncci-attendance-report.data.json"
-import leath from "./data/leath-attendance-report.data.json"
+import perryville from "./data/perryville-attendance-report-2026.data.json"
+// import cibola from "./data/cibola-attendance-report.data.json"
+// import whetstone from "./data/whetstone-attendance-report.data.json"
+// import redRock from "./data/red-rock-attendance-report.data.json"
+// import fsp from "./data/fsp-attendance-report.data.json"
+// import lowell from "./data/lowell-attendance-report.data.json"
+// import wakulla from "./data/wakulla-attendance-report.data.json"
+// import ncci from "./data/ncci-attendance-report.data.json"
+// import leath from "./data/leath-attendance-report.data.json"
 
 const ProgramSite = () => {
   const { site } = useParams()
   // const [ selectedMonth, setSelectedMonth ] = useState(Object.keys(attendanceData)[0])
-  const [ selectedMonth, setSelectedMonth ] = useState("May 2026")
+  const [ selectedMonth, setSelectedMonth ] = useState(null)
 
   const attendanceData = useMemo(() => {
     let data = null
@@ -51,8 +51,8 @@ const ProgramSite = () => {
 
   const currentData = useMemo(() => {
     if (!attendanceData) return null
-    return attendanceData[selectedMonth]
-  }, [selectedMonth])
+    return attendanceData.find((item) => item.month === selectedMonth) ?? attendanceData[0] ?? null
+  }, [attendanceData, selectedMonth])
 
   const attendanceDates = useMemo(() => {
     if (!currentData?.students || currentData.students.length === 0) return []
@@ -70,9 +70,9 @@ const ProgramSite = () => {
               onChange={(e) => setSelectedMonth(e.target.value)}
               className="select select-bordered w-full max-w-xs"
             >
-              {Object.keys(attendanceData).map((month) => (
-                <option key={month} value={month}>
-                  {month}
+              {attendanceData.map((item) => (
+                <option key={item.month} value={item.month}>
+                  {item.month}
                 </option>
               ))}
             </select>

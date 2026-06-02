@@ -1,9 +1,9 @@
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts"
-import { getAttendance } from "../attendance/attendanceSlice/"
+import { getAttendanceSummary } from "../attendance/attendanceSlice"
 
-const AttendanceChart = () => {
+const AttendanceChart = ({ abbreviation }) => {
   const dispatch = useDispatch()
 
   const { attendance } = useSelector((state) => state.attendance)
@@ -12,8 +12,9 @@ const AttendanceChart = () => {
   useEffect(() => {
 
     const getAttendanceData = async () => {
+      console.log("abbreviation", abbreviation)
       const token = localStorage.getItem("token")
-      dispatch(getAttendance(token))
+      dispatch(getAttendanceSummary({ token, abbreviation }))
     }
     getAttendanceData()
   }, [])

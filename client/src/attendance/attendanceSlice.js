@@ -6,8 +6,8 @@ const initialState = {
   attendance: []
 }
 
-export const getAttendance = createAsyncThunk("attendance/getAttendance", async ({ token }) => {
-  const response = await attendanceService.getAttendance(token)
+export const getAttendanceSummary = createAsyncThunk("attendance/getAttendanceSummary", async ({ token, abbreviation }) => {
+  const response = await attendanceService.getAttendanceSummary(token, abbreviation)
   return response.data
 })
 
@@ -18,15 +18,15 @@ const attendanceSlice = createSlice({
   extraReducers: (builder) => {
     builder
       // Get attendance
-      .addCase(getAttendance.pending, (state, action) => {
+      .addCase(getAttendanceSummary.pending, (state, action) => {
         state.loading = true
       })
-      .addCase(getAttendance.fulfilled, (state, action) => {
+      .addCase(getAttendanceSummary.fulfilled, (state, action) => {
         state.attendance = action.payload.attendance
         state.loading = false
       })
-      .addCase(getAttendance.rejected, (state, action) => {
-        console.log("getAttendance.rejected")
+      .addCase(getAttendanceSummary.rejected, (state, action) => {
+        console.log("getAttendanceSummary.rejected")
         state.loading = false
         // Handle error state
       })

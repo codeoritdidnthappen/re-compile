@@ -2,9 +2,9 @@ import axios from "axios"
 import { server } from "../utils/utils"
 
 const attendanceService = {
-  getAttendance: async (token) => {
+  getAttendanceSummary: async (token, abbreviation) => {
     return await axios.get(
-      `${server}/attendance`, 
+      `${server}/attendance/summary/${abbreviation}`, 
       { headers: { Authorization: `Bearer ${token}` } }
     )
   }

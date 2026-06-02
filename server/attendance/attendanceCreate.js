@@ -1,46 +1,32 @@
 import attendanceModel from "./attendanceModel.js"
 
 const attendanceCreate = async (req, res) => {
-  const {
-    className,
-    classType,
-    location,
-    cohort,
-    classDate,
-    session,
-    sessionReason,
-    attendanceTotal,
-    totalStudents,
-    totalPossibleDaily,
-    attendanceRateDaily,
-    students
-  } = req.body
+  const { month, metadata, students, classDays } = req.body
 
   try {
-
-    // Calculate attendanceRateDaily here
-    const attendanceRate = attendanceTotal === 0 || totalPossibleDaily === 0 ? 0 : attendanceTotal / totalPossibleDaily
-
-    console.log(attendanceRate, attendanceTotal, totalPossibleDaily)
-
-    const attendance = await attendanceModel.create({
-      className,
-      classType,
-      location,
-      cohort,
-      classDate,
-      session,
-      sessionReason,
-      attendanceTotal,
-      totalStudents,
-      totalPossibleDaily,
-      attendanceRateDaily: attendanceRate, // Calculated rate
-      students
+    const computedClassDays = (classDays ?? []).map((day) => {
+      const rate =
+        !day.attendanceTotal || !day.totalPossibleDaily
+          ? 0
+          : parseFloat((day.attendanceTotal / day.totalPossibleDaily).toFixed(4))
+      return { ...day, attendanceRateDaily: rate }
     })
 
-    res.status(200).json({ success: true, attendance: attendance })
-  }
-  catch (err) {
+    const { totalAttendees, totalPossible } = metadata ?? {}
+    const attendanceRate =
+      !totalAttendees || !totalPossible
+        ? 0
+        : parseFloat((totalAttendees / totalPossible).toFixed(10))
+
+    const attendance = await attendanceModel.create({
+      month,
+      metadata: { ...metadata, attendanceRate },
+      students,
+      classDays: computedClassDays
+    })
+
+    res.status(200).json({ success: true, attendance })
+  } catch (err) {
     console.log(err)
     res.status(500).json({ success: false, attendance: [], message: "There was an error. 👹" })
   }

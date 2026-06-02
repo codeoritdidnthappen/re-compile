@@ -1,14 +1,21 @@
 import { useEffect } from "react"
 import { Link, useNavigate } from "react-router"
+import { useDispatch, useSelector } from "react-redux"
 import ReactECharts from "echarts-for-react"
 import * as echarts from "echarts"
+import { getPrograms } from "../programs/programsSlice"
 import usaJson from "./us-states.json"
 
 const USStudentProgramMap =() => {
   const navigate = useNavigate()
+  const dispatch = useDispatch()
+
+  const { programs } = useSelector((state) => state.programs)
 
   useEffect(() => {
     echarts.registerMap("USA", usaJson)
+    const token = localStorage.getItem("token")
+    dispatch(getPrograms({ token, year:new Date().getFullYear() }))
   }, [])
   
   const stateData = {
@@ -21,15 +28,6 @@ const USStudentProgramMap =() => {
       jobs: 88,
       techJobs: 41,
     },
-    TN: {
-      name: "Tennessee",
-      applied: 170,
-      accepted: 126,
-      completed: 96,
-      attendance: 86,
-      jobs: 61,
-      techJobs: 28,
-    },
     FL: {
       name: "Florida",
       applied: 295,
@@ -38,15 +36,6 @@ const USStudentProgramMap =() => {
       attendance: 93,
       jobs: 109,
       techJobs: 52,
-    },
-    SC: {
-      name: "South Carolina",
-      applied: 135,
-      accepted: 101,
-      completed: 77,
-      attendance: 84,
-      jobs: 48,
-      techJobs: 19,
     },
     MA: {
       name: "Massachusetts",
@@ -66,14 +55,19 @@ const USStudentProgramMap =() => {
       jobs: 39,
       techJobs: 14,
     },
+    SC: {
+      name: "South Carolina",
+      applied: 135,
+      accepted: 101,
+      completed: 77,
+      attendance: 84,
+      jobs: 48,
+      techJobs: 19,
+    }
   };
-
-  const retentionRate = (completed, accepted) =>
-    `${Math.round((completed / accepted) * 100)}%`;
 
   const highlightedStates = [
     "Arizona",
-    "Tennessee",
     "Florida",
     "South Carolina",
     "Massachusetts",
@@ -84,7 +78,8 @@ const USStudentProgramMap =() => {
     name: stateName,
     value: 1,
     itemStyle: {
-      areaColor: "#ec4899",
+      // areaColor: "#ec4899",
+      areaColor: "var(--color-primary)",
     },
   }));
 
@@ -111,7 +106,7 @@ const USStudentProgramMap =() => {
       extraCssText:
         "border-radius: 18px; padding: 0; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.45);",
       formatter: (params) => {
-        const state = Object.values(stateData).find(
+        const state = Object.values(programs).find(
           (s) => s.name === params.name
         );
 
@@ -143,7 +138,7 @@ const USStudentProgramMap =() => {
             <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
               <span>Retention</span>
               <strong style="color:#4ade80;">
-                ${retentionRate(state.completed, state.accepted)}
+                ${state.retention}%
               </strong>
             </div>
 
@@ -219,7 +214,7 @@ const USStudentProgramMap =() => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-8">
-          {Object.entries(stateData).map(([code, state]) => (
+          {Object.entries(programs).map(([code, state]) => (
             <Link key={code} to={`/admin/programs/${state.name}`}>
               <div
                 className="bg-base-100 border border-neutral rounded-2xl p-5"
@@ -227,7 +222,7 @@ const USStudentProgramMap =() => {
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold text-primary">{state.name}</h3>
                   <div className="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm font-medium">
-                    {code}
+                    {state.abbreviation}
                   </div>
                 </div>
 
@@ -246,9 +241,7 @@ const USStudentProgramMap =() => {
                   </div>
                   <div className="flex justify-between">
                     <span>Retention</span>
-                    <span>
-                      {retentionRate(state.completed, state.accepted)}
-                    </span>
+                    <span>{state.retention}%</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Attendance</span>

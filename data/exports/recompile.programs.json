@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "6a1dfa13050cc1f87b0e4c91"
+  },
+  "name": "Arizona",
+  "abbreviation": "AZ",
+  "applied": 241,
+  "accepted": 180,
+  "completed": 142,
+  "attendance": 91,
+  "jobs": 88,
+  "techJobs": 41
+},
+{
+  "_id": {
+    "$oid": "6a1dfa13050cc1f87b0e4c92"
+  },
+  "name": "Florida",
+  "abbreviation": "FL",
+  "applied": 295,
+  "accepted": 220,
+  "completed": 173,
+  "attendance": 93,
+  "jobs": 109,
+  "techJobs": 52
+},
+{
+  "_id": {
+    "$oid": "6a1dfa13050cc1f87b0e4c93"
+  },
+  "name": "Massachusetts",
+  "abbreviation": "MA",
+  "applied": 13,
+  "accepted": 10,
+  "completed": 0,
+  "attendance": 80,
+  "jobs": 0,
+  "techJobs": 0
+},
+{
+  "_id": {
+    "$oid": "6a1dfa13050cc1f87b0e4c94"
+  },
+  "name": "Nebraska",
+  "abbreviation": "NE",
+  "applied": 120,
+  "accepted": 92,
+  "completed": 68,
+  "attendance": 82,
+  "jobs": 39,
+  "techJobs": 14
+},
+{
+  "_id": {
+    "$oid": "6a1dfa13050cc1f87b0e4c95"
+  },
+  "name": "South Carolina",
+  "abbreviation": "SC",
+  "applied": 135,
+  "accepted": 101,
+  "completed": 77,
+  "attendance": 84,
+  "jobs": 48,
+  "techJobs": 19
+}]
