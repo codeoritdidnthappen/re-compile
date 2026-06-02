@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux"
 import { Link } from "react-router"
+import ProgramChartCard from "./ProgramChartCard"
 import StudentList from "./StudentList"
 
 const Dashboard = () => {
@@ -14,7 +15,7 @@ const Dashboard = () => {
               <div className="card bg-primary text-primary-content w-80">
                 <div className="card-body">
                   <h2 className="card-title">Programs Overview</h2>
-                  <p>US map with overview for each state</p>
+                  <ProgramChartCard />
                 </div>
               </div>
             </Link>
@@ -35,10 +36,10 @@ const Dashboard = () => {
           <div className="m-4">
             <div className="flex gap-4">
               <Link to="/admin/programs">
-                <div className="card bg-primary text-primary-content w-80">
+                <div className="card bg-primary text-primary-content">
                   <div className="card-body">
                     <h2 className="card-title">Programs Overview</h2>
-                    <p>US map with overview for each state</p>
+                    <ProgramChartCard />
                   </div>
                 </div>
               </Link>
