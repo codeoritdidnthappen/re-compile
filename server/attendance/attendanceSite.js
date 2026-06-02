@@ -1,14 +1,14 @@
 import attendanceModel from "./attendanceModel.js"
 
 const attendanceSite = async (req, res) => {
-  const { site, month } = req.query
+  const { siteId, month } = req.params
 
   try {
     const filter = {}
-    if (site)  filter["metadata.site"] = site
+    if (siteId)  filter["metadata.siteId"] = siteId
     if (month) filter["month"] = month
 
-    const attendance = await attendanceModel.find(filter)
+    const attendance = await attendanceModel.findOne(filter)
 
     res.status(200).json({ success: true, attendance })
   } catch (err) {

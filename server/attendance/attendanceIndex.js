@@ -8,7 +8,7 @@ const attendanceIndex = express.Router()
 
 attendanceIndex.post("/", attendanceCreate)
 // attendanceIndex.get("/", attendanceReadMany)
-attendanceIndex.get("/site", attendanceSite)
+attendanceIndex.get("/site/:siteId/:month", attendanceSite)
 attendanceIndex.get("/summary/:abbreviation", attendanceSummary)
 
 export default attendanceIndex

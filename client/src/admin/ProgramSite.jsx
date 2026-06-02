@@ -1,6 +1,8 @@
-import { useMemo, useState } from "react"
+import { useState, useEffect, useMemo } from "react"
 import { useParams } from "react-router"
-import perryville from "./data/perryville-attendance-report-2026.data.json"
+import { useDispatch, useSelector } from "react-redux"
+import { getAttendanceSite } from "../attendance/attendanceSlice"
+// import perryville from "./data/perryville-attendance-report-2026.data.json"
 // import cibola from "./data/cibola-attendance-report.data.json"
 // import whetstone from "./data/whetstone-attendance-report.data.json"
 // import redRock from "./data/red-rock-attendance-report.data.json"
@@ -11,58 +13,38 @@ import perryville from "./data/perryville-attendance-report-2026.data.json"
 // import leath from "./data/leath-attendance-report.data.json"
 
 const ProgramSite = () => {
+  const dispatch = useDispatch()
   const { site } = useParams()
   // const [ selectedMonth, setSelectedMonth ] = useState(Object.keys(attendanceData)[0])
-  const [ selectedMonth, setSelectedMonth ] = useState(null)
+  const [ selectedMonth, setSelectedMonth ] = useState("May 2026")
 
-  const attendanceData = useMemo(() => {
-    let data = null
-    switch (site) {
-      case "az-perryville":
-        data = perryville
-        break
-      case "az-cibola":
-        data = cibola
-        break
-      case "az-whetstone":
-        data = whetstone
-        break
-      case "az-red-rock":
-        data = redRock
-        break
-      case "fl-fsp":
-        data = fsp
-        break
-      case "fl-lowell":
-        data = lowell
-        break
-      case "fl-wakulla":
-        data = wakulla
-        break
-      case "ma-ncci":
-        data = ncci
-        break
-      case "sc-leath":
-        data = leath
-        break
-    }
-    return data
-  }, [site])
+  const { attendance } = useSelector((state) => state.attendance)
 
-  const currentData = useMemo(() => {
-    if (!attendanceData) return null
-    return attendanceData.find((item) => item.month === selectedMonth) ?? attendanceData[0] ?? null
-  }, [attendanceData, selectedMonth])
+  // const attendance = useMemo(() => {
+  //   if (!attendanceData) return null
+  //   return attendanceData.find((item) => item.month === selectedMonth) ?? attendanceData[0] ?? null
+  // }, [attendanceData, selectedMonth])
 
   const attendanceDates = useMemo(() => {
-    if (!currentData?.students || currentData.students.length === 0) return []
-    const firstStudent = currentData.students[0]
+    if (!attendance?.students || attendance.students.length === 0) return []
+    const firstStudent = attendance.students[0]
     return Object.keys(firstStudent.attendance).sort()
-  }, [currentData])
+  }, [attendance])
+
+  useEffect(() => {
+    const token = localStorage.getItem("token")
+    if (site) dispatch(getAttendanceSite({ token, site, month: selectedMonth }))
+  }, [site, selectedMonth])
+
+  const setHeaderDate = (date) => {
+    const headerDate = new Date(date)
+    headerDate.setHours(headerDate.getHours() + 7)
+    return headerDate
+  }
 
   return (
     <>
-      {attendanceData ? (
+      {attendance ? (
         <div className="p-6 bg-base-100">
           <div className="mb-6">
             <select
@@ -70,11 +52,11 @@ const ProgramSite = () => {
               onChange={(e) => setSelectedMonth(e.target.value)}
               className="select select-bordered w-full max-w-xs"
             >
-              {attendanceData.map((item) => (
-                <option key={item.month} value={item.month}>
-                  {item.month}
-                </option>
-              ))}
+              <option value="January 2026">January 2026</option>
+              <option value="February 2026">February 2026</option>
+              <option value="March 2026">March 2026</option>
+              <option value="April 2026">April 2026</option>
+              <option value="May 2026">May 2026</option>
             </select>
           </div>
 
@@ -90,10 +72,10 @@ const ProgramSite = () => {
                   <p className="">CRC:</p>
                 </div>
                 <div className="text-left space-y-2 text-lg font-bold">
-                  <p className="text-secondary">{currentData.metadata.instructor}</p>
-                  <p className="text-secondary">{currentData.metadata.teachingAssistant}</p>
-                  <p className="text-secondary">{currentData.metadata.supportSpecialist}</p>
-                  <p className="text-secondary">{currentData.metadata.crc}</p>
+                  <p className="text-secondary">{attendance.metadata.instructor}</p>
+                  <p className="text-secondary">{attendance.metadata.teachingAssistant}</p>
+                  <p className="text-secondary">{attendance.metadata.supportSpecialist}</p>
+                  <p className="text-secondary">{attendance.metadata.crc}</p>
                 </div>
               </div>
 
@@ -105,8 +87,8 @@ const ProgramSite = () => {
                   <p className="">City/State:</p>
                 </div>
                 <div className="text-left space-y-2 text-lg font-bold">
-                  <p className="text-secondary">{currentData.metadata.classDays}</p>
-                  <p className="text-secondary">{currentData.metadata.classHours}</p>
+                  <p className="text-secondary">{attendance.metadata.classDays}</p>
+                  <p className="text-secondary">{attendance.metadata.classHours}</p>
                   <p className="text-secondary">1234 Main St.</p>
                   <p className="text-secondary"></p>
                 </div>
@@ -120,10 +102,10 @@ const ProgramSite = () => {
                   <p className="">Students Dropped:</p>
                 </div>
                 <div className="text-left space-y-2 text-lg font-bold">
-                  <p className="text-secondary">{currentData.metadata.students}</p>
-                  <p className="text-secondary">{currentData.metadata.studentAides}</p>
-                  <p className="text-secondary">{currentData.metadata.studentsAdded}</p>
-                  <p className="text-secondary">{currentData.metadata.studentsDropped}</p>
+                  <p className="text-secondary">{attendance.metadata.students}</p>
+                  <p className="text-secondary">{attendance.metadata.studentAides}</p>
+                  <p className="text-secondary">{attendance.metadata.studentsAdded}</p>
+                  <p className="text-secondary">{attendance.metadata.studentsDropped}</p>
                 </div>
               </div>
 
@@ -135,28 +117,28 @@ const ProgramSite = () => {
                   <p className="">Attendance Rate:</p>
                 </div>
                 <div className="text-left space-y-2 text-lg font-bold">
-                  <p className="text-secondary">{currentData.metadata.totalAttendees}</p>
-                  <p className="text-secondary">{currentData.metadata.totalAbsentees}</p>
-                  <p className="text-secondary">{currentData.metadata.totalPossible}</p>
-                  <p className="text-secondary">{(currentData.metadata.attendanceRate * 100).toFixed(1)}%</p>
+                  <p className="text-secondary">{attendance.metadata.totalAttendees}</p>
+                  <p className="text-secondary">{attendance.metadata.totalAbsentees}</p>
+                  <p className="text-secondary">{attendance.metadata.totalPossible}</p>
+                  <p className="text-secondary">{(attendance.metadata.attendanceRate * 100).toFixed(1)}%</p>
                 </div>
               </div>
 
               <div className="stat bg-base-200 rounded-lg p-4">
                 <div className="stat-title">Total Attendees</div>
-                <div className="stat-value text-lg">{currentData.metadata.totalAttendees}</div>
+                <div className="stat-value text-lg">{attendance.metadata.totalAttendees}</div>
               </div>
               <div className="stat bg-base-200 rounded-lg p-4">
                 <div className="stat-title">Total Absentees</div>
-                <div className="stat-value text-lg">{currentData.metadata.totalAbsentees}</div>
+                <div className="stat-value text-lg">{attendance.metadata.totalAbsentees}</div>
               </div>
               <div className="stat bg-base-200 rounded-lg p-4">
                 <div className="stat-title">Total Possible</div>
-                <div className="stat-value text-lg">{currentData.metadata.totalPossible}</div>
+                <div className="stat-value text-lg">{attendance.metadata.totalPossible}</div>
               </div>
               <div className="stat bg-base-200 rounded-lg p-4">
                 <div className="stat-title">Student Aides</div>
-                <div className="stat-value text-lg">{currentData.metadata.studentAides}</div>
+                <div className="stat-value text-lg">{attendance.metadata.studentAides}</div>
               </div>
             </div>
           </div>
@@ -171,13 +153,13 @@ const ProgramSite = () => {
                   <th className="sticky left-64 bg-base-200 z-10">Status</th>
                   {attendanceDates.map((date) => (
                     <th key={date} className="text-center text-xs">
-                      {new Date(date).toLocaleDateString("en-US", { month: "2-digit", day: "2-digit" })}
+                      {setHeaderDate(date).toLocaleDateString("en-US", { month: "2-digit", day: "2-digit" })}
                     </th>
                   ))}
                 </tr>
               </thead>
               <tbody>
-                {currentData.students.map((student, idx) => (
+                {attendance.students.map((student, idx) => (
                   <tr key={idx} className="hover">
                     <td className="sticky left-0 bg-base-100 z-10 font-semibold">{student.lastName}</td>
                     <td className="sticky left-24 bg-base-100 z-10">{student.firstName}</td>

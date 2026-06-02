@@ -7,6 +7,12 @@ const attendanceService = {
       `${server}/attendance/summary/${abbreviation}`, 
       { headers: { Authorization: `Bearer ${token}` } }
     )
+  },
+  getAttendanceSite: async (token, site, month) => {
+    return await axios.get(
+      `${server}/attendance/site/${site}/${month}`, 
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
   }
 }
 
