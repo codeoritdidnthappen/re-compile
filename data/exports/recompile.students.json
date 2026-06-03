@@ -1,0 +1,2696 @@
+[{
+  "_id": {
+    "$oid": "6a1cb4e6074f64c32a69a918"
+  },
+  "docId": "j9153394",
+  "firstName": "Isabella",
+  "middleInitial": "Z",
+  "lastName": "White",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4e6074f64c32a69a919"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "ATTEMPTED DANGEROUS DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2013-12-04T11:57:28.377Z"
+      },
+      "intakeDate": {
+        "$date": "2014-05-04T11:57:28.377Z"
+      },
+      "releaseDate": {
+        "$date": "2027-01-04T11:57:28.377Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4e6074f64c32a69a91a"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Career PATHS",
+      "type": "Major Program",
+      "instructor": "Dessie Jakubowski",
+      "institution": "Jacobson, Torp and Rice",
+      "_id": {
+        "$oid": "6a1cb4e6074f64c32a69a91c"
+      }
+    },
+    {
+      "title": "Changing Offender Behavior",
+      "type": "Education",
+      "instructor": "Marley Rosenbaum",
+      "institution": "White LLC",
+      "_id": {
+        "$oid": "6a1cb4e6074f64c32a69a91d"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "Sleek Steel Ball",
+    "reentryServices": [
+      "Family Reunification",
+      "Mental Health",
+      "Housing Assistance"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4e7074f64c32a69a91f"
+  },
+  "docId": "H1210352",
+  "firstName": "Mia",
+  "middleInitial": "E",
+  "lastName": "Harris",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4e7074f64c32a69a920"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "CHILD/ADULT ABUSE"
+      ],
+      "sentenceDate": {
+        "$date": "2022-10-13T21:13:28.849Z"
+      },
+      "intakeDate": {
+        "$date": "2022-11-13T21:13:28.849Z"
+      },
+      "releaseDate": {
+        "$date": "2026-11-13T21:13:28.849Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4e7074f64c32a69a921"
+      }
+    }
+  ],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": false,
+    "laptopDetails": "Elegant Concrete Pants",
+    "receivedPhone": true,
+    "phoneDetails": "Elegant Bamboo Hat",
+    "reentryServices": [
+      "Mental Health"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": "https://turbulent-encouragement.net"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4e8074f64c32a69a924"
+  },
+  "docId": "c4658482",
+  "firstName": "Rachel",
+  "middleInitial": "J",
+  "lastName": "Kemmer",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4e8074f64c32a69a925"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "DRUG PARAPHERNALIA VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2012-04-20T18:15:24.271Z"
+      },
+      "intakeDate": {
+        "$date": "2012-10-20T18:15:24.271Z"
+      },
+      "releaseDate": {
+        "$date": "2013-10-20T18:15:24.271Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4e8074f64c32a69a926"
+      }
+    },
+    {
+      "charges": [
+        "ATTEMPTED ORGANIZED RETAIL THEFT",
+        "CHILD/ADULT ABUSE"
+      ],
+      "sentenceDate": {
+        "$date": "2014-07-12T22:03:51.031Z"
+      },
+      "intakeDate": {
+        "$date": "2014-11-12T22:03:51.031Z"
+      },
+      "releaseDate": {
+        "$date": "2018-11-12T22:03:51.031Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4e8074f64c32a69a927"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Changing Offender Behavior",
+      "type": "Education",
+      "instructor": "Ms. Jasmine Harber",
+      "institution": "Stracke LLC",
+      "_id": {
+        "$oid": "6a1cb4e8074f64c32a69a928"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "Sleek Bronze Table",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Family Reunification",
+      "Mental Health"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/rachel-kemmer-610",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4e9074f64c32a69a92a"
+  },
+  "docId": "U8729709",
+  "firstName": "Tabitha",
+  "middleInitial": "X",
+  "lastName": "Kautzer",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4e9074f64c32a69a92b"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "DANGEROUS DRUG VIOLATION",
+        "ATTEMPTED ORGANIZED RETAIL THEFT",
+        "AGGRAVATED DUI"
+      ],
+      "sentenceDate": {
+        "$date": "2011-11-17T02:38:43.362Z"
+      },
+      "intakeDate": {
+        "$date": "2012-01-17T02:38:43.362Z"
+      },
+      "releaseDate": {
+        "$date": "2014-01-17T02:38:43.362Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4e9074f64c32a69a92c"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Cog/Think For A Change",
+      "type": "Education",
+      "instructor": "Mr. Kayleigh Rippin",
+      "institution": "Cummerata - Johnston",
+      "_id": {
+        "$oid": "6a1cb4e9074f64c32a69a92d"
+      }
+    },
+    {
+      "title": "Domestic Violence",
+      "type": "Education",
+      "instructor": "Jovanny White",
+      "institution": "Johnston - Ullrich",
+      "_id": {
+        "$oid": "6a1cb4e9074f64c32a69a92e"
+      }
+    },
+    {
+      "title": "Changing Offender Behavior",
+      "type": "Education",
+      "instructor": "Cassandre Zemlak",
+      "institution": "Franey LLC",
+      "_id": {
+        "$oid": "6a1cb4e9074f64c32a69a92f"
+      }
+    },
+    {
+      "title": "Quality Customer Services",
+      "type": "Major Program",
+      "instructor": "Dr. Dennis Frami",
+      "institution": "Ruecker Group",
+      "_id": {
+        "$oid": "6a1cb4e9074f64c32a69a930"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": true,
+    "phoneDetails": "Small Aluminum Chips",
+    "reentryServices": [
+      "Transportation",
+      "Mental Health"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "https://stylish-concentration.net",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4ea074f64c32a69a932"
+  },
+  "docId": "i6537321",
+  "firstName": "Morgan",
+  "middleInitial": "Z",
+  "lastName": "O'Hara",
+  "teachingAssistant": true,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4ea074f64c32a69a933"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "KIDNAPPING"
+      ],
+      "sentenceDate": {
+        "$date": "2019-02-06T14:47:23.853Z"
+      },
+      "intakeDate": {
+        "$date": "2019-03-06T14:47:23.853Z"
+      },
+      "releaseDate": {
+        "$date": "2026-07-14T14:47:23.853Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4ea074f64c32a69a934"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "DUI Tx",
+      "type": "Major Program",
+      "instructor": "Luella Cassin",
+      "institution": "Strosin - Rice",
+      "_id": {
+        "$oid": "6a1cb4ea074f64c32a69a935"
+      }
+    },
+    {
+      "title": "SA Ed-Think Straight",
+      "type": "Education",
+      "instructor": "Dr. Kristen White",
+      "institution": "Douglas - O'Keefe",
+      "_id": {
+        "$oid": "6a1cb4ea074f64c32a69a936"
+      }
+    },
+    {
+      "title": "MANAGING MONEY",
+      "type": "Education",
+      "instructor": "Osborne Beatty",
+      "institution": "Hahn - Franecki",
+      "_id": {
+        "$oid": "6a1cb4ea074f64c32a69a937"
+      }
+    },
+    {
+      "title": "New Beginnings Through Peers",
+      "type": "Education",
+      "instructor": "Philip Walker",
+      "institution": "McKenzie - Crist",
+      "_id": {
+        "$oid": "6a1cb4ea074f64c32a69a938"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "Generic Aluminum Car",
+    "receivedPhone": true,
+    "phoneDetails": "Small Rubber Tuna",
+    "reentryServices": [
+      "Substance Abuse",
+      "Transportation",
+      "Job Placement"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "https://superficial-alligator.biz/",
+    "portfolio": "https://any-husband.com"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4eb074f64c32a69a93a"
+  },
+  "docId": "a1660336",
+  "firstName": "Norma",
+  "middleInitial": "W",
+  "lastName": "Williamson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4eb074f64c32a69a93b"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "NARCOTIC DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2014-05-19T21:13:38.360Z"
+      },
+      "intakeDate": {
+        "$date": "2014-07-19T21:13:38.360Z"
+      },
+      "releaseDate": {
+        "$date": "2020-07-19T21:13:38.360Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4eb074f64c32a69a93c"
+      }
+    },
+    {
+      "charges": [
+        "FAIL TO APPEAR FIRST DEGREE"
+      ],
+      "sentenceDate": {
+        "$date": "2012-01-28T20:25:55.601Z"
+      },
+      "intakeDate": {
+        "$date": "2012-02-28T20:25:55.601Z"
+      },
+      "releaseDate": {
+        "$date": "2020-02-28T20:25:55.601Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4eb074f64c32a69a93d"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "MANAGING MONEY",
+      "type": "Education",
+      "instructor": "Sean Brown IV",
+      "institution": "Cole - Auer",
+      "_id": {
+        "$oid": "6a1cb4eb074f64c32a69a93e"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Transportation",
+      "Job Placement",
+      "Mental Health"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/norma-williamson-895",
+    "github": "https://github.com/normawilliamson69",
+    "resume": "https://authentic-impact.biz",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4ec074f64c32a69a940"
+  },
+  "docId": "T7529472",
+  "firstName": "Hollis",
+  "middleInitial": "J",
+  "lastName": "Schaefer",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4ec074f64c32a69a941"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "ATTEMPTED ORGANIZED RETAIL THEFT",
+        "AGGRAVATED ASSAULT",
+        "THEFT"
+      ],
+      "sentenceDate": {
+        "$date": "2021-04-30T13:10:04.980Z"
+      },
+      "intakeDate": {
+        "$date": "2021-10-30T13:10:04.980Z"
+      },
+      "releaseDate": {
+        "$date": "2026-10-30T13:10:04.980Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4ec074f64c32a69a942"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Career PATHS",
+      "type": "Major Program",
+      "instructor": "Liliane Will",
+      "institution": "Becker - Hackett",
+      "_id": {
+        "$oid": "6a1cb4ec074f64c32a69a943"
+      }
+    },
+    {
+      "title": "Changing Offender Behavior",
+      "type": "Education",
+      "instructor": "Dr. Gwendolyn Price",
+      "institution": "Torphy - Schmeler",
+      "_id": {
+        "$oid": "6a1cb4ec074f64c32a69a944"
+      }
+    },
+    {
+      "title": "Automotve Tech-Basic",
+      "type": "Major Program",
+      "instructor": "Mr. Chad Anderson",
+      "institution": "Buckridge - Watsica",
+      "_id": {
+        "$oid": "6a1cb4ec074f64c32a69a945"
+      }
+    },
+    {
+      "title": "Constr-Electrc Basic",
+      "type": "Major Program",
+      "instructor": "Jeanne Barrows",
+      "institution": "Konopelski and Sons",
+      "_id": {
+        "$oid": "6a1cb4ec074f64c32a69a946"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": true,
+    "phoneDetails": "Fresh Granite Sausages",
+    "reentryServices": [
+      "Substance Abuse",
+      "Transportation"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4ed074f64c32a69a948"
+  },
+  "docId": "J3822229",
+  "firstName": "Charlene",
+  "middleInitial": "H",
+  "lastName": "Wehner",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4ed074f64c32a69a949"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "DRUG PARAPHERNALIA VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2015-02-05T07:12:32.654Z"
+      },
+      "intakeDate": {
+        "$date": "2015-03-05T07:12:32.654Z"
+      },
+      "releaseDate": {
+        "$date": "2021-03-05T07:12:32.654Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4ed074f64c32a69a94a"
+      }
+    },
+    {
+      "charges": [
+        "FAIL TO APPEAR FIRST DEGREE",
+        "THEFT"
+      ],
+      "sentenceDate": {
+        "$date": "2015-04-28T17:19:08.036Z"
+      },
+      "intakeDate": {
+        "$date": "2015-10-28T17:19:08.036Z"
+      },
+      "releaseDate": {
+        "$date": "2022-10-28T17:19:08.036Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4ed074f64c32a69a94b"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Quality Customer Services",
+      "type": "Major Program",
+      "instructor": "Freda Pfeffer",
+      "institution": "Hickle, Heidenreich and Hermann",
+      "_id": {
+        "$oid": "6a1cb4ed074f64c32a69a94c"
+      }
+    },
+    {
+      "title": "Domestic Violence",
+      "type": "Education",
+      "instructor": "Ignacio Waters",
+      "institution": "O'Connell - Lubowitz",
+      "_id": {
+        "$oid": "6a1cb4ed074f64c32a69a94d"
+      }
+    },
+    {
+      "title": "Constr-Electrc Basic",
+      "type": "Major Program",
+      "instructor": "Leigh Zulauf",
+      "institution": "Windler, Ankunding and Koss",
+      "_id": {
+        "$oid": "6a1cb4ed074f64c32a69a94e"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "Unbranded Wooden Computer",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "https://github.com/charlenewehner19",
+    "resume": "",
+    "portfolio": "https://untried-underpants.org"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4ee074f64c32a69a950"
+  },
+  "docId": "Q8380225",
+  "firstName": "Adrienne",
+  "middleInitial": "T",
+  "lastName": "Pacocha",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4ee074f64c32a69a951"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "FAIL TO APPEAR FIRST DEGREE"
+      ],
+      "sentenceDate": {
+        "$date": "2014-06-27T13:25:30.805Z"
+      },
+      "intakeDate": {
+        "$date": "2014-12-27T13:25:30.805Z"
+      },
+      "releaseDate": {
+        "$date": "2021-12-27T13:25:30.805Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4ee074f64c32a69a952"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Cog/Think For A Change",
+      "type": "Education",
+      "instructor": "Santa Wilkinson",
+      "institution": "Walsh and Sons",
+      "_id": {
+        "$oid": "6a1cb4ee074f64c32a69a953"
+      }
+    },
+    {
+      "title": "Automotve Tech-Basic",
+      "type": "Major Program",
+      "instructor": "Tabitha Will",
+      "institution": "Schulist and Sons",
+      "_id": {
+        "$oid": "6a1cb4ee074f64c32a69a954"
+      }
+    },
+    {
+      "title": "MANAGING MONEY",
+      "type": "Education",
+      "instructor": "Stella Wolff",
+      "institution": "Schoen - Hermiston",
+      "_id": {
+        "$oid": "6a1cb4ee074f64c32a69a955"
+      }
+    },
+    {
+      "title": "Ashland University (AU) Bachelor's Degree",
+      "type": "Major Program",
+      "instructor": "Libbie Fay-Mertz",
+      "institution": "Emard - Jaskolski",
+      "_id": {
+        "$oid": "6a1cb4ee074f64c32a69a956"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "Electronic Granite Shoes",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Mental Health",
+      "Housing Assistance",
+      "Transportation",
+      "Job Placement"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "https://github.com/adriennepacocha79",
+    "resume": "https://apprehensive-brace.org",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4ef074f64c32a69a958"
+  },
+  "docId": "T5025625",
+  "firstName": "Betty",
+  "middleInitial": "V",
+  "lastName": "Bartell",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4ef074f64c32a69a959"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "KIDNAPPING",
+        "ATTEMPTED DANGEROUS DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2013-02-18T23:56:03.627Z"
+      },
+      "intakeDate": {
+        "$date": "2013-07-18T23:56:03.627Z"
+      },
+      "releaseDate": {
+        "$date": "2014-07-18T23:56:03.627Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4ef074f64c32a69a95a"
+      }
+    },
+    {
+      "charges": [
+        "BURGLARY 3RD DEGREE",
+        "THEFT"
+      ],
+      "sentenceDate": {
+        "$date": "2011-01-26T06:08:27.553Z"
+      },
+      "intakeDate": {
+        "$date": "2011-04-26T06:08:27.553Z"
+      },
+      "releaseDate": {
+        "$date": "2012-04-26T06:08:27.553Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4ef074f64c32a69a95b"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "New Beginnings Through Peers",
+      "type": "Education",
+      "instructor": "Stella Hoppe",
+      "institution": "Williamson LLC",
+      "_id": {
+        "$oid": "6a1cb4ef074f64c32a69a95c"
+      }
+    },
+    {
+      "title": "Automotve Tech-Basic",
+      "type": "Major Program",
+      "instructor": "Myrtie Lockman MD",
+      "institution": "Little, Kuhlman and Mann",
+      "_id": {
+        "$oid": "6a1cb4ef074f64c32a69a95d"
+      }
+    },
+    {
+      "title": "DUI Tx",
+      "type": "Major Program",
+      "instructor": "Ms. Carol O'Hara DVM",
+      "institution": "Boyle Inc",
+      "_id": {
+        "$oid": "6a1cb4ef074f64c32a69a95e"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": true,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Transportation",
+      "Housing Assistance"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/betty-bartell-954",
+    "github": "https://github.com/bettybartell83",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f0074f64c32a69a960"
+  },
+  "docId": "E9950200",
+  "firstName": "Victoria",
+  "middleInitial": "O",
+  "lastName": "Ryan",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f0074f64c32a69a961"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "BURGLARY 3RD DEGREE",
+        "AGGRAVATED DUI",
+        "FAIL TO APPEAR FIRST DEGREE"
+      ],
+      "sentenceDate": {
+        "$date": "2018-11-14T18:32:57.818Z"
+      },
+      "intakeDate": {
+        "$date": "2019-02-14T18:32:57.818Z"
+      },
+      "releaseDate": {
+        "$date": "2026-02-14T18:32:57.818Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f0074f64c32a69a962"
+      }
+    },
+    {
+      "charges": [
+        "NARCOTIC DRUG VIOLATION",
+        "DRUG PARAPHERNALIA VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2013-02-03T17:26:57.598Z"
+      },
+      "intakeDate": {
+        "$date": "2013-07-03T17:26:57.598Z"
+      },
+      "releaseDate": {
+        "$date": "2021-07-03T17:26:57.598Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f0074f64c32a69a963"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Changing Offender Behavior",
+      "type": "Education",
+      "instructor": "Roslyn MacGyver",
+      "institution": "Keeling Inc",
+      "_id": {
+        "$oid": "6a1cb4f0074f64c32a69a964"
+      }
+    },
+    {
+      "title": "Ashland University (AU) Bachelor's Degree",
+      "type": "Major Program",
+      "instructor": "Conrad Trantow",
+      "institution": "Mosciski and Sons",
+      "_id": {
+        "$oid": "6a1cb4f0074f64c32a69a965"
+      }
+    },
+    {
+      "title": "Cog/Think For A Change",
+      "type": "Education",
+      "instructor": "Bethany Leffler",
+      "institution": "Boyle - Koepp",
+      "_id": {
+        "$oid": "6a1cb4f0074f64c32a69a966"
+      }
+    },
+    {
+      "title": "Ashland University (AU) Bachelor's Degree",
+      "type": "Major Program",
+      "instructor": "Itzel Watsica",
+      "institution": "Bayer - Terry",
+      "_id": {
+        "$oid": "6a1cb4f0074f64c32a69a967"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": true,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Family Reunification",
+      "Housing Assistance"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/victoria-ryan-480",
+    "github": "",
+    "resume": "https://familiar-stranger.com",
+    "portfolio": "https://carefree-stump.org"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f1074f64c32a69a969"
+  },
+  "docId": "c8836367",
+  "firstName": "Marcia",
+  "middleInitial": "N",
+  "lastName": "Pfannerstill",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f1074f64c32a69a96a"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "CONSPIRACY DANGEROUS DRUG VIOLATION",
+        "MISCONDUCT INVOLVING WEAPONS",
+        "MANSLAUGHTER"
+      ],
+      "sentenceDate": {
+        "$date": "2010-09-27T08:54:20.424Z"
+      },
+      "intakeDate": {
+        "$date": "2010-10-27T08:54:20.424Z"
+      },
+      "releaseDate": {
+        "$date": "2016-10-27T08:54:20.424Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f1074f64c32a69a96b"
+      }
+    },
+    {
+      "charges": [
+        "CRIM POSS FORGERY DEVICE"
+      ],
+      "sentenceDate": {
+        "$date": "2011-04-29T13:27:07.109Z"
+      },
+      "intakeDate": {
+        "$date": "2011-05-29T13:27:07.109Z"
+      },
+      "releaseDate": {
+        "$date": "2019-05-29T13:27:07.109Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f1074f64c32a69a96c"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "SA Ed-Think Straight",
+      "type": "Education",
+      "instructor": "Judy Gerhold",
+      "institution": "Larkin and Sons",
+      "_id": {
+        "$oid": "6a1cb4f1074f64c32a69a96d"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "Small Rubber Salad",
+    "receivedPhone": true,
+    "phoneDetails": "Tasty Aluminum Shoes",
+    "reentryServices": [
+      "Mental Health",
+      "Job Placement",
+      "Family Reunification",
+      "Transportation"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/marcia-pfannerstill-354",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f2074f64c32a69a96f"
+  },
+  "docId": "u4311483",
+  "firstName": "Nora",
+  "middleInitial": "P",
+  "lastName": "Bins",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f2074f64c32a69a970"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "DRUG PARAPHERNALIA VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2019-03-07T15:50:41.854Z"
+      },
+      "intakeDate": {
+        "$date": "2019-04-07T15:50:41.854Z"
+      },
+      "releaseDate": {
+        "$date": "2020-04-07T15:50:41.854Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f2074f64c32a69a971"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Career PATHS",
+      "type": "Major Program",
+      "instructor": "Melody Cummerata",
+      "institution": "Tillman, Rath and Ferry",
+      "_id": {
+        "$oid": "6a1cb4f2074f64c32a69a972"
+      }
+    },
+    {
+      "title": "Conflict Resolution",
+      "type": "Education",
+      "instructor": "Van Breitenberg Jr.",
+      "institution": "Abernathy and Sons",
+      "_id": {
+        "$oid": "6a1cb4f2074f64c32a69a973"
+      }
+    },
+    {
+      "title": "Quality Customer Services",
+      "type": "Major Program",
+      "instructor": "Dominic Goodwin",
+      "institution": "Hessel - Klein",
+      "_id": {
+        "$oid": "6a1cb4f2074f64c32a69a974"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": false,
+    "laptopDetails": "Intelligent Steel Shirt",
+    "receivedPhone": true,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/nora-bins-233",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f3074f64c32a69a976"
+  },
+  "docId": "Y4018955",
+  "firstName": "Vicky",
+  "middleInitial": "U",
+  "lastName": "Kautzer-Stamm",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f3074f64c32a69a977"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "KIDNAPPING",
+        "DRUG PARAPHERNALIA VIOLATION",
+        "ATTEMPTED SHOPLIFTING"
+      ],
+      "sentenceDate": {
+        "$date": "2019-12-03T01:04:24.095Z"
+      },
+      "intakeDate": {
+        "$date": "2020-01-03T01:04:24.095Z"
+      },
+      "releaseDate": {
+        "$date": "2022-01-03T01:04:24.095Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f3074f64c32a69a978"
+      }
+    },
+    {
+      "charges": [
+        "ATTEMPTED UNLAWFUL USE OF MEANS OF TRANSPORTATION",
+        "NARCOTIC DRUG VIOLATION",
+        "CONSPIRACY DANGEROUS DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2010-04-04T07:52:50.380Z"
+      },
+      "intakeDate": {
+        "$date": "2010-05-04T07:52:50.380Z"
+      },
+      "releaseDate": {
+        "$date": "2015-05-04T07:52:50.380Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f3074f64c32a69a979"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "DUI Tx",
+      "type": "Major Program",
+      "instructor": "Marcel Walsh",
+      "institution": "Tremblay - Strosin",
+      "_id": {
+        "$oid": "6a1cb4f3074f64c32a69a97a"
+      }
+    },
+    {
+      "title": "MANAGING MONEY",
+      "type": "Education",
+      "instructor": "Caterina Herzog",
+      "institution": "Goyette LLC",
+      "_id": {
+        "$oid": "6a1cb4f3074f64c32a69a97b"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "Elegant Cotton Hat",
+    "receivedPhone": true,
+    "phoneDetails": "Modern Wooden Mouse",
+    "reentryServices": [
+      "Substance Abuse",
+      "Mental Health"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f4074f64c32a69a97d"
+  },
+  "docId": "J6731490",
+  "firstName": "Tiffany",
+  "middleInitial": "P",
+  "lastName": "Hagenes",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f4074f64c32a69a97e"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "TAKING IDENTITY OF ANOTHER"
+      ],
+      "sentenceDate": {
+        "$date": "2012-01-31T07:56:53.081Z"
+      },
+      "intakeDate": {
+        "$date": "2012-07-01T07:56:53.081Z"
+      },
+      "releaseDate": {
+        "$date": "2013-07-01T07:56:53.081Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f4074f64c32a69a97f"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "DUI Tx",
+      "type": "Major Program",
+      "instructor": "Allison Kertzmann-Wiza",
+      "institution": "Frami, Cole and Wolf",
+      "_id": {
+        "$oid": "6a1cb4f4074f64c32a69a980"
+      }
+    },
+    {
+      "title": "MANAGING MONEY",
+      "type": "Education",
+      "instructor": "Garry Stroman",
+      "institution": "Prohaska - Krajcik",
+      "_id": {
+        "$oid": "6a1cb4f4074f64c32a69a981"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "Gorgeous Ceramic Car",
+    "reentryServices": [
+      "Substance Abuse",
+      "Mental Health",
+      "Job Placement"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "https://github.com/tiffanyhagenes84",
+    "resume": "https://gripping-essence.info",
+    "portfolio": "https://bright-accelerator.info/"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f5074f64c32a69a983"
+  },
+  "docId": "z8855366",
+  "firstName": "Loraine",
+  "middleInitial": "R",
+  "lastName": "Casper",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f5074f64c32a69a984"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "ATTEMPTED UNLAWFUL USE OF MEANS OF TRANSPORTATION",
+        "ATTEMPTED DANGEROUS DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2014-02-11T16:21:16.745Z"
+      },
+      "intakeDate": {
+        "$date": "2014-07-11T16:21:16.745Z"
+      },
+      "releaseDate": {
+        "$date": "2016-07-11T16:21:16.745Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f5074f64c32a69a985"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "MANAGING MONEY",
+      "type": "Education",
+      "instructor": "Mr. Taylor Jast DDS",
+      "institution": "Thiel, Morar and Hudson",
+      "_id": {
+        "$oid": "6a1cb4f5074f64c32a69a986"
+      }
+    },
+    {
+      "title": "Career PATHS",
+      "type": "Major Program",
+      "instructor": "Sonja Ondricka",
+      "institution": "Heaney - Ortiz",
+      "_id": {
+        "$oid": "6a1cb4f5074f64c32a69a987"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Substance Abuse",
+      "Family Reunification"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": "https://sorrowful-hornet.biz/"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f6074f64c32a69a989"
+  },
+  "docId": "h9158399",
+  "firstName": "Marguerite",
+  "middleInitial": "I",
+  "lastName": "Fay",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f6074f64c32a69a98a"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "CRIM POSS FORGERY DEVICE",
+        "AGGRAVATED DUI",
+        "THEFT MEANS OF TRNSPRTATION"
+      ],
+      "sentenceDate": {
+        "$date": "2011-10-04T18:46:37.800Z"
+      },
+      "intakeDate": {
+        "$date": "2012-02-04T18:46:37.800Z"
+      },
+      "releaseDate": {
+        "$date": "2018-02-04T18:46:37.800Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f6074f64c32a69a98b"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "SA Ed-Think Straight",
+      "type": "Education",
+      "instructor": "Elena Balistreri",
+      "institution": "Johns Group",
+      "_id": {
+        "$oid": "6a1cb4f6074f64c32a69a98c"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "Handcrafted Concrete Bike",
+    "receivedPhone": true,
+    "phoneDetails": "Practical Granite Table",
+    "reentryServices": [
+      "Transportation",
+      "Substance Abuse",
+      "Housing Assistance"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f7074f64c32a69a98e"
+  },
+  "docId": "I6850706",
+  "firstName": "Bernard",
+  "middleInitial": "R",
+  "lastName": "Boyer",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f7074f64c32a69a98f"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "ATTEMPTED SHOPLIFTING"
+      ],
+      "sentenceDate": {
+        "$date": "2018-11-04T00:03:34.581Z"
+      },
+      "intakeDate": {
+        "$date": "2019-04-04T00:03:34.581Z"
+      },
+      "releaseDate": {
+        "$date": "2026-04-04T00:03:34.581Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f7074f64c32a69a990"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "MANAGING MONEY",
+      "type": "Education",
+      "instructor": "Kenyatta Osinski I",
+      "institution": "Collins LLC",
+      "_id": {
+        "$oid": "6a1cb4f7074f64c32a69a991"
+      }
+    },
+    {
+      "title": "Domestic Violence",
+      "type": "Education",
+      "instructor": "Miss Patricia Morar Jr.",
+      "institution": "Hauck, Roob and O'Reilly",
+      "_id": {
+        "$oid": "6a1cb4f7074f64c32a69a992"
+      }
+    },
+    {
+      "title": "DUI Tx",
+      "type": "Major Program",
+      "instructor": "Roberto Runolfsson",
+      "institution": "Rodriguez - Breitenberg",
+      "_id": {
+        "$oid": "6a1cb4f7074f64c32a69a993"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "Soft Ceramic Chips",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "https://github.com/bernardboyer55",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb4f8074f64c32a69a995"
+  },
+  "docId": "C4489606",
+  "firstName": "Samantha",
+  "middleInitial": "I",
+  "lastName": "Bailey",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb4f8074f64c32a69a996"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "CHILD/ADULT ABUSE",
+        "FAIL TO APPEAR FIRST DEGREE",
+        "THEFT"
+      ],
+      "sentenceDate": {
+        "$date": "2019-04-15T13:46:19.972Z"
+      },
+      "intakeDate": {
+        "$date": "2019-08-15T13:46:19.972Z"
+      },
+      "releaseDate": {
+        "$date": "2020-08-15T13:46:19.972Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f8074f64c32a69a997"
+      }
+    },
+    {
+      "charges": [
+        "THEFT",
+        "ATTEMPTED DANGEROUS DRUG VIOLATION",
+        "CONSPIRACY DANGEROUS DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2019-07-29T14:12:46.669Z"
+      },
+      "intakeDate": {
+        "$date": "2019-09-29T14:12:46.669Z"
+      },
+      "releaseDate": {
+        "$date": "2022-09-29T14:12:46.669Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb4f8074f64c32a69a998"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "New Beginnings Through Peers",
+      "type": "Education",
+      "instructor": "Terry Hamill",
+      "institution": "Heathcote, Luettgen and Feest",
+      "_id": {
+        "$oid": "6a1cb4f8074f64c32a69a999"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "Refined Granite Chips",
+    "receivedPhone": true,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Housing Assistance",
+      "Substance Abuse",
+      "Mental Health"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/samantha-bailey-784",
+    "github": "https://github.com/samanthabailey15",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb635074f64c32a69a99b"
+  },
+  "docId": "k8790664",
+  "firstName": "Katherine",
+  "middleInitial": "Y",
+  "lastName": "Douglas",
+  "teachingAssistant": true,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb635074f64c32a69a99c"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "DANGEROUS DRUG VIOLATION",
+        "ATTEMPTED MONEY LAUNDERING",
+        "ATTEMPTED UNLAWFUL USE OF MEANS OF TRANSPORTATION"
+      ],
+      "sentenceDate": {
+        "$date": "2018-08-12T09:31:40.723Z"
+      },
+      "intakeDate": {
+        "$date": "2019-02-12T09:31:40.723Z"
+      },
+      "releaseDate": {
+        "$date": "2026-02-12T09:31:40.723Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb635074f64c32a69a99d"
+      }
+    },
+    {
+      "charges": [
+        "ATTEMPTED DANGEROUS DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2010-07-11T10:10:51.926Z"
+      },
+      "intakeDate": {
+        "$date": "2011-01-11T10:10:51.926Z"
+      },
+      "releaseDate": {
+        "$date": "2015-01-11T10:10:51.926Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb635074f64c32a69a99e"
+      }
+    }
+  ],
+  "workPrograms": [
+    {
+      "title": "Constr-Electrc Basic",
+      "type": "Major Program",
+      "instructor": "Lois Kunze",
+      "institution": "Deckow Inc",
+      "_id": {
+        "$oid": "6a1cb635074f64c32a69a99f"
+      }
+    },
+    {
+      "title": "DUI Tx",
+      "type": "Major Program",
+      "instructor": "Raul Beer",
+      "institution": "Emard, O'Reilly and Ondricka",
+      "_id": {
+        "$oid": "6a1cb635074f64c32a69a9a0"
+      }
+    },
+    {
+      "title": "Domestic Violence",
+      "type": "Education",
+      "instructor": "Terry Lesch DDS",
+      "institution": "Bode Inc",
+      "_id": {
+        "$oid": "6a1cb635074f64c32a69a9a1"
+      }
+    },
+    {
+      "title": "Changing Offender Behavior",
+      "type": "Education",
+      "instructor": "Joe Greenfelder",
+      "institution": "Konopelski, Murray and White",
+      "_id": {
+        "$oid": "6a1cb635074f64c32a69a9a2"
+      }
+    }
+  ],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": true,
+    "phoneDetails": "Handcrafted Wooden Shoes",
+    "reentryServices": [
+      "Transportation"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/rebeka-douglas-400",
+    "github": "https://github.com/rebekadouglas60",
+    "resume": "",
+    "portfolio": "https://criminal-electronics.name/"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb66f074f64c32a69a9a4"
+  },
+  "docId": "g9037175",
+  "firstName": "Trever",
+  "middleInitial": "S",
+  "lastName": "Lueilwitz",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb66f074f64c32a69a9a5"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "BURGLARY 2ND DEGREE",
+        "CONSPIRACY DANGEROUS DRUG VIOLATION"
+      ],
+      "sentenceDate": {
+        "$date": "2017-08-28T09:31:33.122Z"
+      },
+      "intakeDate": {
+        "$date": "2017-09-28T09:31:33.122Z"
+      },
+      "releaseDate": {
+        "$date": "2022-09-28T09:31:33.122Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb66f074f64c32a69a9a6"
+      }
+    }
+  ],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": false,
+    "laptopDetails": "Sleek Bronze Bike",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Mental Health",
+      "Housing Assistance"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "https://github.com/treverlueilwitz48",
+    "resume": "https://far-supplier.biz/",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb672074f64c32a69a9a8"
+  },
+  "docId": "M3194304",
+  "firstName": "Mindy",
+  "middleInitial": "H",
+  "lastName": "Hilll",
+  "teachingAssistant": false,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb672074f64c32a69a9a9"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "ATTEMPTED SHOPLIFTING",
+        "ATTEMPTED ORGANIZED RETAIL THEFT"
+      ],
+      "sentenceDate": {
+        "$date": "2012-12-28T01:39:57.066Z"
+      },
+      "intakeDate": {
+        "$date": "2013-01-28T01:39:57.066Z"
+      },
+      "releaseDate": {
+        "$date": "2019-01-28T01:39:57.066Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb672074f64c32a69a9aa"
+      }
+    },
+    {
+      "charges": [
+        "BURGLARY 2ND DEGREE",
+        "FAIL TO APPEAR FIRST DEGREE"
+      ],
+      "sentenceDate": {
+        "$date": "2019-09-14T02:21:00.021Z"
+      },
+      "intakeDate": {
+        "$date": "2020-02-14T02:21:00.021Z"
+      },
+      "releaseDate": {
+        "$date": "2023-02-14T02:21:00.021Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb672074f64c32a69a9ab"
+      }
+    }
+  ],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": true,
+    "phoneDetails": "",
+    "reentryServices": [
+      "Housing Assistance",
+      "Transportation",
+      "Job Placement",
+      "Family Reunification"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "https://github.com/mindyhilll52",
+    "resume": "https://dapper-commodity.com",
+    "portfolio": "https://unwieldy-bin.info"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1cb6c5074f64c32a69a9ad"
+  },
+  "docId": "Q4077885",
+  "firstName": "Kendra",
+  "middleInitial": "Y",
+  "lastName": "Krajcik",
+  "teachingAssistant": true,
+  "location": {
+    "state": "Arizona",
+    "address": "283 Wellington Road",
+    "site": "Perryville",
+    "unit": "San Carlos"
+  },
+  "classesTaken": [
+    {
+      "startDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T00:00:00.000Z"
+      },
+      "cohort": 7,
+      "title": "Full Stack Development",
+      "description": "comprehensive training in building complete web applications from start to finish, encompassing both user-facing interfaces, server-side infrastructure and databases, using the MERN stack.",
+      "skillsLearned": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Git",
+        "Tailwind"
+      ],
+      "modulesCompleted": null,
+      "projectsCompleted": 19,
+      "_id": {
+        "$oid": "6a1cb6c5074f64c32a69a9ae"
+      }
+    }
+  ],
+  "incarceration": [
+    {
+      "charges": [
+        "ATTEMPTED UNLAWFUL USE OF MEANS OF TRANSPORTATION"
+      ],
+      "sentenceDate": {
+        "$date": "2019-01-16T08:41:01.872Z"
+      },
+      "intakeDate": {
+        "$date": "2019-06-16T08:41:01.872Z"
+      },
+      "releaseDate": {
+        "$date": "2026-06-16T08:41:01.872Z"
+      },
+      "photoLink": "",
+      "_id": {
+        "$oid": "6a1cb6c5074f64c32a69a9af"
+      }
+    }
+  ],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "Candace Larson",
+    "receivedLaptop": true,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "Recycled Bronze Soap",
+    "reentryServices": [
+      "Job Placement",
+      "Substance Abuse",
+      "Transportation",
+      "Mental Health"
+    ]
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "https://linkedin.com/in/sarah-krajcik-778",
+    "github": "https://github.com/sarahkrajcik78",
+    "resume": "",
+    "portfolio": "https://salty-tomography.info"
+  },
+  "__v": 0
+}]

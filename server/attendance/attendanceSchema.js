@@ -28,6 +28,7 @@ const attendanceSchema = new Schema({
         lastName: String,
         firstName: String,
         docId: String,
+        docNumber: String,
         status: String,
         attendance: Schema.Types.Mixed
     } ],

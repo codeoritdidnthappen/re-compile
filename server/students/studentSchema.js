@@ -14,7 +14,7 @@ const studentSchema = new Schema({
     site: { type: String, default: "" },
     unit: { type: String, default: "" }
   },
-  classesTaken: [
+  classes: [
     {
       startDate: { type: Date },
       endDate: { type: Date },
@@ -26,7 +26,14 @@ const studentSchema = new Schema({
       projectsCompleted: { type: Number, default: 0 }
     },
   ],
-  incarceration: [
+  incarceration: {
+    charges: [String],
+    sentenceDate: { type: Date },
+    intakeDate: { type: Date },
+    releaseDate: { type: Date },
+    photoLink: { type: String, default: "" }
+  },
+  previousIncarceration: [
     {
       charges: [String],
       sentenceDate: { type: Date },

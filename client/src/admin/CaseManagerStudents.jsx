@@ -1,9 +1,9 @@
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { getStudents90Day } from "../students/studentSlice"
-// import { data } from "./data/student.data.js"
-
-// console.log("data", data)
+import { Link } from "react-router"
+import { getStudentsCaseManager } from "../students/studentSlice"
+import Star from "../assets/star.svg?react"
+import StarExclamation from "../assets/star-exclamation.svg?react"
 
 const WomanSVG = () => {
   return (
@@ -45,37 +45,42 @@ const Cohort = ({ num }) => {
   )
 }
 
-const StudentList = () => {
+const CaseManager90Days = () => {
   const dispatch = useDispatch()
+  const { user } = useSelector((state) => state.auth)
   const { students } = useSelector(state => state.students)
 
   useEffect(() => {
     const token = localStorage.getItem("token")
-    dispatch(getStudents90Day({ token }))
+    dispatch(getStudentsCaseManager({ token, caseManager: `${user.firstName} ${user.lastName}` }))
   }, [])
   
   return (
     <div className="mt-10 max-w-2xl w-full mx-auto px-4 sm:px-6 lg:px-8">
-      <ul className="list rounded-box shadow-md">
-        {/* {students.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime()).filter((student) => new Date(student.releaseDate).getTime() > Date.now()).map((student) => ( */}
-        {students.map((student) => (
-          <li key={student.docId} className="list-row">
-            {/* <div><img className="size-10 rounded-box" src={new URL(`../assets/woman.svg`, import.meta.url).href}/></div> */}
-            <div><WomanSVG /></div>
-            <div>
-              <div className="text-lg font-bold text-primary">{student.firstName} {student.lastName} #{student.docId}</div>
-              <div className="text-sm font-semibold">Location: {student.location.site}</div>
-              <div className="text-sm font-semibold">Release Date: {new Date(student.incarceration[0].releaseDate).toISOString().split('T')[0]}</div>
-              <div className="text-sm font-semibold">Days until release: 0</div>
-            </div>
-            <button className="btn btn-square btn-ghost">
-              <Cohort num={student.classesTaken[0].cohort} />
-            </button>
-          </li>
-        ))}
+      <ul className="list rounded-box shadow-md gap-1">
+        {students.map((student) => {
+          const daysRemaining = Math.round((new Date(student.incarceration[0].releaseDate) - new Date()) / (1000 * 60 * 60 * 24))
+          return (
+            <li key={student.docId} className={`list-row ${daysRemaining < 91 ? "border-2 border-success bg-base-100" : "bg-base-200"}`}>
+              <Link to={`/admin/students/${student.id}`} className="flex w-full items-center gap-3 hover:opacity-80">
+                <div>{daysRemaining < 91 ? <StarExclamation className="text-success w-12 h-12" /> : <Star className="text-neutral w-12 h-12" />}</div>
+                <div className="flex-1">
+                  <div className="text-lg font-bold text-primary">{student.firstName} {student.lastName} #{student.docId}</div>
+                  <div className="text-sm font-semibold">Site: {student.location.site}</div>
+                  <div className="text-sm font-semibold">Release Date: {new Date(student.incarceration[0].releaseDate).toISOString().split('T')[0]}</div>
+                  <div className="text-sm font-semibold">Cohort: {student.classesTaken[0].cohort}</div>
+                </div>
+                <div>
+                  <div className="text-center text-md">Days until release:</div>
+                  <div className="text-center text-3xl font-bold text-success">{daysRemaining}</div>
+                </div>
+              </Link>
+            </li>
+          )
+        })}
       </ul>
     </div>
   )
 }
 
-export default StudentList
+export default CaseManager90Days

@@ -10,9 +10,13 @@ import Dashboard from "./admin/Dashboard"
 import USStudentProgramMap from "./admin/USStudentProgramMap"
 import StudentProgramState from "./admin/StudentProgramState"
 import ProgramSite from "./admin/ProgramSite"
-// import Weekly from "./admin/Weekly"
+import Weekly from "./admin/Weekly"
 import NoMatch from "./NoMatch"
 import "./App.css"
+import CaseManagerStudents from "./admin/CaseManagerStudents"
+import StudentDetail from "./admin/StudentDetail"
+import GrantList from "./admin/GrantList"
+import GrantDetail from "./admin/GrantDetail"
 
 function App() {
   const dispatch = useDispatch()
@@ -49,7 +53,11 @@ function App() {
           <Route path="programs" element={<USStudentProgramMap />} />
           <Route path="programs/:stateName" element={<StudentProgramState />} />
           <Route path="sites/:site" element={<ProgramSite />} />
-          {/* <Route path="weekly" element={<Weekly />} /> */}
+          <Route path="90days" element={<CaseManagerStudents />} />
+          <Route path="weekly" element={<Weekly />} />
+          <Route path="students/:id" element={<StudentDetail />} />
+          <Route path="grants" element={<GrantList />} />
+          <Route path="grants/:id" element={<GrantDetail />} />
         </Route>
         <Route path="*" element={<NoMatch />} />
       </Routes>

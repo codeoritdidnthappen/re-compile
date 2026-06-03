@@ -4,6 +4,7 @@ import userReducer from "./users/userSlice"
 import studentReducer from "./students/studentSlice"
 import attendanceReducer from "./attendance/attendanceSlice"
 import programsReducer from "./programs/programsSlice"
+import grantReducer from "./grants/grantSlice"
 
 export const store = configureStore({
   reducer: {
@@ -11,6 +12,7 @@ export const store = configureStore({
     users: userReducer,
     students: studentReducer,
     attendance: attendanceReducer,
-    programs: programsReducer
+    programs: programsReducer,
+    grants: grantReducer
   },
 })

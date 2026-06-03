@@ -64,7 +64,7 @@ const Weekly = () => {
   }
 
   return (
-    <div>
+    <div className="mx-10 my-4">
       <div className="flex justify-center">
         <div className="mb-6">
           <h1 className="text-3xl font-bold">Weekly Report</h1>

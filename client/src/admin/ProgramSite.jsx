@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react"
-import { useParams } from "react-router"
+import { useParams, Link } from "react-router"
 import { useDispatch, useSelector } from "react-redux"
 import { getAttendanceSite } from "../attendance/attendanceSlice"
 // import perryville from "./data/perryville-attendance-report-2026.data.json"
@@ -161,7 +161,9 @@ const ProgramSite = () => {
               <tbody>
                 {attendance.students.map((student, idx) => (
                   <tr key={idx} className="hover">
-                    <td className="sticky left-0 bg-base-100 z-10 font-semibold">{student.lastName}</td>
+                    <td className="sticky left-0 bg-base-100 z-10 font-semibold">
+                      <Link to={`/admin/students/${student.docId}`} className="link link-primary">{student.lastName}</Link>
+                    </td>
                     <td className="sticky left-24 bg-base-100 z-10">{student.firstName}</td>
                     <td className="sticky left-48 bg-base-100 z-10">{student.docNumber}</td>
                     <td className="sticky left-64 bg-base-100 z-10 text-xs">{student.status}</td>

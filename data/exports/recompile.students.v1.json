@@ -1,0 +1,3330 @@
+[{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8098a"
+  },
+  "docId": "n3263228",
+  "firstName": "James",
+  "middleInitial": "",
+  "lastName": "Smith",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8098b"
+  },
+  "docId": "m8448431",
+  "firstName": "Michael",
+  "middleInitial": "",
+  "lastName": "Johnson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8098c"
+  },
+  "docId": "l1763480",
+  "firstName": "David",
+  "middleInitial": "",
+  "lastName": "Williams",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8098d"
+  },
+  "docId": "f4690922",
+  "firstName": "Robert",
+  "middleInitial": "",
+  "lastName": "Brown",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8098e"
+  },
+  "docId": "q8010093",
+  "firstName": "William",
+  "middleInitial": "",
+  "lastName": "Jones",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8098f"
+  },
+  "docId": "k1421664",
+  "firstName": "Richard",
+  "middleInitial": "",
+  "lastName": "Garcia",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80990"
+  },
+  "docId": "v4280675",
+  "firstName": "Joseph",
+  "middleInitial": "",
+  "lastName": "Miller",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80991"
+  },
+  "docId": "b6832996",
+  "firstName": "Charles",
+  "middleInitial": "",
+  "lastName": "Davis",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80992"
+  },
+  "docId": "e4838502",
+  "firstName": "Thomas",
+  "middleInitial": "",
+  "lastName": "Martinez",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80993"
+  },
+  "docId": "s5717727",
+  "firstName": "Christopher",
+  "middleInitial": "",
+  "lastName": "Anderson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80994"
+  },
+  "docId": "y4805951",
+  "firstName": "Daniel",
+  "middleInitial": "",
+  "lastName": "Taylor",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80995"
+  },
+  "docId": "x9951749",
+  "firstName": "Paul",
+  "middleInitial": "",
+  "lastName": "Thomas",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80996"
+  },
+  "docId": "d5550918",
+  "firstName": "Mark",
+  "middleInitial": "",
+  "lastName": "Jackson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80997"
+  },
+  "docId": "w5819332",
+  "firstName": "Donald",
+  "middleInitial": "",
+  "lastName": "White",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80998"
+  },
+  "docId": "r3401410",
+  "firstName": "George",
+  "middleInitial": "",
+  "lastName": "Harris",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c80999"
+  },
+  "docId": "z6744526",
+  "firstName": "Kenneth",
+  "middleInitial": "",
+  "lastName": "Thompson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8099a"
+  },
+  "docId": "b7973779",
+  "firstName": "Steven",
+  "middleInitial": "",
+  "lastName": "Lewis",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8099b"
+  },
+  "docId": "r7444349",
+  "firstName": "Edward",
+  "middleInitial": "",
+  "lastName": "Robinson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8099c"
+  },
+  "docId": "h9237435",
+  "firstName": "Brian",
+  "middleInitial": "",
+  "lastName": "Clark",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8099d"
+  },
+  "docId": "r8679548",
+  "firstName": "Anthony",
+  "middleInitial": "",
+  "lastName": "Walker",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8099e"
+  },
+  "docId": "d2761623",
+  "firstName": "Kevin",
+  "middleInitial": "",
+  "lastName": "Hall",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Cibola",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c8099f"
+  },
+  "docId": "i4147870",
+  "firstName": "Emma",
+  "middleInitial": "",
+  "lastName": "Peterson",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a0"
+  },
+  "docId": "u9401311",
+  "firstName": "Olivia",
+  "middleInitial": "",
+  "lastName": "Moore",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a1"
+  },
+  "docId": "g3059731",
+  "firstName": "Sophia",
+  "middleInitial": "",
+  "lastName": "Turner",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a2"
+  },
+  "docId": "r4179610",
+  "firstName": "Isabella",
+  "middleInitial": "",
+  "lastName": "White",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a3"
+  },
+  "docId": "t1692070",
+  "firstName": "Mia",
+  "middleInitial": "",
+  "lastName": "Harris",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a4"
+  },
+  "docId": "r1631670",
+  "firstName": "Charlotte",
+  "middleInitial": "",
+  "lastName": "Martin",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a5"
+  },
+  "docId": "r2161874",
+  "firstName": "Amelia",
+  "middleInitial": "",
+  "lastName": "Thompson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a6"
+  },
+  "docId": "r8847542",
+  "firstName": "Harper",
+  "middleInitial": "",
+  "lastName": "Garcia",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a7"
+  },
+  "docId": "q7112137",
+  "firstName": "Evelyn",
+  "middleInitial": "",
+  "lastName": "Martinez",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a8"
+  },
+  "docId": "q5192206",
+  "firstName": "Abigail",
+  "middleInitial": "",
+  "lastName": "Robinson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809a9"
+  },
+  "docId": "c6607714",
+  "firstName": "Emily",
+  "middleInitial": "",
+  "lastName": "Clark",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809aa"
+  },
+  "docId": "l4468432",
+  "firstName": "Elizabeth",
+  "middleInitial": "",
+  "lastName": "Rodriguez",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809ab"
+  },
+  "docId": "t1913196",
+  "firstName": "Sofia",
+  "middleInitial": "",
+  "lastName": "Lewis",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809ac"
+  },
+  "docId": "k2818498",
+  "firstName": "Avery",
+  "middleInitial": "",
+  "lastName": "Lee",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809ad"
+  },
+  "docId": "m4430340",
+  "firstName": "Ella",
+  "middleInitial": "",
+  "lastName": "Walker",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809ae"
+  },
+  "docId": "u7337973",
+  "firstName": "Scarlett",
+  "middleInitial": "",
+  "lastName": "Hall",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809af"
+  },
+  "docId": "f6381777",
+  "firstName": "Grace",
+  "middleInitial": "",
+  "lastName": "Allen",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b0"
+  },
+  "docId": "c4683651",
+  "firstName": "Chloe",
+  "middleInitial": "",
+  "lastName": "Young",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b1"
+  },
+  "docId": "p2009985",
+  "firstName": "Victoria",
+  "middleInitial": "",
+  "lastName": "Hernandez",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b2"
+  },
+  "docId": "g6630303",
+  "firstName": "Riley",
+  "middleInitial": "",
+  "lastName": "King",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b3"
+  },
+  "docId": "l3028602",
+  "firstName": "Aria",
+  "middleInitial": "",
+  "lastName": "Wright",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b4"
+  },
+  "docId": "i9218386",
+  "firstName": "Lily",
+  "middleInitial": "",
+  "lastName": "Lopez",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b5"
+  },
+  "docId": "n7535433",
+  "firstName": "Zoey",
+  "middleInitial": "",
+  "lastName": "Hill",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Perryville",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b6"
+  },
+  "docId": "u7255267",
+  "firstName": "Alex",
+  "middleInitial": "",
+  "lastName": "Harper",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b7"
+  },
+  "docId": "e5628270",
+  "firstName": "Jordan",
+  "middleInitial": "",
+  "lastName": "Mitchell",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b8"
+  },
+  "docId": "n5021146",
+  "firstName": "Sam",
+  "middleInitial": "",
+  "lastName": "Rivera",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809b9"
+  },
+  "docId": "t6224939",
+  "firstName": "Casey",
+  "middleInitial": "",
+  "lastName": "Morgan",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809ba"
+  },
+  "docId": "k7498947",
+  "firstName": "Taylor",
+  "middleInitial": "",
+  "lastName": "Brooks",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809bb"
+  },
+  "docId": "u5919054",
+  "firstName": "Morgan",
+  "middleInitial": "",
+  "lastName": "Ellis",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809bc"
+  },
+  "docId": "w4789723",
+  "firstName": "Jamie",
+  "middleInitial": "",
+  "lastName": "Foster",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809bd"
+  },
+  "docId": "w8832612",
+  "firstName": "Riley",
+  "middleInitial": "",
+  "lastName": "Grant",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809be"
+  },
+  "docId": "b8435291",
+  "firstName": "Avery",
+  "middleInitial": "",
+  "lastName": "Hayes",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809bf"
+  },
+  "docId": "d3247926",
+  "firstName": "Drew",
+  "middleInitial": "",
+  "lastName": "Jordan",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c0"
+  },
+  "docId": "b1566911",
+  "firstName": "Blake",
+  "middleInitial": "",
+  "lastName": "Kennedy",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c1"
+  },
+  "docId": "k9243260",
+  "firstName": "Quinn",
+  "middleInitial": "",
+  "lastName": "Lawrence",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c2"
+  },
+  "docId": "k6147268",
+  "firstName": "Reese",
+  "middleInitial": "",
+  "lastName": "Mason",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c3"
+  },
+  "docId": "r3970427",
+  "firstName": "Sage",
+  "middleInitial": "",
+  "lastName": "Norris",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c4"
+  },
+  "docId": "w8733931",
+  "firstName": "Cameron",
+  "middleInitial": "",
+  "lastName": "Parker",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c5"
+  },
+  "docId": "s7108737",
+  "firstName": "Dallas",
+  "middleInitial": "",
+  "lastName": "Quinn",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c6"
+  },
+  "docId": "p6824361",
+  "firstName": "Emery",
+  "middleInitial": "",
+  "lastName": "Reed",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c7"
+  },
+  "docId": "w2412653",
+  "firstName": "Finley",
+  "middleInitial": "",
+  "lastName": "Scott",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c8"
+  },
+  "docId": "n7075668",
+  "firstName": "Greer",
+  "middleInitial": "",
+  "lastName": "Turner",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809c9"
+  },
+  "docId": "f9821403",
+  "firstName": "Haven",
+  "middleInitial": "",
+  "lastName": "Underwood",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809ca"
+  },
+  "docId": "b5013557",
+  "firstName": "Indigo",
+  "middleInitial": "",
+  "lastName": "Vaughn",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809cb"
+  },
+  "docId": "c6054898",
+  "firstName": "Jesse",
+  "middleInitial": "",
+  "lastName": "Wallace",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809cc"
+  },
+  "docId": "c6792311",
+  "firstName": "Kendall",
+  "middleInitial": "",
+  "lastName": "Xavier",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809cd"
+  },
+  "docId": "y3930670",
+  "firstName": "Lane",
+  "middleInitial": "",
+  "lastName": "Young",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809ce"
+  },
+  "docId": "o2087623",
+  "firstName": "Logan",
+  "middleInitial": "",
+  "lastName": "Zimmerman",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809cf"
+  },
+  "docId": "c6876420",
+  "firstName": "Marley",
+  "middleInitial": "",
+  "lastName": "Adams",
+  "teachingAssistant": true,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d0"
+  },
+  "docId": "k6647357",
+  "firstName": "Nico",
+  "middleInitial": "",
+  "lastName": "Bailey",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d1"
+  },
+  "docId": "q5745205",
+  "firstName": "Oakley",
+  "middleInitial": "",
+  "lastName": "Cameron",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d2"
+  },
+  "docId": "o3930748",
+  "firstName": "Perry",
+  "middleInitial": "",
+  "lastName": "Davidson",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Whetstone",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d3"
+  },
+  "docId": "o3024930",
+  "firstName": "Adrian",
+  "middleInitial": "",
+  "lastName": "Bell",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d4"
+  },
+  "docId": "f7520221",
+  "firstName": "Brett",
+  "middleInitial": "",
+  "lastName": "Cross",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d5"
+  },
+  "docId": "d5185922",
+  "firstName": "Corey",
+  "middleInitial": "",
+  "lastName": "Dean",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d6"
+  },
+  "docId": "q3281746",
+  "firstName": "Devon",
+  "middleInitial": "",
+  "lastName": "Ford",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d7"
+  },
+  "docId": "m1680225",
+  "firstName": "Elliot",
+  "middleInitial": "",
+  "lastName": "Gray",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d8"
+  },
+  "docId": "v3011157",
+  "firstName": "Francis",
+  "middleInitial": "",
+  "lastName": "Hunt",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809d9"
+  },
+  "docId": "e1832505",
+  "firstName": "Glenn",
+  "middleInitial": "",
+  "lastName": "Knox",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809da"
+  },
+  "docId": "c8585224",
+  "firstName": "Harlan",
+  "middleInitial": "",
+  "lastName": "Lane",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809db"
+  },
+  "docId": "h1389051",
+  "firstName": "Ivan",
+  "middleInitial": "",
+  "lastName": "Miles",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809dc"
+  },
+  "docId": "a2743170",
+  "firstName": "Jules",
+  "middleInitial": "",
+  "lastName": "Nash",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809dd"
+  },
+  "docId": "z4389497",
+  "firstName": "Kade",
+  "middleInitial": "",
+  "lastName": "Owens",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809de"
+  },
+  "docId": "z7901683",
+  "firstName": "Levi",
+  "middleInitial": "",
+  "lastName": "Page",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809df"
+  },
+  "docId": "a6402059",
+  "firstName": "Marcus",
+  "middleInitial": "",
+  "lastName": "Reid",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809e0"
+  },
+  "docId": "b4068430",
+  "firstName": "Nathan",
+  "middleInitial": "",
+  "lastName": "Shaw",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809e1"
+  },
+  "docId": "h8358871",
+  "firstName": "Oscar",
+  "middleInitial": "",
+  "lastName": "Stone",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809e2"
+  },
+  "docId": "p1769669",
+  "firstName": "Patrick",
+  "middleInitial": "",
+  "lastName": "Todd",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1fa2fa9e2a628682c809e3"
+  },
+  "docId": "c3110596",
+  "firstName": "Quinn",
+  "middleInitial": "",
+  "lastName": "Wade",
+  "teachingAssistant": false,
+  "location": {
+    "state": "AZ",
+    "address": "",
+    "site": "Red Rock",
+    "unit": ""
+  },
+  "classesTaken": [],
+  "incarceration": [],
+  "workPrograms": [],
+  "releaseData": {
+    "caseManager": "",
+    "receivedLaptop": false,
+    "laptopDetails": "",
+    "receivedPhone": false,
+    "phoneDetails": "",
+    "reentryServices": []
+  },
+  "jobsAfterRelease": [],
+  "internshipsOrBootcamps": [],
+  "education": [],
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "resume": "",
+    "portfolio": ""
+  },
+  "__v": 0
+}]
