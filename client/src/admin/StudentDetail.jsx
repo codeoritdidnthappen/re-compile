@@ -51,9 +51,9 @@ const StudentDetail = () => {
       <div className="card bg-primary text-primary-content mb-6">
         <div className="card-body">
           <div className="flex gap-6 items-start">
-            {inc.photoLink && (
+            {/* {inc.photoLink && (
               <img src={inc.photoLink} alt="Student photo" className="w-24 h-24 rounded-full object-cover border-4 border-primary-content" />
-            )}
+            )} */}
             <div className="flex-1">
               <h1 className="text-3xl font-bold">{s.firstName} {s.middleInitial ? `${s.middleInitial}. ` : ""}{s.lastName}</h1>
               <p className="text-lg opacity-90">DOC # {s.docId}</p>
