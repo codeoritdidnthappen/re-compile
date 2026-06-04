@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "68cd868151b3800bbfb5f87f"
+  },
+  "className": "Perryville",
+  "classType": "Full Stack",
+  "location": {
+    "city": "Goodyear",
+    "state": "Arizona",
+    "zip": "85395"
+  },
+  "complex": "Perryville",
+  "unit": "San Carlos",
+  "staff": [
+    {
+      "role": "Instructor",
+      "firstName": "David",
+      "lastName": "Dean",
+      "location": {
+        "city": "Goodyear",
+        "state": "Arizona",
+        "zip": "85338"
+      },
+      "remote": false,
+      "hybrid": true,
+      "startDate": {
+        "$date": "2024-03-18T07:00:00.000Z"
+      },
+      "endDate": null,
+      "_id": {
+        "$oid": "68cd868151b3800bbfb5f880"
+      }
+    }
+  ],
+  "currentCohort": 7,
+  "startDate": {
+    "$date": "2019-01-01T07:00:00.000Z"
+  },
+  "endDate": null,
+  "__v": 0,
+  "attendance": [
+    {
+      "cohort": 7,
+      "startDate": {
+        "$date": "2025-07-07T07:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2026-06-30T07:00:00.000Z"
+      },
+      "drops": 1,
+      "additions": 1
+    }
+  ]
+}]

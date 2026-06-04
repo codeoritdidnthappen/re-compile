@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "6a1e34f3136f0b0e0235a9a2"
+  },
+  "name": "Arizona",
+  "year": 2026,
+  "abbreviation": "AZ",
+  "sites": [
+    {
+      "id": "az-perryville",
+      "name": "Perryville",
+      "contract": "ADCRR",
+      "instructor": "David Dean",
+      "students": 23
+    },
+    {
+      "id": "az-cibola",
+      "name": "Cibola",
+      "contract": "ADCRR",
+      "instructor": "James Wilson",
+      "students": 17
+    },
+    {
+      "id": "az-red-rock",
+      "name": "Red Rock",
+      "contract": "CoreCivic",
+      "instructor": "Casey Rivera",
+      "students": 13
+    },
+    {
+      "id": "az-whetstone",
+      "name": "Whetstone",
+      "contract": "ADCRR",
+      "instructor": "Jordan Blake",
+      "students": 13
+    }
+  ],
+  "applied": 35,
+  "accepted": 21,
+  "completed": 18,
+  "attendance": 94,
+  "jobs": 28,
+  "techJobs": 9,
+  "__v": 0,
+  "retention": 95
+},
+{
+  "_id": {
+    "$oid": "6a1e375deaa7332d1468bcd0"
+  },
+  "name": "Florida",
+  "year": 2026,
+  "abbreviation": "FL",
+  "sites": [
+    {
+      "id": "fl-fsp",
+      "name": "FSP",
+      "contract": "FDC",
+      "instructor": "Jared O'Neil",
+      "students": 17
+    },
+    {
+      "id": "fl-lowell",
+      "name": "Lowell",
+      "contract": "FDC",
+      "instructor": "Chris Demaria",
+      "students": 20
+    },
+    {
+      "id": "fl-srpc",
+      "name": "SRPC",
+      "contract": "FDC",
+      "instructor": "Tatiana Johnson",
+      "students": 20
+    },
+    {
+      "id": "fl-wakulla",
+      "name": "Wakulla",
+      "contract": "FDC",
+      "instructor": "Andrew Harper",
+      "students": 17
+    }
+  ],
+  "applied": 19,
+  "accepted": 20,
+  "completed": 12,
+  "attendance": 88,
+  "jobs": 8,
+  "techJobs": 1,
+  "__v": 0,
+  "retention": 90
+},
+{
+  "_id": {
+    "$oid": "6a1e375eeaa7332d1468bcd2"
+  },
+  "name": "Massachusetts",
+  "sites": [
+    {
+      "id": "ma-ncci",
+      "name": "NCCI",
+      "contract": "MADOC",
+      "instructor": "Alex Palacin",
+      "students": 7
+    }
+  ],
+  "year": 2026,
+  "abbreviation": "MA",
+  "applied": 27,
+  "accepted": 30,
+  "completed": 5,
+  "attendance": 92,
+  "jobs": 19,
+  "techJobs": 0,
+  "__v": 0,
+  "retention": 90
+},
+{
+  "_id": {
+    "$oid": "6a1e375feaa7332d1468bcd4"
+  },
+  "name": "Nebraska",
+  "year": 2026,
+  "abbreviation": "NE",
+  "sites": [
+    {
+      "id": "ne-cccl",
+      "name": "CCCL",
+      "contract": "NDCS",
+      "instructor": "Zeke DuBois",
+      "students": 4
+    },
+    {
+      "id": "ne-nccw",
+      "name": "NCCW",
+      "contract": "NDCS",
+      "instructor": "Zeke DuBois",
+      "students": 9
+    },
+    {
+      "id": "ne-nsp",
+      "name": "NSP",
+      "contract": "NDCS",
+      "instructor": "Bryan Puppy",
+      "students": 13
+    }
+  ],
+  "applied": 16,
+  "accepted": 14,
+  "completed": 17,
+  "attendance": 93,
+  "jobs": 26,
+  "techJobs": 1,
+  "__v": 0,
+  "retention": 90
+},
+{
+  "_id": {
+    "$oid": "6a1e3760eaa7332d1468bcd6"
+  },
+  "name": "South Carolina",
+  "year": 2026,
+  "abbreviation": "SC",
+  "sites": [
+    {
+      "id": "sc-leath",
+      "name": "Leath",
+      "contract": "SCDC",
+      "instructor": "Nate Miller",
+      "students": 24
+    }
+  ],
+  "applied": 27,
+  "accepted": 23,
+  "completed": 11,
+  "attendance": 87,
+  "jobs": 17,
+  "techJobs": 2,
+  "__v": 0,
+  "retention": 90
+}]

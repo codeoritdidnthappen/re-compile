@@ -42,14 +42,14 @@ const Navbar = () => {
     return (
       <>
         {themes.map(t => (
-          <li key={t} onClick={() => dispatch(setTheme({ theme: t }))}><a><ColorBlock t={t} />{t} {theme === t ? <Check /> : ""}</a></li>
+          <li key={t} onClick={() => dispatch(setTheme({ theme: t }))} className="text-base-content"><a><ColorBlock t={t} />{t} {theme === t ? <Check /> : ""}</a></li>
         ))}
       </>
     )
   }
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-primary text-primary-content shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

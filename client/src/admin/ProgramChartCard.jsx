@@ -72,12 +72,17 @@ const ProgramChartCard = () => {
   }
 
   return (
-    <div className="bg-base-100 border border-primary rounded-3xl shadow-2xl overflow-hidden p-6 w-80 h-80 cursor-pointer">
-      <ReactECharts
-        option={option}
-        style={{ height: "100%", width: "100%" }}
-        opts={{ renderer: "svg" }}
-      />
+    <div className="card bg-secondary text-secondary-content">
+      <div className="card-body">
+        <h2 className="card-title mx-auto">Programs Overview</h2>
+        <div className="bg-base-100 border border-primary rounded-3xl shadow-2xl overflow-hidden p-6 w-68 h-59.5 cursor-pointer">
+          <ReactECharts
+            option={option}
+            style={{ height: "100%", width: "100%" }}
+            opts={{ renderer: "svg" }}
+          />
+        </div>
+      </div>
     </div>
   )
 }

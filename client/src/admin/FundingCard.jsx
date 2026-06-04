@@ -20,27 +20,32 @@ const FundingCard = () => {
   const pendingCount = grants.filter((g) => g.status === "pending" || g.status === "applied").length
 
   return (
-    <div className="space-y-3 min-w-48">
-      <div className="flex justify-between items-center">
-        <span className="text-sm opacity-80">Active Grants</span>
-        <span className="text-2xl font-bold">{activeGrants.length}</span>
-      </div>
-      <div className="flex justify-between items-center">
-        <span className="text-sm opacity-80">Total Funding</span>
-        <span className="text-2xl font-bold">${totalFunding.toLocaleString()}</span>
-      </div>
-      {expiringSoon.length > 0 && (
-        <div className="flex justify-between items-center">
-          <span className="text-sm opacity-80">Expiring in 90 Days</span>
-          <span className="badge badge-warning text-lg px-3">{expiringSoon.length}</span>
+    <div className="card bg-secondary text-secondary-content w-80 h-80 border-2 border-secondary hover:border-accent transition-all">
+      <div className="card-body">
+        <h2 className="card-title mx-auto">Funding at a Glances</h2>
+        <div className="space-y-3 mt-4 min-w-48">
+          <div className="flex justify-between items-center">
+            <span className="text-md opacity-90">Active Grants</span>
+            <span className="text-2xl font-bold">{activeGrants.length}</span>
+          </div>
+          <div className="flex justify-between items-center">
+            <span className="text-md opacity-90">Total Funding</span>
+            <span className="text-2xl font-bold">${totalFunding.toLocaleString()}</span>
+          </div>
+          {expiringSoon.length > 0 && (
+            <div className="flex justify-between items-center">
+              <span className="text-md opacity-90">Expiring in 90 Days</span>
+              <span className="badge badge-warning text-lg font-bold px-3 size-8.5">{expiringSoon.length}</span>
+            </div>
+          )}
+          {pendingCount > 0 && (
+            <div className="flex justify-between items-center">
+              <span className="text-md opacity-90">Pending / Applied</span>
+              <span className="badge badge-info text-lg font-bold px-3 size-8.5">{pendingCount}</span>
+            </div>
+          )}
         </div>
-      )}
-      {pendingCount > 0 && (
-        <div className="flex justify-between items-center">
-          <span className="text-sm opacity-80">Pending / Applied</span>
-          <span className="badge badge-info text-lg px-3">{pendingCount}</span>
-        </div>
-      )}
+      </div>
     </div>
   )
 }
