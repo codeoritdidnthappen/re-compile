@@ -8,8 +8,12 @@ import studentReadOne from "./studentReadOne.js"
 import studentUpdate from "./studentUpdate.js"
 import studentDelete from "./studentDelete.js"
 import studentDaysToJob from "./studentDaysToJob.js"
+import laptopsGiven from "./laptopsGiven.js"
 
 const studentIndex = express.Router()
+
+// Laptops given count, optionally filtered by state and/or site
+studentIndex.get("/laptops-given{/:state}{/:site}", passport.authenticate("jwt", { session: false }), laptopsGiven)
 
 // Jobs after release count
 studentIndex.get("/days-to-job", passport.authenticate("jwt", { session: false }), studentDaysToJob)

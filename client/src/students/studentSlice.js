@@ -6,7 +6,8 @@ const initialState = {
   students: [],
   sites: null,
   currentStudent: null,
-  daysToJobAvg: null
+  daysToJobAvg: null,
+  laptopsGivenCount: null
 }
 
 export const getAllStudents = createAsyncThunk("user/getAllStudents", async (token) => {
@@ -31,6 +32,11 @@ export const getStudentById = createAsyncThunk("user/getStudentById", async ({ t
 
 export const getDaysToJob = createAsyncThunk("user/getDaysToJob", async ({ token }) => {
   const response = await studentService.getDaysToJob(token)
+  return response.data
+})
+
+export const getLaptopsGiven = createAsyncThunk("user/getLaptopsGiven", async ({ token, state, site }) => {
+  const response = await studentService.getLaptopsGiven(token, state, site)
   return response.data
 })
 
@@ -116,6 +122,18 @@ const studentSlice = createSlice({
         state.loading = false
       })
       .addCase(getDaysToJob.rejected, (state, action) => {
+        state.loading = false
+      })
+
+      // Get laptops given count
+      .addCase(getLaptopsGiven.pending, (state) => {
+        state.loading = true
+      })
+      .addCase(getLaptopsGiven.fulfilled, (state, action) => {
+        state.laptopsGivenCount = action.payload.count
+        state.loading = false
+      })
+      .addCase(getLaptopsGiven.rejected, (state) => {
         state.loading = false
       })
 

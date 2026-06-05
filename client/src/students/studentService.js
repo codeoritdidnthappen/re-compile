@@ -34,6 +34,15 @@ const studentService = {
       { headers: { Authorization: `Bearer ${token}` } }
     )
   },
+  getLaptopsGiven: async (token, state, site) => {
+    let url = `${server}/student/laptops-given`
+    if (state) url += `/${state}`
+    if (state && site) url += `/${site}`
+    return await axios.get(
+      url,
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
+  },
   createStudent: async (token, studentData) => {
     return await axios.post(
       `${server}/student`,
