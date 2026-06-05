@@ -10,6 +10,7 @@ import CompletedCard from "./CompletedCard"
 import AcceptedCard from "./AcceptedCard"
 import JobsCard from "./JobsCard"
 import DaysToJob from "./DaysToJob"
+import LaptopsGivenCard from "./LaptopsGivenCard"
 
 const Dashboard = () => {
   const { user } = useSelector((state) => state.auth)
@@ -43,6 +44,11 @@ const Dashboard = () => {
 
         {user?.roles?.includes("Case Manager") && (
           <>
+            <div className="flex flex-row gap-6 mb-6 justify-center">
+              <CompletedCard />
+              <LaptopsGivenCard />
+              <JobsCard />
+            </div>
             <div className="flex flex-row gap-6 mb-6 justify-center">
               <Link to="/admin/programs">
                 <ProgramChartCard />
