@@ -2,6 +2,7 @@ import passport from "passport"
 import { Strategy } from "passport-local"
 import * as argon2 from "argon2"
 import userModel from "../users/userModel.js"
+import logger from "../logger.js"
 
 passport.serializeUser((user, done) => {
   done(null, user.id)
@@ -36,7 +37,7 @@ export default passport.use(
       done(null, user)
     }
     catch (err) {
-      console.log(err)
+      logger.error(err)
       done(err, null)
     }
   })

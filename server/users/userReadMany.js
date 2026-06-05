@@ -1,4 +1,5 @@
 import userModel from "./userModel.js"
+import logger from "../logger.js"
 
 const userReadMany = async (req, res) => {
   try {
@@ -8,7 +9,7 @@ const userReadMany = async (req, res) => {
     res.status(200).json({ success: true, users })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, users: [], message: "There was an error. 🤬" })
   }
 }

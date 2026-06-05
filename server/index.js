@@ -1,5 +1,6 @@
 import "dotenv/config"
 import express from "express"
+import logger from "./logger.js"
 import cors from "cors"
 import mongoose from "mongoose"
 import passport from "passport"
@@ -47,12 +48,12 @@ app.use("/grant", grantIndex)
 try {
   const mongodbURI = process.env.MONGODB_URI || ""
   await mongoose.connect(mongodbURI)
-  console.log(`Login app connected to database at ${mongodbURI}`)
+  logger.info(`App connected to database at ${mongodbURI}`)
 
   app.listen(port, () => {
-    console.log(`Login app listening on port ${port}`)
+    logger.info(`App listening on port ${port}`)
   })
 }
 catch (err) {
-  console.log(err) // TODO: put safe error message
+  logger.fatal(err, "Failed to start server")
 }

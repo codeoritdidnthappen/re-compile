@@ -1,4 +1,5 @@
 import userModel from "./userModel.js"
+import logger from "../logger.js"
 
 const userCreate = async (req, res) => {
   const {
@@ -18,7 +19,7 @@ const userCreate = async (req, res) => {
     res.status(200).json({ success: true, user: newUser })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, user: {}, message: "There was an error. 🤬" })
   }
 }

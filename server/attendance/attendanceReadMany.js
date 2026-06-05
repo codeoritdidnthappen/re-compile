@@ -1,4 +1,5 @@
 import attendanceModel from "./attendanceModel.js"
+import logger from "../logger.js"
 
 const attendanceReadMany = async (req, res) => {
   try {
@@ -20,7 +21,7 @@ const attendanceReadMany = async (req, res) => {
     res.status(200).json({ success: true, attendance: attendanceParsed.filter(item => item.Perryville !== 0 || item.Cibola !== 0 || item.Whetstone !== 0 || item.RedRock !== 0) })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, attendance: [] })
   }
 

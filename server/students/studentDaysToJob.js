@@ -1,4 +1,5 @@
 import studentModel from "./studentModel.js"
+import logger from "../logger.js"
 
 const studentDaysToJob = async (req, res) => {
   try {
@@ -66,7 +67,7 @@ const studentDaysToJob = async (req, res) => {
     const averageDays = result.length > 0 ? result[0].averageDays : 0
     res.status(200).json({ success: true, averageDays })
   } catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, averageDays: 0 })
   }
 }

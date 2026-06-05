@@ -1,4 +1,5 @@
 import studentModel from "./studentModel.js"
+import logger from "../logger.js"
 
 const student90Day = async (req, res) => {
   const { caseManager = null } = req.params
@@ -15,7 +16,7 @@ const student90Day = async (req, res) => {
     res.status(200).json({ success: true, sites })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, sites: [], message: "There was an error. 🤬" })
   }
 }

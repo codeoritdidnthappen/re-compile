@@ -1,6 +1,7 @@
 import passport from "passport"
 import { Strategy as JwtStrategy, ExtractJwt } from "passport-jwt"
 import userModel from "../users/userModel.js"
+import logger from "../logger.js"
 
 const jwtSecret = process.env.JWT_SECRET || "secret"
 
@@ -28,7 +29,7 @@ passport.use(
       return done(null, user)
     }
     catch (err) {
-      console.log(err)
+      logger.error(err)
       return done(err, null)
     }
   })

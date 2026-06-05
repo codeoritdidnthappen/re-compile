@@ -1,4 +1,5 @@
 import grantModel from "./grantModel.js"
+import logger from "../logger.js"
 
 const grantReadOne = async (req, res) => {
   try {
@@ -9,7 +10,7 @@ const grantReadOne = async (req, res) => {
     res.status(200).json({ success: true, grant })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, grant: {}, message: "There was an error. 🤬" })
   }
 }

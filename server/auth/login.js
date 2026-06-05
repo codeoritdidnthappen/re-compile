@@ -1,5 +1,6 @@
 import jwt from "jsonwebtoken"
 import userModel from "../users/userModel.js"
+import logger from "../logger.js"
 
 const jwtSecret = process.env.JWT_SECRET || "secret"
 const tokenExpiration = process.env.TOKEN_EXPIRATION || 60 * 60 * 24 * 1 // 1 day
@@ -15,7 +16,7 @@ const cookieOptions = {
 }
 
 const createToken = (user) => {
-  console.log("createToken user", user)
+  logger.debug({ user }, "createToken")
   return jwt.sign(
     user,
     jwtSecret,
@@ -41,7 +42,7 @@ const login = async (req, res, next) => {
     res.status(200).json({ success: true, user: { firstName: user.firstName, lastName: user.lastName, email: user.email, username: user.username, roles: user.roles, avatar: user.avatar }, token: token.token })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, message: "There was an error." })
   }
 }

@@ -1,4 +1,5 @@
 import studentModel from "./studentModel.js"
+import logger from "../logger.js"
 
 const studentReadOne = async (req, res) => {
   try {
@@ -11,7 +12,7 @@ const studentReadOne = async (req, res) => {
     res.status(200).json({ success: true, student })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, student: {}, message: "There was an error. 🤬" })
   }
 }

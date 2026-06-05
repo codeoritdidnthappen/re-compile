@@ -1,4 +1,5 @@
 import programModel from "./programModel.js"
+import logger from "../logger.js"
 
 const programAcceptedCount = async (req, res) => {
   const { state, site } = req.params
@@ -14,7 +15,7 @@ const programAcceptedCount = async (req, res) => {
     ])
     res.status(200).json({ success: true, count })
   } catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, count: 0 })
   }
 }

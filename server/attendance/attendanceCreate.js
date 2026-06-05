@@ -1,4 +1,5 @@
 import attendanceModel from "./attendanceModel.js"
+import logger from "../logger.js"
 
 const attendanceCreate = async (req, res) => {
   const { month, metadata, students, classDays } = req.body
@@ -27,7 +28,7 @@ const attendanceCreate = async (req, res) => {
 
     res.status(200).json({ success: true, attendance })
   } catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, attendance: [], message: "There was an error. 👹" })
   }
 }

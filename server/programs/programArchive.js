@@ -1,4 +1,5 @@
 import programModel from "./programModel.js"
+import logger from "../logger.js"
 
 const programArchive = async (req, res) => {
   const { id } = req.params
@@ -11,7 +12,7 @@ const programArchive = async (req, res) => {
     if (!updated) return res.status(404).json({ success: false, message: "Program not found." })
     res.status(200).json({ success: true, program: updated })
   } catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, message: "Server error." })
   }
 }

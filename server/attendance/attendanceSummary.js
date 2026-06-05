@@ -1,11 +1,10 @@
 import attendanceSummaryModel from "./attendanceSummaryModel.js"
+import logger from "../logger.js"
 
 const attendanceSummary = async (req, res) => {
   const { abbreviation } = req.params
-  console.log("abbreviation", abbreviation)
   try {
     const attendance = await attendanceSummaryModel.find({ "location.state": abbreviation }).sort({ classDate: 1 })
-    console.log("attendance", attendance)
     let attendanceParsed = []
     let dayObject = {}
     for (let i = 0; i < attendance.length; i++) {
@@ -23,7 +22,7 @@ const attendanceSummary = async (req, res) => {
     res.status(200).json({ success: true, attendance: attendanceParsed.filter(item => item.Perryville !== 0 || item.Cibola !== 0 || item.Whetstone !== 0 || item.RedRock !== 0) })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, attendance: [] })
   }
 

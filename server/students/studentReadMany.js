@@ -1,4 +1,5 @@
 import studentModel from "./studentModel.js"
+import logger from "../logger.js"
 
 const studentReadMany = async (req, res) => {
   try {
@@ -6,7 +7,7 @@ const studentReadMany = async (req, res) => {
     res.status(200).json({ success: true, students })
   }
   catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, students: [], message: "There was an error. 🤬" })
   }
 }

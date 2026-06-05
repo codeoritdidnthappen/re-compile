@@ -1,4 +1,5 @@
 import programModel from "./programModel.js"
+import logger from "../logger.js"
 
 const programCreate = async (req, res) => {
   const {
@@ -30,7 +31,7 @@ const programCreate = async (req, res) => {
 
     res.status(200).json({ success: true, program: newProgram })
   } catch (err) {
-    console.log(err)
+    logger.error(err)
     res.status(500).json({ success: false, program: {}, message: "There was an error. 🤬" })
   }
 }
