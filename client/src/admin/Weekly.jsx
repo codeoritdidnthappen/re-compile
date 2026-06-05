@@ -78,7 +78,7 @@ const Weekly = () => {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6">
+    <div className="max-w-screen-2xl mx-auto px-4 py-6">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl font-bold text-primary">Weekly Report</h1>
         <button className="btn btn-secondary btn-sm" onClick={downloadCSV}>Download CSV</button>
@@ -106,8 +106,8 @@ const Weekly = () => {
             <thead>
               <tr>
                 {fields.map((field) => (
-                  <th key={field} onClick={() => toggleSort(field)} className="cursor-pointer select-none">
-                    <span className="flex items-center gap-2">
+                  <th key={field} onClick={() => toggleSort(field)} className="cursor-pointer select-none whitespace-normal text-xs leading-tight">
+                    <span className="flex items-center gap-1">
                       <span className="capitalize">{field.replace(/([A-Z])/g, " $1")}</span>
                       {sortConfig.key === field && (
                         <span className="text-xs opacity-60">{sortConfig.direction === "asc" ? "▲" : "▼"}</span>
