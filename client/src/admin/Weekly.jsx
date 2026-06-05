@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react"
+import { Link } from "react-router"
 import report from "./data/weekly.data.json"
 
 const Weekly = () => {
@@ -63,49 +64,75 @@ const Weekly = () => {
     setCurrentWeekIndex((prev) => Math.min(weeks.length - 1, prev + 1))
   }
 
+  const downloadCSV = () => {
+    if (!sortedReport.length || !currentWeek) return
+    const headers = Object.keys(sortedReport[0])
+    const escape = (val) => `"${String(val ?? "").replace(/"/g, '""')}"`
+    const csv = [headers.join(","), ...sortedReport.map(row => headers.map(h => escape(row[h])).join(","))].join("\n")
+    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv" }))
+    const a = document.createElement("a")
+    a.href = url
+    a.download = `weekly-report-${currentWeek.startDate}-${currentWeek.endDate}.csv`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
   return (
-    <div className="mx-10 my-4">
-      <div className="flex justify-center">
-        <div className="mb-6">
-          <h1 className="text-3xl font-bold">Weekly Report</h1>
-          {/* <p className="text-sm text-base-content/70">Sort any column to inspect weekly state performance metrics.</p> */}
+    <div className="max-w-7xl mx-auto px-4 py-6">
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-3xl font-bold text-primary">Weekly Report</h1>
+        <button className="btn btn-secondary btn-sm" onClick={downloadCSV}>Download CSV</button>
+      </div>
+
+      <div className="flex items-center justify-center gap-4 mb-6">
+        <button className="btn btn-ghost btn-sm" onClick={goToPreviousWeek} disabled={currentWeekIndex === 0}>
+          <svg className="h-5 w-5 fill-current rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path></svg>
+        </button>
+        <span className="text-base font-semibold text-secondary">
+          {currentWeek ? `${currentWeek.startDate} – ${currentWeek.endDate}` : "No data"}
+        </span>
+        <button className="btn btn-ghost btn-sm" onClick={goToNextWeek} disabled={currentWeekIndex === weeks.length - 1}>
+          <svg className="h-5 w-5 fill-current rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path></svg>
+        </button>
+      </div>
+
+      <p className="text-sm text-base-content/60 mb-3">{sortedReport.length} row{sortedReport.length !== 1 ? "s" : ""}</p>
+
+      {sortedReport.length === 0 ? (
+        <div className="text-center py-20 text-base-content/50">No data for this week.</div>
+      ) : (
+        <div className="overflow-x-auto">
+          <table className="table table-zebra w-full">
+            <thead>
+              <tr>
+                {fields.map((field) => (
+                  <th key={field} onClick={() => toggleSort(field)} className="cursor-pointer select-none">
+                    <span className="flex items-center gap-2">
+                      <span className="capitalize">{field.replace(/([A-Z])/g, " $1")}</span>
+                      {sortConfig.key === field && (
+                        <span className="text-xs opacity-60">{sortConfig.direction === "asc" ? "▲" : "▼"}</span>
+                      )}
+                    </span>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {sortedReport.map((row, idx) => (
+                <tr key={idx} className="hover">
+                  {fields.map((field) => (
+                    <td key={field}>
+                      {field === "state"
+                        ? <Link to={`/admin/programs/${row[field]}`} className="link link-primary font-semibold">{row[field]}</Link>
+                        : row[field]}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
-      </div>
-
-      <div className="flex justify-center mb-5 mt-3" style={{ gap: "20px" }}>
-        <button onClick={goToPreviousWeek} disabled={currentWeekIndex === 0}>
-          <svg className="h-6 w-6 fill-current md:h-8 md:w-8 rtl:rotate-180 text-secondary cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path></svg>
-        </button>
-        <h2 className="text-lg text-primary">{currentWeek ? `${currentWeek.startDate} - ${currentWeek.endDate}` : "No data"}</h2>
-        <button onClick={goToNextWeek} disabled={currentWeekIndex === weeks.length - 1}>
-          <svg className="h-6 w-6 fill-current md:h-8 md:w-8 rtl:rotate-180 text-secondary cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path></svg>
-        </button>
-      </div>
-
-      <table>
-        <thead>
-          <tr>
-            {fields.map((field) => (
-              <th key={field} onClick={() => toggleSort(field)} className="cursor-pointer select-none text-secondary">
-                {/* {field} {sortConfig.key === field && (sortConfig.direction === "asc" ? "↑" : "↓")} */}
-                <span className="flex items-center gap-2">
-                    <span className="capitalize">{field.replace(/([A-Z])/g, " $1")}</span>
-                    {sortConfig.key === field && (
-                      <span className="text-sm opacity-70">{sortConfig.direction === "asc" ? "▲" : "▼"}</span>
-                    )}
-                  </span>
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {sortedReport.map((row, idx) => (
-            <tr key={idx}>
-              {fields.map((field) => <td key={field} className="text-primary text-center">{row[field]}</td>)}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      )}
     </div>
   )
 }
