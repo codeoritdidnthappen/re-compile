@@ -59,7 +59,7 @@ const CaseManager90Days = () => {
     <div className="mt-10 max-w-2xl w-full mx-auto px-4 sm:px-6 lg:px-8">
       <ul className="list rounded-box shadow-md gap-1">
         {students.map((student) => {
-          const daysRemaining = Math.round((new Date(student.incarceration[0].releaseDate) - new Date()) / (1000 * 60 * 60 * 24))
+          const daysRemaining = Math.round((new Date(student.incarceration.releaseDate) - new Date()) / (1000 * 60 * 60 * 24))
           return (
             <li key={student.docId} className={`list-row ${daysRemaining < 91 ? "border-2 border-success bg-base-100" : "bg-base-200"}`}>
               <Link to={`/admin/students/${student.id}`} className="flex w-full items-center gap-3 hover:opacity-80">
@@ -67,8 +67,8 @@ const CaseManager90Days = () => {
                 <div className="flex-1">
                   <div className="text-lg font-bold text-primary">{student.firstName} {student.lastName} #{student.docId}</div>
                   <div className="text-sm font-semibold">Site: {student.location.site}</div>
-                  <div className="text-sm font-semibold">Release Date: {new Date(student.incarceration[0].releaseDate).toISOString().split('T')[0]}</div>
-                  <div className="text-sm font-semibold">Cohort: {student.classesTaken[0].cohort}</div>
+                  <div className="text-sm font-semibold">Release Date: {new Date(student.incarceration.releaseDate).toISOString().split('T')[0]}</div>
+                  <div className="text-sm font-semibold">Cohort: {student.classes[0].cohort}</div>
                 </div>
                 <div>
                   <div className="text-center text-md">Days until release:</div>
