@@ -3,6 +3,7 @@ import userService from './userService'
 
 const initialState = {
   loading: false,
+  registerSuccess: false,
   user: {
     userId: 0,
     firstName: "",
@@ -26,6 +27,11 @@ export const getAllUsers = createAsyncThunk("user/getAllUsers", async ({ token }
   return response.data
 })
 
+export const createUser = createAsyncThunk("user/createUser", async (userData) => {
+  const response = await userService.createUser(userData)
+  return response.data
+})
+
 const userSlice = createSlice({
   name: "users",
   initialState,
@@ -42,10 +48,19 @@ const userSlice = createSlice({
       })
       .addCase(getAllUsers.rejected, (state, action) => {
         state.loading = false
-        // Handle error state
       })
 
-
+      // Create user
+      .addCase(createUser.pending, (state) => {
+        state.loading = true
+      })
+      .addCase(createUser.fulfilled, (state) => {
+        state.loading = false
+        state.registerSuccess = true
+      })
+      .addCase(createUser.rejected, (state) => {
+        state.loading = false
+      })
   },
 })
 

@@ -1,3 +1,4 @@
+import * as argon2 from "argon2"
 import userModel from "./userModel.js"
 import logger from "../logger.js"
 
@@ -14,8 +15,8 @@ const userCreate = async (req, res) => {
 
   try {
     // Create user
-    // TODO: encrypt password with argon2
-    const newUser = await userModel.create({ firstName, lastName, email, username, avatar, password, roles, authStrategy: "local", tokens: [] })
+    const hashedPassword = await argon2.hash(password)
+    const newUser = await userModel.create({ firstName, lastName, email, username, avatar, password: hashedPassword, roles, authStrategy: "local", tokens: [] })
     res.status(200).json({ success: true, user: newUser })
   }
   catch (err) {

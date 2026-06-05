@@ -73,7 +73,7 @@ const Login = () => {
           </p>
         </div>
 
-        <div className="card bg-base-100 w-full w-sm shrink-0 shadow-2xl">
+        <div className="card bg-base-100 w-full w-sm shrink-0 shadow-lg">
           <div className="card-body">
             <h2 className="text-2xl font-bold text-primary mb-3">Login</h2>
             <form onSubmit={handleSubmit} noValidate>
