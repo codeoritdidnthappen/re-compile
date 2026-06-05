@@ -37,6 +37,14 @@ const Dashboard = () => {
               <Link to="/admin/grants">
                 <FundingCard />
               </Link>
+              <Link to="/admin/students">
+                <div className="card bg-secondary text-secondary-content w-80 h-80 border-2 border-secondary hover:border-accent">
+                  <div className="card-body">
+                    <h2 className="card-title mx-auto">Students</h2>
+                    <p>Manage students</p>
+                  </div>
+                </div>
+              </Link>
             </div>
           </>
         )}

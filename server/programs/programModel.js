@@ -3,8 +3,9 @@ import programSchema from "./programSchema.js"
 
 programSchema.set("toJSON", {
   transform: (doc, ret, options) => {
+    ret.id = ret._id
     delete ret._id
-    delete ret._v
+    delete ret.__v
   }
 })
 

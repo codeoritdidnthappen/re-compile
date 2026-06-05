@@ -22,10 +22,6 @@ const StudentProgramState = () => {
       dispatch(getProgram({ token, stateName }))
     }
   }, [stateName])
-  
-  useEffect(() => {
-    console.log("currentState", currentState)
-  }, [currentState])
 
   const convertStateToAbbreviation = (stateName) => {
   const name = stateName.trim().toUpperCase()

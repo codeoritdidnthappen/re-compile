@@ -20,6 +20,10 @@ import StudentDetail from "./admin/StudentDetail"
 import StudentEdit from "./admin/StudentEdit"
 import GrantList from "./admin/GrantList"
 import GrantDetail from "./admin/GrantDetail"
+import ProgramList from "./admin/ProgramList"
+import ProgramDetail from "./admin/ProgramDetail"
+import ProgramEdit from "./admin/ProgramEdit"
+import ProgramAdd from "./admin/ProgramAdd"
 
 function App() {
   const dispatch = useDispatch()
@@ -64,6 +68,10 @@ function App() {
           <Route path="students/:id/edit" element={<StudentEdit />} />
           <Route path="grants" element={<GrantList />} />
           <Route path="grants/:id" element={<GrantDetail />} />
+          <Route path="program-list" element={<ProgramList />} />
+          <Route path="program-list/add" element={<ProgramAdd />} />
+          <Route path="program-list/:id" element={<ProgramDetail />} />
+          <Route path="program-list/:id/edit" element={<ProgramEdit />} />
         </Route>
         <Route path="*" element={<NoMatch />} />
       </Routes>

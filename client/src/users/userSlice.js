@@ -34,16 +34,13 @@ const userSlice = createSlice({
     builder
       // Get all users
       .addCase(getAllUsers.pending, (state, action) => {
-        // console.log("getAllUsers.pending")
         state.loading = true
       })
       .addCase(getAllUsers.fulfilled, (state, action) => {
-        // console.log("getAllUsers.fulfilled")
         state.loading = false
         state.users = action.payload.users
       })
       .addCase(getAllUsers.rejected, (state, action) => {
-        // console.log("getAllUsers.rejected")
         state.loading = false
         // Handle error state
       })

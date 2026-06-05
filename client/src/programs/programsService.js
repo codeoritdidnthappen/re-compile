@@ -14,6 +14,33 @@ const programsService = {
       { headers: { Authorization: `Bearer ${token}` } }
     )
   },
+  getProgramById: async (token, id) => {
+    return await axios.get(
+      `${server}/program/id/${id}`,
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
+  },
+  createProgram: async (token, programData) => {
+    return await axios.post(
+      `${server}/program`,
+      programData,
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
+  },
+  updateProgram: async (token, id, programData) => {
+    return await axios.put(
+      `${server}/program/${id}`,
+      programData,
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
+  },
+  archiveProgram: async (token, id) => {
+    return await axios.put(
+      `${server}/program/${id}/archive`,
+      {},
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
+  },
   getCompletedCount: async (token, { state, site } = {}) => {
     const segments = [state, site].filter(Boolean)
     const path = segments.length ? `/${segments.join("/")}` : ""

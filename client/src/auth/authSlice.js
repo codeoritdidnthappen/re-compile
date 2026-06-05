@@ -69,46 +69,38 @@ const authSlice = createSlice({
     builder
       // Login
       .addCase(login.pending, (state, action) => {
-        // console.log("login.pending")
         state.loading = true
       })
       .addCase(login.fulfilled, (state, action) => {
-        // console.log("login.fulfilled")
         state.user = action.payload.user
         state.isLoggedIn = true
         localStorage.setItem("token", action.payload.token)
         state.loading = false
       })
       .addCase(login.rejected, (state, action) => {
-        // console.log("login.rejected")
         state.loading = false
         // Handle error state
       })
 
       // Me (verify logged in user)
       .addCase(me.pending, (state, action) => {
-        // console.log("me.pending")
         state.loading = true
       })
       .addCase(me.fulfilled, (state, action) => {
-        // console.log("me.fulfilled")
         state.user = action.payload.user
         state.isLoggedIn = true
         state.loading = false
       })
       .addCase(me.rejected, (state, action) => {
-        // console.log("me.rejected")
         state.loading = false
         // Handle error state
       })
 
       // Logout
       .addCase(logout.pending, (state, action) => {
-        // console.log("logout.pending")
         state.loading = true
       })
       .addCase(logout.fulfilled, (state, action) => {
-        // console.log("logout.fulfilled")
         state.loading = false
         state.isLoggedIn = false
         state.user = { id: "", firstName: "", lastName: "", email: "", username: "", password: "", roles: [], tokens: [] }
@@ -116,23 +108,19 @@ const authSlice = createSlice({
         localStorage.removeItem("location")
       })
       .addCase(logout.rejected, (state, action) => {
-        console.log("logout.rejected")
         state.loading = false
         // Handle error state
       })
 
       // Update (cart)
       .addCase(update.pending, (state, action) => {
-        // console.log("update.pending")
         state.loading = true
       })
       .addCase(update.fulfilled, (state, action) => {
-        // console.log("update.fulfilled")
         state.user = action.payload.user
         state.loading = false
       })
       .addCase(update.rejected, (state, action) => {
-        console.log("update.rejected", action.error)
         state.loading = false
         // Handle error state
       })

@@ -50,7 +50,7 @@ const StudentList = () => {
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl font-bold text-primary">Students</h1>
         <div className="flex gap-2">
-          <Link to="/admin/students/add" className="btn btn-primary btn-sm">+ Add Student</Link>
+          <Link to="/admin/students/add" className="btn btn-secondary btn-sm">+ Add Student</Link>
           <Link to="/admin/dashboard" className="btn btn-ghost btn-sm">← Dashboard</Link>
         </div>
       </div>
@@ -58,7 +58,7 @@ const StudentList = () => {
       {/* Filters */}
       <div className="flex flex-wrap gap-3 mb-6 items-end">
         <div className="form-control">
-          <label className="label pb-1"><span className="label-text text-xs font-semibold">State</span></label>
+          <label className="label pr-2"><span className="label-text text-sm font-semibold text-secondary">State</span></label>
           <select
             className="select select-bordered select-sm w-40"
             value={filterState}
@@ -70,7 +70,7 @@ const StudentList = () => {
         </div>
 
         <div className="form-control">
-          <label className="label pb-1"><span className="label-text text-xs font-semibold">Site</span></label>
+          <label className="label pr-2"><span className="label-text text-sm font-semibold text-secondary">Site</span></label>
           <select
             className="select select-bordered select-sm w-48"
             value={filterSite}
@@ -82,7 +82,7 @@ const StudentList = () => {
         </div>
 
         <div className="form-control">
-          <label className="label pb-1"><span className="label-text text-xs font-semibold">Last Name</span></label>
+          <label className="label pr-2"><span className="label-text text-sm font-semibold text-secondary">Last Name</span></label>
           <input
             type="text"
             className="input input-bordered input-sm w-44"

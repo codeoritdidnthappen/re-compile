@@ -76,12 +76,10 @@ const studentSlice = createSlice({
         state.loading = true
       })
       .addCase(getStudents90Day.fulfilled, (state, action) => {
-        console.log("getStudents90Day.fulfilled", action.payload)
         state.sites = action.payload.sites
         state.loading = false
       })
       .addCase(getStudents90Day.rejected, (state, action) => {
-        console.log("getStudents90Day.rejected", action.error)
         state.loading = false
       })
 
@@ -94,7 +92,6 @@ const studentSlice = createSlice({
         state.loading = false
       })
       .addCase(getStudentsCaseManager.rejected, (state, action) => {
-        console.log("getStudentsCaseManager.rejected", action.error)
         state.loading = false
       })
 
@@ -107,7 +104,6 @@ const studentSlice = createSlice({
         state.loading = false
       })
       .addCase(getStudentById.rejected, (state, action) => {
-        console.log("getStudentById.rejected", action.error)
         state.loading = false
       })
 
@@ -116,12 +112,10 @@ const studentSlice = createSlice({
         state.loading = true
       })
       .addCase(getDaysToJob.fulfilled, (state, action) => {
-        console.log("getDaysToJob.fulfilled", action.payload)
         state.daysToJobAvg = parseInt(action.payload.averageDays)
         state.loading = false
       })
       .addCase(getDaysToJob.rejected, (state, action) => {
-        console.log("getDaysToJob.rejected", action.error)
         state.loading = false
       })
 
@@ -134,7 +128,6 @@ const studentSlice = createSlice({
         state.loading = false
       })
       .addCase(createStudent.rejected, (state, action) => {
-        console.log("createStudent.rejected", action.error)
         state.loading = false
       })
 
@@ -147,7 +140,6 @@ const studentSlice = createSlice({
         state.loading = false
       })
       .addCase(updateStudent.rejected, (state, action) => {
-        console.log("updateStudent.rejected", action.error)
         state.loading = false
       })
 
@@ -160,7 +152,6 @@ const studentSlice = createSlice({
         state.loading = false
       })
       .addCase(archiveStudent.rejected, (state, action) => {
-        console.log("archiveStudent.rejected", action.error)
         state.loading = false
       })
   },

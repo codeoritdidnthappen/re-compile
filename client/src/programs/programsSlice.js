@@ -4,6 +4,7 @@ import programsService from './programsService'
 const initialState = {
   loading: false,
   programs: [],
+  currentProgram: null,
   program: null,
   completedCount: null,
   acceptedCount: null,
@@ -17,6 +18,26 @@ export const getPrograms = createAsyncThunk("programs/getPrograms", async ({ tok
 
 export const getProgram = createAsyncThunk("programs/getProgram", async ({ token, stateName }) => {
   const response = await programsService.getProgram(token, stateName)
+  return response.data
+})
+
+export const getProgramById = createAsyncThunk("programs/getProgramById", async ({ token, id }) => {
+  const response = await programsService.getProgramById(token, id)
+  return response.data
+})
+
+export const createProgram = createAsyncThunk("programs/createProgram", async ({ token, programData }) => {
+  const response = await programsService.createProgram(token, programData)
+  return response.data
+})
+
+export const updateProgram = createAsyncThunk("programs/updateProgram", async ({ token, id, programData }) => {
+  const response = await programsService.updateProgram(token, id, programData)
+  return response.data
+})
+
+export const archiveProgram = createAsyncThunk("programs/archiveProgram", async ({ token, id }) => {
+  const response = await programsService.archiveProgram(token, id)
   return response.data
 })
 
@@ -41,63 +62,84 @@ const programsSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(getPrograms.pending, (state) => {
-        state.loading = true
-      })
+      .addCase(getPrograms.pending, (state) => { state.loading = true })
       .addCase(getPrograms.fulfilled, (state, action) => {
         state.programs = action.payload.programs
         state.loading = false
       })
       .addCase(getPrograms.rejected, (state, action) => {
-        console.log("getPrograms.rejected", action.error)
         state.loading = false
       })
 
-      .addCase(getProgram.pending, (state) => {
-        state.loading = true
-      })
+      .addCase(getProgram.pending, (state) => { state.loading = true })
       .addCase(getProgram.fulfilled, (state, action) => {
         state.program = action.payload.program
         state.loading = false
       })
       .addCase(getProgram.rejected, (state, action) => {
-        console.log("getProgram.rejected", action.error)
         state.loading = false
       })
 
-      .addCase(getCompletedCount.pending, (state) => {
-        state.loading = true
+      .addCase(getProgramById.pending, (state) => { state.loading = true })
+      .addCase(getProgramById.fulfilled, (state, action) => {
+        state.currentProgram = action.payload.program
+        state.loading = false
       })
+      .addCase(getProgramById.rejected, (state, action) => {
+        state.loading = false
+      })
+
+      .addCase(createProgram.pending, (state) => { state.loading = true })
+      .addCase(createProgram.fulfilled, (state, action) => {
+        state.currentProgram = action.payload.program
+        state.loading = false
+      })
+      .addCase(createProgram.rejected, (state, action) => {
+        state.loading = false
+      })
+
+      .addCase(updateProgram.pending, (state) => { state.loading = true })
+      .addCase(updateProgram.fulfilled, (state, action) => {
+        state.currentProgram = action.payload.program
+        state.loading = false
+      })
+      .addCase(updateProgram.rejected, (state, action) => {
+        state.loading = false
+      })
+
+      .addCase(archiveProgram.pending, (state) => { state.loading = true })
+      .addCase(archiveProgram.fulfilled, (state, action) => {
+        state.currentProgram = action.payload.program
+        state.loading = false
+      })
+      .addCase(archiveProgram.rejected, (state, action) => {
+        state.loading = false
+      })
+
+      .addCase(getCompletedCount.pending, (state) => { state.loading = true })
       .addCase(getCompletedCount.fulfilled, (state, action) => {
         state.completedCount = action.payload.count[0].count
         state.loading = false
       })
       .addCase(getCompletedCount.rejected, (state, action) => {
-        console.log("getCompletedCount.rejected", action.error)
         state.loading = false
       })
 
-      .addCase(getAcceptedCount.pending, (state) => {
-        state.loading = true
-      })
+      .addCase(getAcceptedCount.pending, (state) => { state.loading = true })
       .addCase(getAcceptedCount.fulfilled, (state, action) => {
         state.acceptedCount = action.payload.count[0].count
         state.loading = false
       })
       .addCase(getAcceptedCount.rejected, (state, action) => {
-        console.log("getAcceptedCount.rejected", action.error)
         state.loading = false
       })
 
-      .addCase(getJobsCount.pending, (state) => {
-        state.loading = true
-      })
+      .addCase(getJobsCount.pending, (state) => { state.loading = true })
       .addCase(getJobsCount.fulfilled, (state, action) => {
         state.jobsCount = action.payload.count[0]?.count ?? 0
         state.loading = false
       })
       .addCase(getJobsCount.rejected, (state, action) => {
-        console.log("getJobsCount.rejected", action.error)
         state.loading = false
       })
   },

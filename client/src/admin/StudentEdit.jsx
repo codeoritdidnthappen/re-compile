@@ -5,6 +5,13 @@ import { getStudentById, updateStudent, archiveStudent } from "../students/stude
 
 const fmt = (d) => d ? new Date(d).toISOString().split("T")[0] : ""
 
+const Field = ({ label, children }) => (
+  <div className="flex flex-col gap-1">
+    <span className="text-sm font-semibold">{label}</span>
+    {children}
+  </div>
+)
+
 const StudentEdit = () => {
   const { id } = useParams()
   const dispatch = useDispatch()
@@ -135,28 +142,23 @@ const StudentEdit = () => {
           <div className="card-body">
             <h2 className="card-title text-primary">Basic Information</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">DOC ID</span></label>
+              <Field label="DOC ID">
                 <input className="input input-bordered" value={form.docId} onChange={(e) => set("docId", e.target.value)} placeholder="DOC ID" />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Teaching Assistant</span></label>
-                <label className="flex items-center gap-2 mt-3 cursor-pointer">
-                  <input type="checkbox" className="checkbox" checked={form.teachingAssistant} onChange={(e) => set("teachingAssistant", e.target.checked)} />
-                  <span className="text-sm">Yes, this student is a TA</span>
-                </label>
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">First Name</span></label>
+              </Field>
+              <Field label="First Name">
                 <input className="input input-bordered" value={form.firstName} onChange={(e) => set("firstName", e.target.value)} placeholder="First name" required />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Middle Initial</span></label>
+              </Field>
+              <Field label="Middle Initial">
                 <input className="input input-bordered w-24" value={form.middleInitial} onChange={(e) => set("middleInitial", e.target.value)} placeholder="M.I." maxLength={1} />
-              </div>
-              <div className="form-control sm:col-span-2">
-                <label className="label"><span className="label-text font-semibold">Last Name</span></label>
+              </Field>
+              <Field label="Last Name">
                 <input className="input input-bordered" value={form.lastName} onChange={(e) => set("lastName", e.target.value)} placeholder="Last name" required />
+              </Field>
+              <div className="sm:col-span-2">
+                <label className="flex items-center gap-2 cursor-pointer">
+                  <input type="checkbox" className="checkbox" checked={form.teachingAssistant} onChange={(e) => set("teachingAssistant", e.target.checked)} />
+                  <span className="text-sm font-semibold">Teaching Assistant</span>
+                </label>
               </div>
             </div>
           </div>
@@ -167,22 +169,18 @@ const StudentEdit = () => {
           <div className="card-body">
             <h2 className="card-title text-primary">Location</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">State</span></label>
+              <Field label="State">
                 <input className="input input-bordered" value={form.location.state} onChange={(e) => set("location.state", e.target.value)} placeholder="State" />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Site</span></label>
+              </Field>
+              <Field label="Site">
                 <input className="input input-bordered" value={form.location.site} onChange={(e) => set("location.site", e.target.value)} placeholder="Site / facility name" />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Unit</span></label>
+              </Field>
+              <Field label="Unit">
                 <input className="input input-bordered" value={form.location.unit} onChange={(e) => set("location.unit", e.target.value)} placeholder="Unit" />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Address</span></label>
+              </Field>
+              <Field label="Address">
                 <input className="input input-bordered" value={form.location.address} onChange={(e) => set("location.address", e.target.value)} placeholder="Mailing address" />
-              </div>
+              </Field>
             </div>
           </div>
         </div>
@@ -192,25 +190,22 @@ const StudentEdit = () => {
           <div className="card-body">
             <h2 className="card-title text-primary">Incarceration</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Sentence Date</span></label>
+              <Field label="Sentence Date">
                 <input type="date" className="input input-bordered" value={form.incarceration.sentenceDate} onChange={(e) => set("incarceration.sentenceDate", e.target.value)} />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Intake Date</span></label>
+              </Field>
+              <Field label="Intake Date">
                 <input type="date" className="input input-bordered" value={form.incarceration.intakeDate} onChange={(e) => set("incarceration.intakeDate", e.target.value)} />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Release Date</span></label>
+              </Field>
+              <Field label="Release Date">
                 <input type="date" className="input input-bordered" value={form.incarceration.releaseDate} onChange={(e) => set("incarceration.releaseDate", e.target.value)} />
-              </div>
+              </Field>
             </div>
-            <div className="form-control mt-2">
-              <label className="label"><span className="label-text font-semibold">Charges <span className="font-normal opacity-60">(comma-separated)</span></span></label>
+            <div className="flex flex-col gap-1 mt-2">
+              <span className="text-sm font-semibold">Charges <span className="font-normal opacity-60">(comma-separated)</span></span>
               <textarea className="textarea textarea-bordered" rows={2} value={form.incarceration.charges} onChange={(e) => set("incarceration.charges", e.target.value)} placeholder="e.g. Possession, Distribution" />
             </div>
-            <div className="form-control mt-2">
-              <label className="label"><span className="label-text font-semibold">Photo Link</span></label>
+            <div className="flex flex-col gap-1 mt-2">
+              <span className="text-sm font-semibold">Photo Link</span>
               <input className="input input-bordered" value={form.incarceration.photoLink} onChange={(e) => set("incarceration.photoLink", e.target.value)} placeholder="Photo URL" />
             </div>
           </div>
@@ -220,32 +215,31 @@ const StudentEdit = () => {
         <div className="card bg-base-200">
           <div className="card-body">
             <h2 className="card-title text-primary">Release Planning</h2>
-            <div className="form-control">
-              <label className="label"><span className="label-text font-semibold">Case Manager</span></label>
+            <Field label="Case Manager">
               <input className="input input-bordered" value={form.releaseData.caseManager} onChange={(e) => set("releaseData.caseManager", e.target.value)} placeholder="Case manager name" />
-            </div>
+            </Field>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-              <div>
-                <label className="flex items-center gap-2 cursor-pointer mb-2">
+              <div className="flex flex-col gap-2">
+                <label className="flex items-center gap-2 cursor-pointer">
                   <input type="checkbox" className="checkbox" checked={form.releaseData.receivedLaptop} onChange={(e) => set("releaseData.receivedLaptop", e.target.checked)} />
-                  <span className="font-semibold text-sm">Received Laptop</span>
+                  <span className="text-sm font-semibold">Received Laptop</span>
                 </label>
                 {form.releaseData.receivedLaptop && (
-                  <input className="input input-bordered input-sm w-full" value={form.releaseData.laptopDetails} onChange={(e) => set("releaseData.laptopDetails", e.target.value)} placeholder="Laptop details" />
+                  <input className="input input-bordered input-sm" value={form.releaseData.laptopDetails} onChange={(e) => set("releaseData.laptopDetails", e.target.value)} placeholder="Laptop details" />
                 )}
               </div>
-              <div>
-                <label className="flex items-center gap-2 cursor-pointer mb-2">
+              <div className="flex flex-col gap-2">
+                <label className="flex items-center gap-2 cursor-pointer">
                   <input type="checkbox" className="checkbox" checked={form.releaseData.receivedPhone} onChange={(e) => set("releaseData.receivedPhone", e.target.checked)} />
-                  <span className="font-semibold text-sm">Received Phone</span>
+                  <span className="text-sm font-semibold">Received Phone</span>
                 </label>
                 {form.releaseData.receivedPhone && (
-                  <input className="input input-bordered input-sm w-full" value={form.releaseData.phoneDetails} onChange={(e) => set("releaseData.phoneDetails", e.target.value)} placeholder="Phone details" />
+                  <input className="input input-bordered input-sm" value={form.releaseData.phoneDetails} onChange={(e) => set("releaseData.phoneDetails", e.target.value)} placeholder="Phone details" />
                 )}
               </div>
             </div>
-            <div className="form-control mt-2">
-              <label className="label"><span className="label-text font-semibold">Re-entry Services <span className="font-normal opacity-60">(comma-separated)</span></span></label>
+            <div className="flex flex-col gap-1 mt-2">
+              <span className="text-sm font-semibold">Re-entry Services <span className="font-normal opacity-60">(comma-separated)</span></span>
               <textarea className="textarea textarea-bordered" rows={2} value={form.releaseData.reentryServices} onChange={(e) => set("releaseData.reentryServices", e.target.value)} placeholder="e.g. Housing, Employment assistance" />
             </div>
           </div>
@@ -256,29 +250,24 @@ const StudentEdit = () => {
           <div className="card-body">
             <h2 className="card-title text-primary">Digital Presence</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">LinkedIn</span></label>
+              <Field label="LinkedIn">
                 <input className="input input-bordered" value={form.links.linkedin} onChange={(e) => set("links.linkedin", e.target.value)} placeholder="https://linkedin.com/in/…" />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">GitHub</span></label>
+              </Field>
+              <Field label="GitHub">
                 <input className="input input-bordered" value={form.links.github} onChange={(e) => set("links.github", e.target.value)} placeholder="https://github.com/…" />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Resume</span></label>
+              </Field>
+              <Field label="Resume">
                 <input className="input input-bordered" value={form.links.resume} onChange={(e) => set("links.resume", e.target.value)} placeholder="Resume URL" />
-              </div>
-              <div className="form-control">
-                <label className="label"><span className="label-text font-semibold">Portfolio</span></label>
+              </Field>
+              <Field label="Portfolio">
                 <input className="input input-bordered" value={form.links.portfolio} onChange={(e) => set("links.portfolio", e.target.value)} placeholder="Portfolio URL" />
-              </div>
+              </Field>
             </div>
           </div>
         </div>
 
         {/* Actions */}
         <div className="flex gap-3 justify-between pb-8">
-          {/* Archive */}
           <div>
             {!archiveConfirm ? (
               <button

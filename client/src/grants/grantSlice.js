@@ -31,7 +31,7 @@ const grantSlice = createSlice({
         state.loading = false
       })
       .addCase(getAllGrants.rejected, (state, action) => {
-        console.log("getAllGrants.rejected", action.error)
+        // console.log("getAllGrants.rejected", action.error)
         state.loading = false
       })
 
@@ -43,7 +43,7 @@ const grantSlice = createSlice({
         state.loading = false
       })
       .addCase(getGrantById.rejected, (state, action) => {
-        console.log("getGrantById.rejected", action.error)
+        // console.log("getGrantById.rejected", action.error)
         state.loading = false
       })
   },

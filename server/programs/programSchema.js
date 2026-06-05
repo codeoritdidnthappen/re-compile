@@ -13,7 +13,8 @@ const programSchema = new Schema({
     retention: Number,
     attendance: Number,
     jobs: Number,
-    techJobs: Number
+    techJobs: Number,
+    archived: { type: Boolean, default: false }
 })
 
 export default programSchema
