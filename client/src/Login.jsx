@@ -73,9 +73,9 @@ const Login = () => {
           </p>
         </div>
 
-        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+        <div className="card bg-base-100 w-full w-sm shrink-0 shadow-2xl">
           <div className="card-body">
-            <h2 className="text-2xl font-bold text-primary">Login</h2>
+            <h2 className="text-2xl font-bold text-primary mb-3">Login</h2>
             <form onSubmit={handleSubmit} noValidate>
               <div className="form-control">
                 <label className="label">
@@ -90,14 +90,16 @@ const Login = () => {
                   placeholder="Email"
                   aria-invalid={touched.email && !validateEmail(loginForm.email)}
                 />
-                {touched.email && !validateEmail(loginForm.email) && (
+              </div>
+                {touched.email && !validateEmail(loginForm.email) ? (
                   <label className="label">
                     <span className="label-text-alt text-error">Enter a valid email address.</span>
                   </label>
-                )}
-              </div>
+                  ) : (
+                    <label className="label min-h-5">&nbsp;</label>
+                  )}
 
-              <div className="form-control mt-4">
+              <div className="form-control mt-1">
                 <label className="label">
                   <span className="label-text">Password</span>
                 </label>
@@ -110,14 +112,16 @@ const Login = () => {
                   placeholder="Password"
                   aria-invalid={touched.password && !validatePassword(loginForm.password)}
                 />
-                {touched.password && !validatePassword(loginForm.password) && (
-                  <label className="label">
-                    <span className="label-text-alt text-error">Password must be at least 8 characters.</span>
-                  </label>
-                )}
               </div>
+                {touched.password && !validatePassword(loginForm.password) ? (
+                    <label className="label">
+                      <span className="label-text-alt text-error">Password must be at least 8 characters.</span>
+                    </label>
+                  ) : (
+                    <label className="label min-h-5">&nbsp;</label>
+                  )}
 
-              <div className="form-control mt-4">
+              <div className="form-control mt-2">
                 <button
                   type="submit"
                   className="btn btn-primary"
