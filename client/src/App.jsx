@@ -6,6 +6,7 @@ import PrivateRoute from "./PrivateRoute"
 import Navbar from "./Navbar"
 import Home from "./Home"
 import Login from "./Login"
+import Signup from "./Signup"
 import Dashboard from "./admin/Dashboard"
 import USStudentProgramMap from "./admin/USStudentProgramMap"
 import StudentProgramState from "./admin/StudentProgramState"
@@ -55,6 +56,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/admin" element={<PrivateRoute />}>
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="programs" element={<USStudentProgramMap />} />

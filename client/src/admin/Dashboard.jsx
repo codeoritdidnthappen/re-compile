@@ -13,11 +13,11 @@ import DaysToJob from "./DaysToJob"
 import LaptopsGivenCard from "./LaptopsGivenCard"
 
 const Dashboard = () => {
-  const { user } = useSelector((state) => state.auth)
+  const { user, currentRole } = useSelector((state) => state.auth)
 
   return (
     <div className="m-6">
-        {user?.roles?.includes("Admin") && (
+        {currentRole === "Admin" && (
           <>
             <div className="flex flex-row gap-6 mb-6 justify-center">
               <CompletedCard />
@@ -42,7 +42,7 @@ const Dashboard = () => {
           </>
         )}
 
-        {user?.roles?.includes("Case Manager") && (
+        {currentRole === "Case Manager" && (
           <>
             <div className="flex flex-row gap-6 mb-6 justify-center">
               <CompletedCard />
