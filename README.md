@@ -2,9 +2,9 @@
 
 ## Origin
 
-I gave myself the constraints to complete this project in a week and coding not at all or as little as possible, essentially treating it as what I might build during the [Gauntlet AI](https://gauntletai.com/){:target=_blank} bootcamp. I started with a high level plan, and quickly found a groove with concise but specific prompts and agents to move quickly and focus more and more on features. What I found was that I was able to build a lot more than I originally imagined.
+I gave myself the constraints to complete this project in a week and coding not at all or as little as possible, essentially treating it as what I might build during the [Gauntlet AI](https://gauntletai.com/) bootcamp. I started with a high level plan, and quickly found a groove with concise but specific prompts and agents to move quickly and focus more and more on features. What I found was that I was able to build a lot more than I originally imagined.
 
-I wanted to build an application for a non-profit I used to work with because they had no tooling or data and I wanted to show what is possible with a basic corporate approach of databases instead of spreadsheets. Using <a href="[url](https://claude.com/product/claude-code)" target="_blank">Claude Code</a> [Claude Code](https://claude.com/product/claude-code){:target=_blank} I was able to build out a fully functional MVP that actually would work for real world use. While that non-profit has shut down operations, I am inspired by what I was able to do in such a short amount of time with AI. I am grateful to Gauntlet AI for the inspiration and I am excited to apply for their bootcamp.
+I wanted to build an application for a non-profit I used to work with because they had no tooling or data and I wanted to show what is possible with a basic corporate approach of databases instead of spreadsheets. Using [Claude Code](https://claude.com/product/claude-code) I was able to build out a fully functional MVP that actually would work for real world use. While that non-profit has shut down operations, I am inspired by what I was able to do in such a short amount of time with AI. I am grateful to Gauntlet AI for the inspiration and I am excited to apply for their bootcamp.
 
 ## The Application
 
