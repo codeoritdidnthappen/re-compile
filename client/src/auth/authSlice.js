@@ -4,6 +4,7 @@ import authService from './authService'
 const initialState = {
   loading: true,
   isLoggedIn: false,
+  currentRole: "",
   user: {
     id: "",
     firstName: "",  
@@ -63,7 +64,11 @@ const authSlice = createSlice({
     },
     setCheckoutForm(state, action) {
       state.user.checkout = action.payload.checkout
-    }
+    },
+    setCurrentRole(state, action) {
+      state.currentRole = action.payload
+      localStorage.setItem("currentRole", action.payload)
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -74,7 +79,10 @@ const authSlice = createSlice({
       .addCase(login.fulfilled, (state, action) => {
         state.user = action.payload.user
         state.isLoggedIn = true
+        const defaultRole = action.payload.user.roles[0] ?? ""
+        state.currentRole = defaultRole
         localStorage.setItem("token", action.payload.token)
+        localStorage.setItem("currentRole", defaultRole)
         state.loading = false
       })
       .addCase(login.rejected, (state, action) => {
@@ -89,6 +97,7 @@ const authSlice = createSlice({
       .addCase(me.fulfilled, (state, action) => {
         state.user = action.payload.user
         state.isLoggedIn = true
+        state.currentRole = localStorage.getItem("currentRole") || action.payload.user.roles[0] || ""
         state.loading = false
       })
       .addCase(me.rejected, (state, action) => {
@@ -103,9 +112,11 @@ const authSlice = createSlice({
       .addCase(logout.fulfilled, (state, action) => {
         state.loading = false
         state.isLoggedIn = false
+        state.currentRole = ""
         state.user = { id: "", firstName: "", lastName: "", email: "", username: "", password: "", roles: [], tokens: [] }
         localStorage.removeItem("token")
         localStorage.removeItem("location")
+        localStorage.removeItem("currentRole")
       })
       .addCase(logout.rejected, (state, action) => {
         state.loading = false
@@ -128,5 +139,5 @@ const authSlice = createSlice({
   },
 })
 
-export const { setLoading, setTheme, setCheckoutForm } = authSlice.actions
+export const { setLoading, setTheme, setCheckoutForm, setCurrentRole } = authSlice.actions
 export default authSlice.reducer

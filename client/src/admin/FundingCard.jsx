@@ -26,11 +26,11 @@ const FundingCard = () => {
         <div className="bg-base-100 border border-primary rounded-3xl shadow-2xl overflow-hidden px-5 py-4 w-68 h-59.5 flex flex-col justify-center space-y-4">
           <div className="flex justify-between items-center">
             <span className="text-sm text-primary font-medium">Active Grants</span>
-            <span className="text-2xl font-bold text-neutral">{activeGrants.length}</span>
+            <span className="text-2xl font-bold text-base-content">{activeGrants.length}</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="text-sm text-primary font-medium">Total Funding</span>
-            <span className="text-2xl font-bold text-neutral">${totalFunding.toLocaleString()}</span>
+            <span className="text-2xl font-bold text-base-content">${totalFunding.toLocaleString()}</span>
           </div>
           {expiringSoon.length > 0 && (
             <div className="flex justify-between items-center">
