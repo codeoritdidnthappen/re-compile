@@ -195,9 +195,11 @@ const StudentProgramState = () => {
                       </div>
 
                       <div className="card-actions justify-end mt-4">
-                        <button className="btn btn-primary btn-sm">
-                          View Prison
-                        </button>
+                        <Link to="/admin/students/add">
+                          <button className="btn btn-primary btn-sm">
+                            Add Student
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

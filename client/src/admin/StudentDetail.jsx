@@ -44,11 +44,14 @@ const StudentDetail = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
-      {/* Back link */}
-      <Link to={-1} className="btn btn-ghost btn-sm mb-4">← Back</Link>
+      {/* Navigation */}
+      <div className="flex justify-between mb-4">
+        <Link to={-1} className="btn btn-ghost btn-sm">← Back</Link>
+        <Link to={`/admin/students/${s.id}/edit`} className="btn btn-ghost btn-sm hover:bg-secondary hover:text-secondary-content">Edit</Link>
+      </div>
 
       {/* Header */}
-      <div className="card bg-primary text-primary-content mb-6">
+      <div className="card bg-secondary text-secondary-content mb-6">
         <div className="card-body">
           <div className="flex gap-6 items-start">
             {/* {inc.photoLink && (
@@ -77,15 +80,15 @@ const StudentDetail = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
             <div className="flex items-center gap-2 mb-1">
+              <span className="font-semibold text-lg">Laptop</span>
               <span className={`badge ${rel.receivedLaptop ? "badge-success" : "badge-error"}`}>{rel.receivedLaptop ? "Received" : "Not Received"}</span>
-              <span className="font-semibold text-sm">Laptop</span>
             </div>
             {rel.laptopDetails && <p className="text-sm pl-2">{rel.laptopDetails}</p>}
           </div>
           <div>
             <div className="flex items-center gap-2 mb-1">
+              <span className="font-semibold text-lg">Phone</span>
               <span className={`badge ${rel.receivedPhone ? "badge-success" : "badge-error"}`}>{rel.receivedPhone ? "Received" : "Not Received"}</span>
-              <span className="font-semibold text-sm">Phone</span>
             </div>
             {rel.phoneDetails && <p className="text-sm pl-2">{rel.phoneDetails}</p>}
           </div>

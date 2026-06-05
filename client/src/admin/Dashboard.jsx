@@ -7,6 +7,7 @@ import FundingCard from "./FundingCard"
 import CompletedCard from "./CompletedCard"
 import AcceptedCard from "./AcceptedCard"
 import JobsCard from "./JobsCard"
+import DaysToJob from "./DaysToJob"
 
 const Dashboard = () => {
   const { user } = useSelector((state) => state.auth)
@@ -19,13 +20,14 @@ const Dashboard = () => {
               <CompletedCard />
               <AcceptedCard />
               <JobsCard />
+              <DaysToJob />
             </div>
             <div className="flex flex-row gap-6 mb-6 justify-center">
               <Link to="/admin/programs">
                 <ProgramChartCard />
               </Link>
               <Link to="/admin/weekly">
-                <div className="card bg-secondary text-secondary-content w-80 h-80">
+                <div className="card bg-secondary text-secondary-content w-80 h-80 border-2 border-secondary hover:border-accent">
                   <div className="card-body">
                     <h2 className="card-title mx-auto">Weekly Report</h2>
                     <p>Weekly report to DOC for each state</p>

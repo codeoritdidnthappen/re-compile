@@ -41,7 +41,7 @@ const USStudentProgramMap =() => {
                   </div>
                 </div>
 
-                <div className="space-y-2 text-sm text-accent">
+                <div className="space-y-2 text-sm text-base-content">
                   <div className="flex justify-between">
                     <span>Applied</span>
                     <span>{state.applied}</span>

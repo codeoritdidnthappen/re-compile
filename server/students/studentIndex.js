@@ -7,8 +7,12 @@ import studentsCaseManager from "./studentsCaseManager.js"
 import studentReadOne from "./studentReadOne.js"
 import studentUpdate from "./studentUpdate.js"
 import studentDelete from "./studentDelete.js"
+import studentDaysToJob from "./studentDaysToJob.js"
 
 const studentIndex = express.Router()
+
+// Jobs after release count
+studentIndex.get("/days-to-job", passport.authenticate("jwt", { session: false }), studentDaysToJob)
 
 // Create
 // studentIndex.post("/", passport.authenticate("jwt", { session: false }), studentCreate)

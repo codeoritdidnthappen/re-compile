@@ -92,6 +92,7 @@ const studentSchema = new Schema({
     resume: { type: String, default: "" },
     portfolio: { type: String, default: "" },
   },
+  archived: { type: Boolean, default: false },
 })
 
 export default studentSchema

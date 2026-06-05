@@ -14,7 +14,10 @@ import Weekly from "./admin/Weekly"
 import NoMatch from "./NoMatch"
 import "./App.css"
 import CaseManagerStudents from "./admin/CaseManagerStudents"
+import StudentList from "./admin/StudentList"
+import StudentAdd from "./admin/StudentAdd"
 import StudentDetail from "./admin/StudentDetail"
+import StudentEdit from "./admin/StudentEdit"
 import GrantList from "./admin/GrantList"
 import GrantDetail from "./admin/GrantDetail"
 
@@ -55,7 +58,10 @@ function App() {
           <Route path="sites/:site" element={<ProgramSite />} />
           <Route path="90days" element={<CaseManagerStudents />} />
           <Route path="weekly" element={<Weekly />} />
+          <Route path="students" element={<StudentList />} />
+          <Route path="students/add" element={<StudentAdd />} />
           <Route path="students/:id" element={<StudentDetail />} />
+          <Route path="students/:id/edit" element={<StudentEdit />} />
           <Route path="grants" element={<GrantList />} />
           <Route path="grants/:id" element={<GrantDetail />} />
         </Route>

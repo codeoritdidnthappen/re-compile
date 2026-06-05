@@ -215,6 +215,77 @@
   --noise: 1;
 }
 
+@plugin "daisyui/theme" {
+  name: "ndcs";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(96% 0.005 220);
+  --color-base-300: oklch(92% 0.007 220);
+  --color-base-content: oklch(22% 0.06 210);
+  --color-primary: oklch(0.457283 0.090078 228.9488);
+  --color-primary-content: oklch(98% 0 0);
+  --color-secondary: oklch(75% 0.14 74);
+  --color-secondary-content: oklch(22% 0.05 74);
+  --color-accent: oklch(52% 0.24 358);
+  --color-accent-content: oklch(98% 0 0);
+  --color-neutral: oklch(42% 0.04 210);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(70% 0.165 254.624);
+  --color-info-content: oklch(28% 0.091 267.935);
+  --color-success: oklch(72% 0.219 149.579);
+  --color-success-content: oklch(97% 0.021 166.113);
+  --color-warning: oklch(82% 0.189 84.429);
+  --color-warning-content: oklch(27% 0.077 45.635);
+  --color-error: oklch(65% 0.237 25.331);
+  --color-error-content: oklch(98% 0.01 30);
+  --radius-selector: 0.5rem;
+  --radius-field: 2rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "adcrr";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(96% 0.003 90);
+  --color-base-300: oklch(92% 0.005 90);
+  --color-base-content: oklch(20% 0.005 260);
+  --color-primary: oklch(60% 0.1 190);
+  --color-primary-content: oklch(99% 0 0);
+  /* --color-secondary: oklch(54% 0.15 47); */
+  --color-secondary: oklch(0.6309 0.1468 53.18);
+  --color-secondary-content: oklch(98% 0.01 80);
+  --color-accent: oklch(87% 0.05 82);
+  --color-accent-content: oklch(30% 0.07 47);
+  --color-neutral: oklch(38% 0.01 260);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(70% 0.165 254.624);
+  --color-info-content: oklch(28% 0.091 267.935);
+  --color-success: oklch(72% 0.219 149.579);
+  --color-success-content: oklch(97% 0.021 166.113);
+  --color-warning: oklch(82% 0.189 84.429);
+  --color-warning-content: oklch(27% 0.077 45.635);
+  --color-error: oklch(65% 0.237 25.331);
+  --color-error-content: oklch(98% 0.01 30);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.375rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
 @theme {
   --font-bitcount: "Bitcount Grid Double", sans-serif;
   --font-rubik: "Rubik", sans-serif;
