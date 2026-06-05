@@ -25,6 +25,8 @@ import ProgramList from "./admin/ProgramList"
 import ProgramDetail from "./admin/ProgramDetail"
 import ProgramEdit from "./admin/ProgramEdit"
 import ProgramAdd from "./admin/ProgramAdd"
+import SiteAdd from "./admin/SiteAdd"
+import SiteEdit from "./admin/SiteEdit"
 
 function App() {
   const dispatch = useDispatch()
@@ -62,6 +64,8 @@ function App() {
           <Route path="programs" element={<USStudentProgramMap />} />
           <Route path="programs/:stateName" element={<StudentProgramState />} />
           <Route path="sites/:site" element={<ProgramSite />} />
+          <Route path="sites/:programId/add" element={<SiteAdd />} />
+          <Route path="sites/:programId/:siteId/edit" element={<SiteEdit />} />
           <Route path="90days" element={<CaseManagerStudents />} />
           <Route path="weekly" element={<Weekly />} />
           <Route path="students" element={<StudentList />} />

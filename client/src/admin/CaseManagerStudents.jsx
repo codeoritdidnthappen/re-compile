@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { Link } from "react-router"
+import { Link, useNavigate } from "react-router"
 import { getStudentsCaseManager } from "../students/studentSlice"
 import Star from "../assets/star.svg?react"
 import StarExclamation from "../assets/star-exclamation.svg?react"
@@ -46,6 +46,7 @@ const Cohort = ({ num }) => {
 }
 
 const CaseManager90Days = () => {
+  const navigate = useNavigate()
   const dispatch = useDispatch()
   const { user } = useSelector((state) => state.auth)
   const { students } = useSelector(state => state.students)
@@ -57,28 +58,41 @@ const CaseManager90Days = () => {
   
   return (
     <div className="mt-10 max-w-2xl w-full mx-auto px-4 sm:px-6 lg:px-8">
-      <ul className="list rounded-box shadow-md gap-1">
-        {students.map((student) => {
-          const daysRemaining = Math.round((new Date(student.incarceration.releaseDate) - new Date()) / (1000 * 60 * 60 * 24))
-          return (
-            <li key={student.docId} className={`list-row ${daysRemaining < 91 ? "border-2 border-success bg-base-100" : "bg-base-200"}`}>
-              <Link to={`/admin/students/${student.id}`} className="flex w-full items-center gap-3 hover:opacity-80">
-                <div>{daysRemaining < 91 ? <StarExclamation className="text-success w-12 h-12" /> : <Star className="text-neutral w-12 h-12" />}</div>
-                <div className="flex-1">
-                  <div className="text-lg font-bold text-primary">{student.firstName} {student.lastName} #{student.docId}</div>
-                  <div className="text-sm font-semibold">Site: {student.location.site}</div>
-                  <div className="text-sm font-semibold">Release Date: {new Date(student.incarceration.releaseDate).toISOString().split('T')[0]}</div>
-                  <div className="text-sm font-semibold">Cohort: {student.classes[0].cohort}</div>
-                </div>
-                <div>
-                  <div className="text-center text-md">Days until release:</div>
-                  <div className="text-center text-3xl font-bold text-success">{daysRemaining}</div>
-                </div>
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
+      {students.length > 0 ? (
+        <ul className="list rounded-box shadow-md gap-1">
+          {students.map((student) => {
+            const daysRemaining = Math.round((new Date(student.incarceration.releaseDate) - new Date()) / (1000 * 60 * 60 * 24))
+            return (
+              <li key={student.docId} className={`list-row ${daysRemaining < 91 ? "border-2 border-success bg-base-100" : "bg-base-200"}`}>
+                <Link to={`/admin/students/${student.id}`} className="flex w-full items-center gap-3 hover:opacity-80">
+                  <div>{daysRemaining < 91 ? <StarExclamation className="text-success w-12 h-12" /> : <Star className="text-neutral w-12 h-12" />}</div>
+                  <div className="flex-1">
+                    <div className="text-lg font-bold text-primary">{student.firstName} {student.lastName} #{student.docId}</div>
+                    <div className="text-sm font-semibold">Site: {student.location.site}</div>
+                    <div className="text-sm font-semibold">Release Date: {new Date(student.incarceration.releaseDate).toISOString().split('T')[0]}</div>
+                    <div className="text-sm font-semibold">Cohort: {student.classes[0].cohort}</div>
+                  </div>
+                  <div>
+                    <div className="text-center text-md">Days until release:</div>
+                    <div className="text-center text-3xl font-bold text-success">{daysRemaining}</div>
+                  </div>
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+      ) : (
+        <>
+          <div className="flex justify-center">
+            <div className="text-center text-xl">No students assigned to you</div>
+          </div>
+          <div className="flex justify-center mt-4">
+            <button className="btn btn-secondary btn-sm" onClick={(e) => { e.preventDefault(); navigate("/admin/students") }}>
+              Go to Students
+            </button>
+          </div>
+        </>
+      )}
     </div>
   )
 }

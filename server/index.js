@@ -15,6 +15,7 @@ import classIndex from "./class/classIndex.js"
 import attendanceIndex from "./attendance/attendanceIndex.js"
 import programIndex from "./programs/programIndex.js"
 import grantIndex from "./grants/grantIndex.js"
+import siteIndex from "./sites/siteIndex.js"
 
 const app = express()
 const port = process.env.PORT || 8000
@@ -44,6 +45,7 @@ app.use("/class", classIndex)
 app.use("/attendance", attendanceIndex)
 app.use("/program", programIndex)
 app.use("/grant", grantIndex)
+app.use("/site", siteIndex)
 
 try {
   const mongodbURI = process.env.MONGODB_URI || ""

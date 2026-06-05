@@ -1,5 +1,5 @@
 import { useState, useEffect} from "react"
-import { useParams, Link } from "react-router"
+import { useParams, Link, useNavigate } from "react-router"
 import { useDispatch, useSelector } from "react-redux"
 import BreadCrumbs from "./BreadCrumbs"
 import AttendanceChart from "./AttendanceChart"
@@ -10,6 +10,7 @@ import { getProgram } from "../programs/programsSlice"
 const StudentProgramState = () => {
   const { stateName } = useParams()
   const dispatch = useDispatch()
+  const navigate = useNavigate()
 
   const [ currentState, setCurrentState ] = useState(null)
 
@@ -152,14 +153,15 @@ const StudentProgramState = () => {
               {program.name}
             </h2>
 
-            <div className="flex justify-center mb-6">
+            <div className="flex justify-center items-center gap-4 mb-6">
               <BreadCrumbs state={program.name} />
+              <Link to={`/admin/sites/${program.id}/add`} className="btn btn-secondary btn-sm">+ Add Site</Link>
             </div>
 
             {program.name === "Arizona" && <AttendanceChart abbreviation={convertStateToAbbreviation(stateName)} />}
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-              {program.sites.map((site) => (
+              {program.sites.filter(site => !site.archived).map((site) => (
                 <Link
                   key={site.id}
                   to={`/admin/sites/${site.id}`}
@@ -167,7 +169,7 @@ const StudentProgramState = () => {
                 >
                   <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-200 border border-base-300 hover:border-secondary">
                     <div className="card-body">
-                      <h3 className={`card-title text-primary`}>
+                      <h3 className="card-title text-primary">
                         {site.name}
                       </h3>
 
@@ -190,12 +192,19 @@ const StudentProgramState = () => {
                         </p>
                       </div>
 
-                      <div className="card-actions justify-end mt-4">
-                        <Link to="/admin/students/add">
-                          <button className="btn btn-primary btn-sm">
-                            Add Student
-                          </button>
-                        </Link>
+                      <div className="card-actions justify-between mt-4">
+                        <button
+                          className="btn btn-primary btn-sm"
+                          onClick={(e) => { e.preventDefault(); navigate(`/admin/sites/${program.id}/${site.id}/edit`) }}
+                        >
+                          Edit Site
+                        </button>
+                        <button
+                          className="btn btn-primary btn-sm"
+                          onClick={(e) => { e.preventDefault(); navigate("/admin/students/add") }}
+                        >
+                          Add Student
+                        </button>
                       </div>
                     </div>
                   </div>
