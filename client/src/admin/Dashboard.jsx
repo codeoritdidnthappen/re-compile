@@ -4,6 +4,7 @@ import ProgramChartCard from "./ProgramChartCard"
 import CaseManager90DaysSummary from "./CaseManager90DaysSummary"
 import StudentList from "./StudentList"
 import WeeklyMiniCard from "./WeeklyMiniCard"
+import StudentsMiniCard from "./StudentsMiniCard"
 import FundingCard from "./FundingCard"
 import CompletedCard from "./CompletedCard"
 import AcceptedCard from "./AcceptedCard"
@@ -34,12 +35,7 @@ const Dashboard = () => {
                 <FundingCard />
               </Link>
               <Link to="/admin/students">
-                <div className="card bg-secondary text-secondary-content w-80 h-80 border-2 border-secondary hover:border-accent">
-                  <div className="card-body">
-                    <h2 className="card-title mx-auto">Students</h2>
-                    <p>Manage students</p>
-                  </div>
-                </div>
+                <StudentsMiniCard />
               </Link>
             </div>
           </>
@@ -49,20 +45,13 @@ const Dashboard = () => {
           <>
             <div className="flex flex-row gap-6 mb-6 justify-center">
               <Link to="/admin/programs">
-                <div className="card bg-secondary text-secondary-content">
-                  <div className="card-body flex items-center justify-center">
-                    <h2 className="card-title text-center">Programs Overview</h2>
-                    <ProgramChartCard />
-                  </div>
-                </div>
+                <ProgramChartCard />
               </Link>
               <Link to="/admin/90days">
-                <div className="card bg-secondary text-secondary-content">
-                  <div className="card-body flex items-center justify-center">
-                    <h2 className="card-title text-center">90 Days</h2>
-                    <CaseManager90DaysSummary />
-                  </div>
-                </div>
+                <CaseManager90DaysSummary />
+              </Link>
+              <Link to="/admin/students">
+                <StudentsMiniCard />
               </Link>
             </div>
           </>

@@ -73,7 +73,7 @@ const ProgramChartCard = () => {
 
   return (
     <div className="card bg-secondary text-secondary-content border-2 border-secondary hover:border-accent">
-      <div className="card-body">
+      <div className="card-body pt-3">
         <h2 className="card-title mx-auto">Programs Overview</h2>
         <div className="bg-base-100 border border-primary rounded-3xl shadow-2xl overflow-hidden p-6 w-68 h-59.5 cursor-pointer">
           <ReactECharts
