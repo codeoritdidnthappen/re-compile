@@ -3,6 +3,7 @@ import { Link } from "react-router"
 import ProgramChartCard from "./ProgramChartCard"
 import CaseManager90DaysSummary from "./CaseManager90DaysSummary"
 import StudentList from "./StudentList"
+import WeeklyMiniCard from "./WeeklyMiniCard"
 import FundingCard from "./FundingCard"
 import CompletedCard from "./CompletedCard"
 import AcceptedCard from "./AcceptedCard"
@@ -27,12 +28,7 @@ const Dashboard = () => {
                 <ProgramChartCard />
               </Link>
               <Link to="/admin/weekly">
-                <div className="card bg-secondary text-secondary-content w-80 h-80 border-2 border-secondary hover:border-accent">
-                  <div className="card-body">
-                    <h2 className="card-title mx-auto">Weekly Report</h2>
-                    <p>Weekly report to DOC for each state</p>
-                  </div>
-                </div>
+                <WeeklyMiniCard />
               </Link>
               <Link to="/admin/grants">
                 <FundingCard />
