@@ -18,7 +18,7 @@ const ProgramSite = () => {
   // const [ selectedMonth, setSelectedMonth ] = useState(Object.keys(attendanceData)[0])
   const [ selectedMonth, setSelectedMonth ] = useState("May 2026")
 
-  const { attendance } = useSelector((state) => state.attendance)
+  const { attendance, months } = useSelector((state) => state.attendance)
 
   // const attendance = useMemo(() => {
   //   if (!attendanceData) return null
@@ -52,11 +52,9 @@ const ProgramSite = () => {
               onChange={(e) => setSelectedMonth(e.target.value)}
               className="select select-bordered w-full max-w-xs"
             >
-              <option value="January 2026">January 2026</option>
-              <option value="February 2026">February 2026</option>
-              <option value="March 2026">March 2026</option>
-              <option value="April 2026">April 2026</option>
-              <option value="May 2026">May 2026</option>
+              {months.map((m) => (
+                <option key={m} value={m}>{m}</option>
+              ))}
             </select>
           </div>
 

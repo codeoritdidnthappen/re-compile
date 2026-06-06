@@ -4,7 +4,8 @@ import attendanceService from './attendanceService'
 const initialState = {
   loading: false,
   attendanceSummary: null,
-  attendance: null
+  attendance: null,
+  months: [],
 }
 
 export const getAttendanceSummary = createAsyncThunk("attendance/getAttendanceSummary", async ({ token, abbreviation }) => {
@@ -45,6 +46,7 @@ const attendanceSlice = createSlice({
       })
       .addCase(getAttendanceSite.fulfilled, (state, action) => {
         state.attendance = action.payload.attendance
+        state.months = action.payload.months ?? []
         state.loading = false
       })
       .addCase(getAttendanceSite.rejected, (state, action) => {

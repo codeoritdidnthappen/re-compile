@@ -7,8 +7,8 @@ const SAMPLE = [
   { name: "Breaux, Celeste",    docId: "FL-02014", site: "Lowell",      state: "FL" },
   { name: "Oduya, Samuel",      docId: "AZ-00588", site: "Red Rock",    state: "AZ" },
   { name: "Kim, Devin J.",      docId: "AZ-00169", site: "Cibola",      state: "AZ" },
-  { name: "Crooks, Tabitha",    docId: "FL-01837", site: "Wakulla",     state: "FL" },
-  { name: "Kertzmann, Colten",  docId: "FL-01837", site: "Leath",       state: "SC" }
+  { name: "Crooks, Tabitha",    docId: "FL-07381", site: "Wakulla",     state: "FL" },
+  { name: "Kertzmann, Colten",  docId: "SC-12829", site: "Leath",       state: "SC" }
 ]
 
 const StudentsMiniCard = () => (
