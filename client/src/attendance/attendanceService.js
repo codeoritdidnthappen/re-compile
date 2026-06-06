@@ -10,7 +10,13 @@ const attendanceService = {
   },
   getAttendanceSite: async (token, site, month) => {
     return await axios.get(
-      `${server}/attendance/site/${site}/${month}`, 
+      `${server}/attendance/site/${site}/${month}`,
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
+  },
+  getWeekly: async (token) => {
+    return await axios.get(
+      `${server}/attendance/weekly`,
       { headers: { Authorization: `Bearer ${token}` } }
     )
   }
