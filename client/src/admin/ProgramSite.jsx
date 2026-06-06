@@ -163,7 +163,7 @@ const ProgramSite = () => {
                       <Link to={`/admin/students/${student.docId}`} className="link link-primary">{student.lastName}</Link>
                     </td>
                     <td className="sticky left-24 bg-base-100 z-10">{student.firstName}</td>
-                    <td className="sticky left-48 bg-base-100 z-10">{student.docNumber}</td>
+                    <td className="sticky left-48 bg-base-100 z-10">{student.docId}</td>
                     <td className="sticky left-64 bg-base-100 z-10 text-xs">{student.status}</td>
                     {attendanceDates.map((date) => {
                       const attendance = student.attendance[date] || "-"

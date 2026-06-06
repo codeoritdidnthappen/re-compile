@@ -1,14 +1,72 @@
-import "dotenv/config"
-import { faker } from "@faker-js/faker"
-import data from "./attendance/FSP Attendance Report.json" with { type: "json" }
-console.log("data", data)
+// import "dotenv/config"
+// import { faker } from "@faker-js/faker"
+// import data from "./attendance/FSP Attendance Report.json" with { type: "json" }
+// console.log("data", data)
 
-data.forEach(month => {
-  console.log(month.month)
-  month.students.forEach(student => {
-    console.log(`firstName: ${student.firstName}, lastNAme: ${student.lastName}, docNumber: ${student.docNumber}`)
+// data.forEach(month => {
+//   console.log(month.month)
+//   month.students.forEach(student => {
+//     console.log(`firstName: ${student.firstName}, lastNAme: ${student.lastName}, docNumber: ${student.docNumber}`)
+//   })
+// })
+
+import fs from "fs/promises"
+import { faker } from "@faker-js/faker"
+
+// Faker settings
+faker.locale = "en_US"
+
+// Site data
+const filePath = "./attendance/Lowell Attendance Report.json"
+const filePathScrubbed = "./attendance/Lowell Attendance Report.scrubbed.json"
+const sex = "male" // faker.helpers.arrayElement([ "female", "male"])
+
+try {
+  // Read file
+  const rawData = await fs.readFile(filePath, "utf8")
+
+  // Parse JSON
+  const data = JSON.parse(rawData)
+
+  // Make student map
+  const map = new Map()
+  
+  data.forEach(month => {
+    month.students.forEach(student => {
+      if (!map.get(student.docNumber)) {
+        const firstName = faker.person.firstName(sex)
+        const lastName = faker.person.lastName(sex)
+        map.set(student.docNumber, { firstName: faker.person.firstName(sex), lastName: faker.person.lastName(sex), docId: `${faker.string.alpha()}${faker.number.int({ min: 1000000, max: 9999999 })}` })
+      }
+    })
   })
-})
+
+  // Anonymize data
+  data.forEach(month => {
+    console.log(month.month)
+    month.students.forEach(student => {
+      if (map.get(student.docNumber)) {
+        const { firstName, lastName, docId } = map.get(student.docNumber)
+        student.firstName = firstName
+        student.lastName = lastName
+        student.docId = docId
+        delete student.docNumber
+      }
+    })
+  })
+
+  // Convert back to string (with 2-space indentation for readability)
+  const updatedJson = JSON.stringify(data, null, 2)
+
+  // Write updated JSON file
+  await fs.writeFile(filePathScrubbed, updatedJson, "utf8")
+  console.log("JSON file successfully updated!")
+
+} catch (error) {
+  console.error("Error processing the file:", error)
+}
+
+
 
 // April 2026
 // firstName: Philip, lastNAme: Angulo, docNumber: W36203

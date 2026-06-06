@@ -50,7 +50,7 @@ app.use("/site", siteIndex)
 try {
   const mongodbURI = process.env.MONGODB_URI || ""
   await mongoose.connect(mongodbURI)
-  logger.info(`App connected to database at ${mongodbURI}`)
+  logger.info(`App connected to database.`)
 
   app.listen(port, () => {
     logger.info(`App listening on port ${port}`)

@@ -1,0 +1,7107 @@
+[
+  {
+    "month": "January 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": null,
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-01",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-05",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-07",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-08",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-12",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-13",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-14",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-15",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-19",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-20",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-21",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-22",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-26",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-27",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-28",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-29",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-01-30",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "February 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": null,
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-04",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-05",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-10",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-11",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-12",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-13",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-17",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-18",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-19",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-20",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-24",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-25",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-26",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-02-27",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "March 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": null,
+      "classDays": "Monday - Friday",
+      "classHours": "0745 - 1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 20,
+      "studentAides": 4,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 371,
+      "totalAbsentees": 13,
+      "totalPossible": 384,
+      "attendanceRate": 0.9661458333
+    },
+    "students": [
+      {
+        "lastName": "Gerlach",
+        "firstName": "Edmond",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "A",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "p1507134"
+      },
+      {
+        "lastName": "Dibbert",
+        "firstName": "Miguel",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "A",
+          "2026-03-13": "A",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "Q7614901"
+      },
+      {
+        "lastName": "Parker",
+        "firstName": "Clifford",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "p9528922"
+      },
+      {
+        "lastName": "Veum",
+        "firstName": "Josephine",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "A",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "C3883932"
+      },
+      {
+        "lastName": "Langworth",
+        "firstName": "Dayna",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "q6845751"
+      },
+      {
+        "lastName": "Durgan",
+        "firstName": "Ferne",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "Y8770081"
+      },
+      {
+        "lastName": "Kertzmann",
+        "firstName": "Davin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "W3085005"
+      },
+      {
+        "lastName": "Fahey",
+        "firstName": "Raul",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "l4921559"
+      },
+      {
+        "lastName": "Keebler",
+        "firstName": "Riley",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "t8952959"
+      },
+      {
+        "lastName": "Schulist",
+        "firstName": "Lyle",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "G9191131"
+      },
+      {
+        "lastName": "Ryan",
+        "firstName": "Emmett",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "h6223704"
+      },
+      {
+        "lastName": "Runolfsdottir",
+        "firstName": "Roger",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "E",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "e9139273"
+      },
+      {
+        "lastName": "Huels",
+        "firstName": "Carlee",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "A",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "A",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "A"
+        },
+        "docId": "T9448086"
+      },
+      {
+        "lastName": "Yost",
+        "firstName": "Bruce",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "A"
+        },
+        "docId": "v2036530"
+      },
+      {
+        "lastName": "Crona",
+        "firstName": "Everett",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "C3096364"
+      },
+      {
+        "lastName": "Hudson",
+        "firstName": "Ervin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "E",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "J5701695"
+      },
+      {
+        "lastName": "Pfannerstill",
+        "firstName": "Gabe",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "G2090130"
+      },
+      {
+        "lastName": "Kreiger",
+        "firstName": "Quinn",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "e1617781"
+      },
+      {
+        "lastName": "Schmidt",
+        "firstName": "Edgar",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "A",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "I7411729"
+      },
+      {
+        "lastName": "Greenholt",
+        "firstName": "Delores",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "s6542074"
+      },
+      {
+        "lastName": "Kihn",
+        "firstName": "Luther",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "E",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "F5683195"
+      },
+      {
+        "lastName": "Nienow-Muller",
+        "firstName": "Lucile",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "E",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "M9322383"
+      },
+      {
+        "lastName": "D'Amore",
+        "firstName": "Kim",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "g5216548"
+      },
+      {
+        "lastName": "O'Reilly",
+        "firstName": "Harvey",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-03-02": "N",
+          "2026-03-03": "N",
+          "2026-03-04": "N",
+          "2026-03-05": "N",
+          "2026-03-06": "N",
+          "2026-03-09": "N",
+          "2026-03-10": "P",
+          "2026-03-11": "P",
+          "2026-03-12": "P",
+          "2026-03-13": "P",
+          "2026-03-16": "P",
+          "2026-03-17": "P",
+          "2026-03-18": "P",
+          "2026-03-19": "P",
+          "2026-03-20": "P",
+          "2026-03-23": "P",
+          "2026-03-24": "P",
+          "2026-03-25": "P",
+          "2026-03-26": "P",
+          "2026-03-27": "P",
+          "2026-03-30": "P",
+          "2026-03-31": "P"
+        },
+        "docId": "t6308459"
+      }
+    ],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-04",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-05",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-10",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 21,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.875
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-11",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 22,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9167
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-12",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-13",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-16",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-17",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-18",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-19",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-20",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-23",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-24",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 22,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9167
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-25",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-26",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-27",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-30",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-03-31",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 22,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9167
+      }
+    ]
+  },
+  {
+    "month": "April 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 20,
+      "studentAides": 4,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 512,
+      "totalAbsentees": 16,
+      "totalPossible": 528,
+      "attendanceRate": 0.9696969697
+    },
+    "students": [
+      {
+        "lastName": "Gerlach",
+        "firstName": "Edmond",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "p1507134"
+      },
+      {
+        "lastName": "Dibbert",
+        "firstName": "Miguel",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "A",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "A",
+          "2026-04-17": "A",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "Q7614901"
+      },
+      {
+        "lastName": "Parker",
+        "firstName": "Clifford",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "A",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "p9528922"
+      },
+      {
+        "lastName": "Veum",
+        "firstName": "Josephine",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "A",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "C3883932"
+      },
+      {
+        "lastName": "Langworth",
+        "firstName": "Dayna",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "q6845751"
+      },
+      {
+        "lastName": "Durgan",
+        "firstName": "Ferne",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "Y8770081"
+      },
+      {
+        "lastName": "Kertzmann",
+        "firstName": "Davin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "W3085005"
+      },
+      {
+        "lastName": "Fahey",
+        "firstName": "Raul",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "A",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "A",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "l4921559"
+      },
+      {
+        "lastName": "Keebler",
+        "firstName": "Riley",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "t8952959"
+      },
+      {
+        "lastName": "Schulist",
+        "firstName": "Lyle",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "G9191131"
+      },
+      {
+        "lastName": "Ryan",
+        "firstName": "Emmett",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "h6223704"
+      },
+      {
+        "lastName": "Runolfsdottir",
+        "firstName": "Roger",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "e9139273"
+      },
+      {
+        "lastName": "Huels",
+        "firstName": "Carlee",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "A",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "T9448086"
+      },
+      {
+        "lastName": "Yost",
+        "firstName": "Bruce",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "v2036530"
+      },
+      {
+        "lastName": "Crona",
+        "firstName": "Everett",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "A",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "A",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "C3096364"
+      },
+      {
+        "lastName": "Hudson",
+        "firstName": "Ervin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "A",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "A",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "J5701695"
+      },
+      {
+        "lastName": "Pfannerstill",
+        "firstName": "Gabe",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "G2090130"
+      },
+      {
+        "lastName": "Kreiger",
+        "firstName": "Quinn",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "e1617781"
+      },
+      {
+        "lastName": "Schmidt",
+        "firstName": "Edgar",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "A",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "A",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "I7411729"
+      },
+      {
+        "lastName": "Greenholt",
+        "firstName": "Delores",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "s6542074"
+      },
+      {
+        "lastName": "Kihn",
+        "firstName": "Luther",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "A",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "F5683195"
+      },
+      {
+        "lastName": "Nienow-Muller",
+        "firstName": "Lucile",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "E",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "M9322383"
+      },
+      {
+        "lastName": "D'Amore",
+        "firstName": "Kim",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "g5216548"
+      },
+      {
+        "lastName": "O'Reilly",
+        "firstName": "Harvey",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-04-01": "P",
+          "2026-04-02": "P",
+          "2026-04-03": "P",
+          "2026-04-06": "P",
+          "2026-04-07": "P",
+          "2026-04-08": "P",
+          "2026-04-09": "P",
+          "2026-04-10": "P",
+          "2026-04-13": "P",
+          "2026-04-14": "P",
+          "2026-04-15": "P",
+          "2026-04-16": "P",
+          "2026-04-17": "P",
+          "2026-04-20": "P",
+          "2026-04-21": "P",
+          "2026-04-22": "P",
+          "2026-04-23": "P",
+          "2026-04-24": "P",
+          "2026-04-27": "P",
+          "2026-04-28": "P",
+          "2026-04-29": "P",
+          "2026-04-30": "P"
+        },
+        "docId": "t6308459"
+      }
+    ],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-01",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-02",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-03",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 22,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9167
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-06",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-07",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-08",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 22,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9167
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-09",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-10",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 20,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.8333
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-13",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-14",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-15",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-16",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-17",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-20",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-21",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-22",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-23",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-24",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-27",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-28",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-29",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-04-30",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      }
+    ]
+  },
+  {
+    "month": "May 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 20,
+      "studentAides": 4,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 411,
+      "totalAbsentees": 21,
+      "totalPossible": 432,
+      "attendanceRate": 0.9513888889
+    },
+    "students": [
+      {
+        "lastName": "Gerlach",
+        "firstName": "Edmond",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "E",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "p1507134"
+      },
+      {
+        "lastName": "Dibbert",
+        "firstName": "Miguel",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "A",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "Q7614901"
+      },
+      {
+        "lastName": "Parker",
+        "firstName": "Clifford",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "A",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "p9528922"
+      },
+      {
+        "lastName": "Veum",
+        "firstName": "Josephine",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "C3883932"
+      },
+      {
+        "lastName": "Langworth",
+        "firstName": "Dayna",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "q6845751"
+      },
+      {
+        "lastName": "Durgan",
+        "firstName": "Ferne",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "Y8770081"
+      },
+      {
+        "lastName": "Kertzmann",
+        "firstName": "Davin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "W3085005"
+      },
+      {
+        "lastName": "Fahey",
+        "firstName": "Raul",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "A",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "l4921559"
+      },
+      {
+        "lastName": "Keebler",
+        "firstName": "Riley",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "A",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "t8952959"
+      },
+      {
+        "lastName": "Schulist",
+        "firstName": "Lyle",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "A",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "G9191131"
+      },
+      {
+        "lastName": "Ryan",
+        "firstName": "Emmett",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "h6223704"
+      },
+      {
+        "lastName": "Runolfsdottir",
+        "firstName": "Roger",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "e9139273"
+      },
+      {
+        "lastName": "Huels",
+        "firstName": "Carlee",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "A",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "T9448086"
+      },
+      {
+        "lastName": "Yost",
+        "firstName": "Bruce",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "L",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "v2036530"
+      },
+      {
+        "lastName": "Crona",
+        "firstName": "Everett",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "A"
+        },
+        "docId": "C3096364"
+      },
+      {
+        "lastName": "Hudson",
+        "firstName": "Ervin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "A",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "A"
+        },
+        "docId": "J5701695"
+      },
+      {
+        "lastName": "Pfannerstill",
+        "firstName": "Gabe",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "A",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "G2090130"
+      },
+      {
+        "lastName": "Kreiger",
+        "firstName": "Quinn",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "e1617781"
+      },
+      {
+        "lastName": "Schmidt",
+        "firstName": "Edgar",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "A",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "I7411729"
+      },
+      {
+        "lastName": "Greenholt",
+        "firstName": "Delores",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "s6542074"
+      },
+      {
+        "lastName": "Kihn",
+        "firstName": "Luther",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "E",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "F5683195"
+      },
+      {
+        "lastName": "Nienow-Muller",
+        "firstName": "Lucile",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "M9322383"
+      },
+      {
+        "lastName": "D'Amore",
+        "firstName": "Kim",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "E",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "g5216548"
+      },
+      {
+        "lastName": "O'Reilly",
+        "firstName": "Harvey",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-05-01": "P",
+          "2026-05-04": "P",
+          "2026-05-05": "P",
+          "2026-05-06": "P",
+          "2026-05-07": "P",
+          "2026-05-08": "P",
+          "2026-05-11": "P",
+          "2026-05-12": "P",
+          "2026-05-13": "P",
+          "2026-05-14": "P",
+          "2026-05-15": "P",
+          "2026-05-18": "P",
+          "2026-05-19": "P",
+          "2026-05-20": "N",
+          "2026-05-21": "P",
+          "2026-05-22": "P",
+          "2026-05-25": "H",
+          "2026-05-26": "P",
+          "2026-05-27": "P",
+          "2026-05-28": "P",
+          "2026-05-29": "P"
+        },
+        "docId": "t6308459"
+      }
+    ],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-01",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-04",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-05",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 22,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9167
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-07",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-08",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 20,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.8333
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-11",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-12",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-13",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-14",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-15",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-18",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-19",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-20",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-21",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 14,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.5833
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-22",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 23,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9583
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-25",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-26",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-27",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-28",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 24,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 1
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-05-29",
+        "session": true,
+        "sessionReason": null,
+        "attendanceTotal": 22,
+        "totalStudents": 20,
+        "totalPossibleDaily": 24,
+        "attendanceRateDaily": 0.9167
+      }
+    ]
+  },
+  {
+    "month": "June 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 20,
+      "studentAides": 4,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [
+      {
+        "lastName": "Gerlach",
+        "firstName": "Edmond",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "p1507134"
+      },
+      {
+        "lastName": "Dibbert",
+        "firstName": "Miguel",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "Q7614901"
+      },
+      {
+        "lastName": "Parker",
+        "firstName": "Clifford",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "p9528922"
+      },
+      {
+        "lastName": "Veum",
+        "firstName": "Josephine",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "C3883932"
+      },
+      {
+        "lastName": "Langworth",
+        "firstName": "Dayna",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "q6845751"
+      },
+      {
+        "lastName": "Durgan",
+        "firstName": "Ferne",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "Y8770081"
+      },
+      {
+        "lastName": "Kertzmann",
+        "firstName": "Davin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "W3085005"
+      },
+      {
+        "lastName": "Fahey",
+        "firstName": "Raul",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "l4921559"
+      },
+      {
+        "lastName": "Keebler",
+        "firstName": "Riley",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "t8952959"
+      },
+      {
+        "lastName": "Schulist",
+        "firstName": "Lyle",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "G9191131"
+      },
+      {
+        "lastName": "Ryan",
+        "firstName": "Emmett",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "h6223704"
+      },
+      {
+        "lastName": "Runolfsdottir",
+        "firstName": "Roger",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "e9139273"
+      },
+      {
+        "lastName": "Huels",
+        "firstName": "Carlee",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "T9448086"
+      },
+      {
+        "lastName": "Yost",
+        "firstName": "Bruce",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "v2036530"
+      },
+      {
+        "lastName": "Crona",
+        "firstName": "Everett",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "C3096364"
+      },
+      {
+        "lastName": "Hudson",
+        "firstName": "Ervin",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "J5701695"
+      },
+      {
+        "lastName": "Pfannerstill",
+        "firstName": "Gabe",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "G2090130"
+      },
+      {
+        "lastName": "Kreiger",
+        "firstName": "Quinn",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "e1617781"
+      },
+      {
+        "lastName": "Schmidt",
+        "firstName": "Edgar",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "I7411729"
+      },
+      {
+        "lastName": "Greenholt",
+        "firstName": "Delores",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "s6542074"
+      },
+      {
+        "lastName": "Kihn",
+        "firstName": "Luther",
+        "status": "Student Aide - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "F5683195"
+      },
+      {
+        "lastName": "Nienow-Muller",
+        "firstName": "Lucile",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "M9322383"
+      },
+      {
+        "lastName": "D'Amore",
+        "firstName": "Kim",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "g5216548"
+      },
+      {
+        "lastName": "O'Reilly",
+        "firstName": "Harvey",
+        "status": "Student - Active",
+        "attendance": {
+          "2026-06-19": "H"
+        },
+        "docId": "t6308459"
+      }
+    ],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-01",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-04",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-05",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-08",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-10",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-11",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-12",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-15",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-17",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-18",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-19",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-22",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-24",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-25",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-26",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-29",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-06-30",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 20,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "July 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-01",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-07",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-08",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-10",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-13",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-14",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-15",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-17",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-20",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-21",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-22",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-24",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-27",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-28",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-29",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-07-30",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-07-31",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "August 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-08-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-04",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-05",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-07",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-08-10",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-11",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-12",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-13",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-14",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-08-17",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-18",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-19",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-20",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-21",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-08-24",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-25",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-26",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-27",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-08-28",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-08-31",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "September 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-01",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-04",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-09-07",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-08",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-10",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-11",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-09-14",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-15",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-17",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-18",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-09-21",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-22",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-24",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-25",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-09-28",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-29",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-09-30",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "October 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-01",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-10-05",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-07",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-08",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-10-12",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-13",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-14",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-15",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-10-19",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-20",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-21",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-22",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-10-26",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-27",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-28",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-29",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-10-30",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "November 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-04",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-05",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-06",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-10",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-11",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-12",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-13",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-17",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-18",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-19",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-20",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-24",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-25",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-26",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-27",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-11-30",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  },
+  {
+    "month": "December 2026",
+    "metadata": {
+      "site": "Lowell",
+      "siteId": "fl-lowell",
+      "instructor": "Brice Friesen",
+      "teachingAssistant": "Lillian Glover",
+      "supportSpecialist": "Teri Leannon",
+      "crc": "Vanessa Heathcote",
+      "classDays": "Monday - Friday",
+      "classHours": "0745-1445",
+      "address": "21886 Carter Villages",
+      "cityState": "Ocala, FL",
+      "students": 0,
+      "studentAides": 0,
+      "studentsAdded": 0,
+      "studentsDropped": 0,
+      "totalAttendees": 0,
+      "totalAbsentees": 0,
+      "totalPossible": 0,
+      "attendanceRate": null
+    },
+    "students": [],
+    "classDays": [
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-01",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-02",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-03",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-04",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-12-07",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-08",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-09",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-10",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-11",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-12-14",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-15",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-16",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-17",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-18",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-12-21",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-22",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-23",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-24",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-25",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2026-12-28",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-29",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-30",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      },
+      {
+        "className": null,
+        "classType": null,
+        "location": {
+          "city": "Ocala",
+          "state": "FL",
+          "zip": null
+        },
+        "cohort": null,
+        "classDate": "2025-12-31",
+        "session": false,
+        "sessionReason": "Holiday",
+        "attendanceTotal": 0,
+        "totalStudents": 0,
+        "totalPossibleDaily": 0,
+        "attendanceRateDaily": 0
+      }
+    ]
+  }
+]
