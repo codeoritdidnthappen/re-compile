@@ -1,4 +1,6 @@
-import report from "./data/weekly.data.json"
+import { useEffect } from "react"
+import { useDispatch, useSelector } from "react-redux"
+import { getWeekly } from "../attendance/attendanceSlice"
 
 const COLS = [
   { key: "state",                  label: "State" },
@@ -10,7 +12,15 @@ const COLS = [
 ]
 
 const WeeklyMiniCard = () => {
-  const latestWeek = report[report.length - 1]?.week
+  const dispatch = useDispatch()
+  const { weekly } = useSelector((state) => state.attendance)
+
+  useEffect(() => {
+    const token = localStorage.getItem("token")
+    dispatch(getWeekly({ token }))
+  }, [])
+
+  const latestWeek = weekly[weekly.length - 1]?.week
   const rows = latestWeek?.data ?? []
   const dateLabel = latestWeek ? `${latestWeek.startDate} – ${latestWeek.endDate}` : ""
 
