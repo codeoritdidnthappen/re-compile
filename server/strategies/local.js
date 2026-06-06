@@ -25,8 +25,7 @@ export default passport.use(
   new Strategy({ usernameField: "email" }, async (username, password, done) => {
     try {
       const user = await userModel.findOne({ email: username })
-      console.log(user, username, password, done)
-      if (!user) {
+if (!user) {
         // throw new Error("Invalid credentials")
         done(null, null, "Invalid credentials") // Returns 401 Unauthorized
       }
