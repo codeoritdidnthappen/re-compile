@@ -1,21 +1,30 @@
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { Link } from "react-router"
-import report from "./data/weekly.data.json"
+import { useDispatch, useSelector } from "react-redux"
+import { getWeekly } from "../attendance/attendanceSlice"
 
 const Weekly = () => {
+  const dispatch = useDispatch()
+  const { weekly, loading } = useSelector((state) => state.attendance)
+
   const [sortConfig, setSortConfig] = useState({ key: "state", direction: "asc" })
   const [currentWeekIndex, setCurrentWeekIndex] = useState(0)
 
-  const weeks = useMemo(() => {
-    if (!report || report.length === 0) return []
-    return [...new Set(report.map(item => item.week))].sort()
+  useEffect(() => {
+    const token = localStorage.getItem("token")
+    dispatch(getWeekly({ token }))
   }, [])
+
+  const weeks = useMemo(() => {
+    if (!weekly || weekly.length === 0) return []
+    return weekly.map(item => item.week)
+  }, [weekly])
 
   const currentWeek = weeks[currentWeekIndex] || null
 
   const filteredReport = useMemo(() => {
-    if (!report || report.length === 0 || !currentWeek) return []
-    return report.filter(item => item.week === currentWeek)[0].week.data
+    if (!currentWeek) return []
+    return currentWeek.data ?? []
   }, [currentWeek])
 
   const fields = useMemo(() => {
@@ -75,6 +84,14 @@ const Weekly = () => {
     a.download = `weekly-report-${currentWeek.startDate}-${currentWeek.endDate}.csv`
     a.click()
     URL.revokeObjectURL(url)
+  }
+
+  if (loading && weekly.length === 0) {
+    return (
+      <div className="flex justify-center items-center min-h-64">
+        <span className="loading loading-spinner loading-lg text-primary" />
+      </div>
+    )
   }
 
   return (

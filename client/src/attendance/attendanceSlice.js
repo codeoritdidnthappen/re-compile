@@ -6,6 +6,7 @@ const initialState = {
   attendanceSummary: null,
   attendance: null,
   months: [],
+  weekly: [],
 }
 
 export const getAttendanceSummary = createAsyncThunk("attendance/getAttendanceSummary", async ({ token, abbreviation }) => {
@@ -15,6 +16,11 @@ export const getAttendanceSummary = createAsyncThunk("attendance/getAttendanceSu
 
 export const getAttendanceSite = createAsyncThunk("attendance/getAttendanceSite", async ({ token, site, month }) => {
   const response = await attendanceService.getAttendanceSite(token, site, month)
+  return response.data
+})
+
+export const getWeekly = createAsyncThunk("attendance/getWeekly", async ({ token }) => {
+  const response = await attendanceService.getWeekly(token)
   return response.data
 })
 
@@ -49,13 +55,17 @@ const attendanceSlice = createSlice({
         state.months = action.payload.months ?? []
         state.loading = false
       })
-      .addCase(getAttendanceSite.rejected, (state, action) => {
-        // console.log("getAttendanceSite.rejected", action.error)
+      .addCase(getAttendanceSite.rejected, (state) => {
         state.loading = false
-        // Handle error state
       })
 
-
+    builder
+      .addCase(getWeekly.pending, (state) => { state.loading = true })
+      .addCase(getWeekly.fulfilled, (state, action) => {
+        state.weekly = action.payload.weekly
+        state.loading = false
+      })
+      .addCase(getWeekly.rejected, (state) => { state.loading = false })
   },
 })
 
