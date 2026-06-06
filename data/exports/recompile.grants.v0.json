@@ -1,0 +1,604 @@
+[{
+  "_id": {
+    "$oid": "6a20e881c8988abdc4a9f389"
+  },
+  "name": "Second Chance Act Program (DOJ/BJA) – 2025 Grant",
+  "grantor": {
+    "organization": "Second Chance Act Program (DOJ/BJA)",
+    "contactName": "Irene Wehner",
+    "contactTitle": "Program Officer",
+    "email": "askbja@usdoj.gov",
+    "phone": "202-514-6278",
+    "website": "https://bja.ojp.gov/program/second-chance-act"
+  },
+  "type": "government",
+  "purpose": "Digital literacy training for incarcerated individuals",
+  "amount": 929785,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2025-05-22T09:14:18.032Z"
+  },
+  "endDate": {
+    "$date": "2027-10-01T12:45:50.467Z"
+  },
+  "status": "active",
+  "renewalEligible": true,
+  "reportingFreq": "quarterly",
+  "nextReportDue": {
+    "$date": "2026-07-12T02:29:05.971Z"
+  },
+  "applicationDeadline": null,
+  "notes": "Usus bibo patrocinor solum arma argumentum bos bellum.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e882c8988abdc4a9f38b"
+  },
+  "name": "Bureau of Justice Assistance (BJA) – Technology Innovation – 2024 Grant",
+  "grantor": {
+    "organization": "Bureau of Justice Assistance (BJA) – Technology Innovation",
+    "contactName": "Cathrine Hermiston",
+    "contactTitle": "Grant Manager",
+    "email": "askbja@usdoj.gov",
+    "phone": "202-616-6500",
+    "website": "https://bja.ojp.gov"
+  },
+  "type": "government",
+  "purpose": "Cybersecurity and IT credentialing for justice-involved individuals",
+  "amount": 728227,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": null,
+  "endDate": null,
+  "status": "rejected",
+  "renewalEligible": false,
+  "reportingFreq": "quarterly",
+  "nextReportDue": null,
+  "applicationDeadline": {
+    "$date": "2024-01-03T23:46:57.044Z"
+  },
+  "notes": "Urbs caelum eum cotidie somnus.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e883c8988abdc4a9f38d"
+  },
+  "name": "Department of Labor – Reentry Employment Opportunities (REO) – 2026 Grant",
+  "grantor": {
+    "organization": "Department of Labor – Reentry Employment Opportunities (REO)",
+    "contactName": "Angelica Kuvalis",
+    "contactTitle": "Grants Officer",
+    "email": "ETA.OSMIP@dol.gov",
+    "phone": "202-693-3045",
+    "website": "https://www.dol.gov/agencies/eta/reentry"
+  },
+  "type": "government",
+  "purpose": "Sector-based workforce development in technology industries",
+  "amount": 973645,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2026-11-26T14:27:30.549Z"
+  },
+  "endDate": {
+    "$date": "2027-11-26T14:27:30.549Z"
+  },
+  "status": "pending",
+  "renewalEligible": false,
+  "reportingFreq": "quarterly",
+  "nextReportDue": null,
+  "applicationDeadline": {
+    "$date": "2026-10-26T14:27:30.549Z"
+  },
+  "notes": "Alter creo crepusculum subvenio vallum supplanto amor.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e884c8988abdc4a9f38f"
+  },
+  "name": "SAMHSA Offender Reentry Program – 2025 Grant",
+  "grantor": {
+    "organization": "SAMHSA Offender Reentry Program",
+    "contactName": "Monique Luettgen",
+    "contactTitle": "Program Officer",
+    "email": "samhsainfo@samhsa.hhs.gov",
+    "phone": "1-877-726-4727",
+    "website": "https://www.samhsa.gov/criminal-juvenile-justice/orp"
+  },
+  "type": "government",
+  "purpose": "Mental health and reentry support services",
+  "amount": 582990,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2025-01-23T11:53:42.728Z"
+  },
+  "endDate": {
+    "$date": "2026-12-11T10:24:51.555Z"
+  },
+  "status": "active",
+  "renewalEligible": true,
+  "reportingFreq": "quarterly",
+  "nextReportDue": {
+    "$date": "2026-07-06T23:09:04.238Z"
+  },
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e885c8988abdc4a9f391"
+  },
+  "name": "Ford Foundation – Creativity and Free Expression – 2023 Grant",
+  "grantor": {
+    "organization": "Ford Foundation – Creativity and Free Expression",
+    "contactName": "Raphaelle Larkin",
+    "contactTitle": "Program Officer",
+    "email": "office-of-communications@fordfoundation.org",
+    "phone": "212-573-5000",
+    "website": "https://www.fordfoundation.org"
+  },
+  "type": "foundation",
+  "purpose": "Criminal justice reform through education and technology access",
+  "amount": 479261,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2023-02-06T17:55:20.769Z"
+  },
+  "endDate": {
+    "$date": "2028-12-23T01:25:21.737Z"
+  },
+  "status": "active",
+  "renewalEligible": true,
+  "reportingFreq": "annual",
+  "nextReportDue": {
+    "$date": "2027-07-31T07:39:26.655Z"
+  },
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e886c8988abdc4a9f393"
+  },
+  "name": "JPMorgan Chase Foundation – Workforce Innovation – 2021 Grant",
+  "grantor": {
+    "organization": "JPMorgan Chase Foundation – Workforce Innovation",
+    "contactName": "Luke Heaney",
+    "contactTitle": "Vice President, Philanthropy",
+    "email": "philanthropy@jpmorgan.com",
+    "phone": "212-270-6000",
+    "website": "https://www.jpmorganchase.com/impact/workforce-innovation"
+  },
+  "type": "corporate",
+  "purpose": "Second chance hiring and technology skills training",
+  "amount": 88828,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2021-10-20T12:25:58.132Z"
+  },
+  "endDate": {
+    "$date": "2023-11-25T23:51:49.534Z"
+  },
+  "status": "expired",
+  "renewalEligible": true,
+  "reportingFreq": "biannual",
+  "nextReportDue": null,
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e887c8988abdc4a9f395"
+  },
+  "name": "Google.org – 2024 Grant",
+  "grantor": {
+    "organization": "Google.org",
+    "contactName": "Diana Cartwright",
+    "contactTitle": "Grants Manager",
+    "email": "googleorg@google.com",
+    "phone": "650-253-0000",
+    "website": "https://www.google.org"
+  },
+  "type": "corporate",
+  "purpose": "Expanding access to technology education for underserved communities",
+  "amount": 293614,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2024-05-18T14:35:49.820Z"
+  },
+  "endDate": {
+    "$date": "2027-08-02T10:36:23.896Z"
+  },
+  "status": "active",
+  "renewalEligible": false,
+  "reportingFreq": "biannual",
+  "nextReportDue": {
+    "$date": "2026-10-22T07:34:44.042Z"
+  },
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e888c8988abdc4a9f397"
+  },
+  "name": "Microsoft Philanthropies – 2023 Grant",
+  "grantor": {
+    "organization": "Microsoft Philanthropies",
+    "contactName": "Evelyn Cummings",
+    "contactTitle": "Program Manager",
+    "email": "giving@microsoft.com",
+    "phone": "425-882-8080",
+    "website": "https://www.microsoft.com/en-us/corporate-responsibility/philanthropies"
+  },
+  "type": "corporate",
+  "purpose": "Cloud computing and cybersecurity education for reentry populations",
+  "amount": 202012,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2023-04-19T00:27:26.127Z"
+  },
+  "endDate": {
+    "$date": "2028-09-12T16:29:40.847Z"
+  },
+  "status": "active",
+  "renewalEligible": false,
+  "reportingFreq": "biannual",
+  "nextReportDue": {
+    "$date": "2027-07-20T00:44:10.389Z"
+  },
+  "applicationDeadline": null,
+  "notes": "Quo veritas animus bellum umbra creber turbo cervus.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e889c8988abdc4a9f399"
+  },
+  "name": "Arnold Ventures – Criminal Justice – 2025 Grant",
+  "grantor": {
+    "organization": "Arnold Ventures – Criminal Justice",
+    "contactName": "Cynthia Nader",
+    "contactTitle": "Senior Program Officer",
+    "email": "info@arnoldventures.org",
+    "phone": "713-554-0183",
+    "website": "https://www.arnoldventures.org/work/criminal-justice"
+  },
+  "type": "foundation",
+  "purpose": "Reducing recidivism through education and workforce development",
+  "amount": 1377717,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2025-04-23T01:58:57.756Z"
+  },
+  "endDate": {
+    "$date": "2028-02-13T20:32:14.282Z"
+  },
+  "status": "active",
+  "renewalEligible": true,
+  "reportingFreq": "annual",
+  "nextReportDue": {
+    "$date": "2027-08-18T05:13:21.654Z"
+  },
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e88ac8988abdc4a9f39b"
+  },
+  "name": "Lumina Foundation – 2023 Grant",
+  "grantor": {
+    "organization": "Lumina Foundation",
+    "contactName": "Bridget Osinski",
+    "contactTitle": "Program Director",
+    "email": "info@luminafoundation.org",
+    "phone": "317-951-5300",
+    "website": "https://www.luminafoundation.org"
+  },
+  "type": "foundation",
+  "purpose": "Credential attainment and workforce readiness in technology fields",
+  "amount": 262338,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2023-07-19T17:31:03.239Z"
+  },
+  "endDate": {
+    "$date": "2026-10-29T22:47:09.100Z"
+  },
+  "status": "active",
+  "renewalEligible": false,
+  "reportingFreq": "annual",
+  "nextReportDue": {
+    "$date": "2026-07-26T09:36:55.586Z"
+  },
+  "applicationDeadline": null,
+  "notes": "Territo sumptus tego culpo ab vetus adhuc bellum aedificium.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e88bc8988abdc4a9f39d"
+  },
+  "name": "Charles Koch Foundation – Criminal Justice – 2023 Grant",
+  "grantor": {
+    "organization": "Charles Koch Foundation – Criminal Justice",
+    "contactName": "Buddy Koss",
+    "contactTitle": "Program Officer",
+    "email": "grants@charleskochfoundation.org",
+    "phone": "703-875-1770",
+    "website": "https://charleskochfoundation.org/our-work/criminal-justice"
+  },
+  "type": "foundation",
+  "purpose": "Vocational and technology education in prisons",
+  "amount": 60201,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2023-07-14T18:54:23.103Z"
+  },
+  "endDate": {
+    "$date": "2026-07-29T06:36:18.793Z"
+  },
+  "status": "active",
+  "renewalEligible": false,
+  "reportingFreq": "annual",
+  "nextReportDue": {
+    "$date": "2026-06-17T04:52:25.653Z"
+  },
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e88cc8988abdc4a9f39f"
+  },
+  "name": "Pew Charitable Trusts – Public Safety Performance Project – 2022 Grant",
+  "grantor": {
+    "organization": "Pew Charitable Trusts – Public Safety Performance Project",
+    "contactName": "Janis Schultz",
+    "contactTitle": "Director, Public Safety",
+    "email": "info@pewtrusts.org",
+    "phone": "215-575-9050",
+    "website": "https://www.pewtrusts.org/en/projects/public-safety-performance-project"
+  },
+  "type": "foundation",
+  "purpose": "Data-driven reentry programs and technology education",
+  "amount": 216539,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2022-09-23T05:22:13.388Z"
+  },
+  "endDate": {
+    "$date": "2025-08-02T12:58:02.271Z"
+  },
+  "status": "expired",
+  "renewalEligible": false,
+  "reportingFreq": "annual",
+  "nextReportDue": null,
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e88dc8988abdc4a9f3a1"
+  },
+  "name": "Salesforce.org – 2027 Grant",
+  "grantor": {
+    "organization": "Salesforce.org",
+    "contactName": "Viola Mitchell",
+    "contactTitle": "Philanthropy Program Manager",
+    "email": "foundation@salesforce.com",
+    "phone": "415-901-7000",
+    "website": "https://www.salesforce.org"
+  },
+  "type": "corporate",
+  "purpose": "Tech workforce development and job placement for reentry populations",
+  "amount": 128058,
+  "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NE",
+    "SC"
+  ],
+  "startDate": {
+    "$date": "2027-07-09T01:37:25.374Z"
+  },
+  "endDate": {
+    "$date": "2028-07-09T01:37:25.374Z"
+  },
+  "status": "pending",
+  "renewalEligible": false,
+  "reportingFreq": "biannual",
+  "nextReportDue": null,
+  "applicationDeadline": {
+    "$date": "2027-05-09T01:37:25.374Z"
+  },
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e88ec8988abdc4a9f3a3"
+  },
+  "name": "Arizona Community Foundation – 2025 Grant",
+  "grantor": {
+    "organization": "Arizona Community Foundation",
+    "contactName": "Joelle Auer",
+    "contactTitle": "Grants Program Officer",
+    "email": "info@azfoundation.org",
+    "phone": "602-381-1400",
+    "website": "https://www.azfoundation.org"
+  },
+  "type": "foundation",
+  "purpose": "Community reentry support and digital skills programs",
+  "amount": 78797,
+  "states": [
+    "AZ"
+  ],
+  "startDate": {
+    "$date": "2025-02-21T09:39:53.453Z"
+  },
+  "endDate": {
+    "$date": "2027-05-26T03:51:35.762Z"
+  },
+  "status": "active",
+  "renewalEligible": true,
+  "reportingFreq": "annual",
+  "nextReportDue": {
+    "$date": "2026-06-19T18:35:16.089Z"
+  },
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e88fc8988abdc4a9f3a5"
+  },
+  "name": "The Boston Foundation – 2023 Grant",
+  "grantor": {
+    "organization": "The Boston Foundation",
+    "contactName": "Elmer Bergstrom",
+    "contactTitle": "Program Officer, Thriving Minds",
+    "email": "info@tbf.org",
+    "phone": "617-338-1700",
+    "website": "https://www.tbf.org"
+  },
+  "type": "foundation",
+  "purpose": "Workforce equity and technology access for justice-involved individuals in Greater Boston",
+  "amount": 59686,
+  "states": [
+    "MA"
+  ],
+  "startDate": {
+    "$date": "2023-04-30T12:08:55.391Z"
+  },
+  "endDate": {
+    "$date": "2027-10-20T08:45:02.251Z"
+  },
+  "status": "active",
+  "renewalEligible": false,
+  "reportingFreq": "annual",
+  "nextReportDue": {
+    "$date": "2027-06-23T19:20:03.208Z"
+  },
+  "applicationDeadline": null,
+  "notes": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20e890c8988abdc4a9f3a7"
+  },
+  "name": "Nebraska Community Foundation – 2023 Grant",
+  "grantor": {
+    "organization": "Nebraska Community Foundation",
+    "contactName": "Lionel Kemmer",
+    "contactTitle": "Grants Coordinator",
+    "email": "ncf@nebraskacf.org",
+    "phone": "402-323-7330",
+    "website": "https://www.nebraskacf.org"
+  },
+  "type": "foundation",
+  "purpose": "Reentry and second chance programs for Nebraskans",
+  "amount": 52159,
+  "states": [
+    "NE"
+  ],
+  "startDate": {
+    "$date": "2023-06-17T11:06:16.868Z"
+  },
+  "endDate": {
+    "$date": "2028-12-01T07:28:32.436Z"
+  },
+  "status": "active",
+  "renewalEligible": true,
+  "reportingFreq": "annual",
+  "nextReportDue": {
+    "$date": "2027-07-24T10:18:37.295Z"
+  },
+  "applicationDeadline": null,
+  "notes": "Eaque itaque abeo bardus atrocitas cervus.",
+  "__v": 0
+}]

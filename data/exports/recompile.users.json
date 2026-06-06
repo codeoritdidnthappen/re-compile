@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "6a164cbb0d8daf6a7257c2c7"
+  },
+  "firstName": "Marta",
+  "lastName": "Wiza",
+  "email": "mwiza@strict-longboat.biz",
+  "username": "mwiza",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$qxs9NCEcM8Mmix78JUtLJQ$wDkVD0uYFTK4Q/jKxkBdShslmOaK7v9alg3ETlZOOCk",
+  "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fHww",
+  "roles": [
+    "Admin"
+  ],
+  "authStrategy": "local",
+  "tokens": [],
+  "__v": 15
+},
+{
+  "_id": {
+    "$oid": "6a1b7b3249be4e5356b5a87c"
+  },
+  "firstName": "Candace",
+  "lastName": "Larson",
+  "email": "clarson@guilty-bookend.biz",
+  "username": "elarson",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$sVoyU/JdI9aWV6wCuqnlQw$4KiBTnBXFm9v00t2VtltcMyoATYPNL0u+fYg9uuBJEI",
+  "avatar": "",
+  "roles": [
+    "Case Manager"
+  ],
+  "authStrategy": "local",
+  "tokens": [],
+  "__v": 10
+},
+{
+  "_id": {
+    "$oid": "6a2319bdf18205cc26764afe"
+  },
+  "firstName": "David",
+  "lastName": "Dean",
+  "email": "vermicious.knid.d@gmail.com",
+  "username": "david",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$TyiPdKtNYMf1aBp4gv026w$eaiwiHQPf74uoQPy06v3cr82dIfw5yI8lldg3ejXIzg",
+  "avatar": "https://img.daisyui.com/images/profile/demo/yellingcat@192.webp",
+  "roles": [
+    "Admin",
+    "Case Manager"
+  ],
+  "authStrategy": "local",
+  "tokens": [],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6a231d3e99cc7b3eb032c2c1"
+  },
+  "firstName": "test",
+  "lastName": "test",
+  "email": "test@test.com",
+  "username": "",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$XA3+9KC1/EkWLn6XSIlu/g$PSHiNAYb1Jkj6tMgI27Aufi8tnKZEy0o13XoqHrl7M0",
+  "avatar": "",
+  "roles": [
+    "Admin",
+    "Case Manager"
+  ],
+  "authStrategy": "local",
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTIzMWQzZTk5Y2M3YjNlYjAzMmMyYzEiLCJpYXQiOjE3ODA2ODYxNjQsImV4cCI6MTc4MzI3ODE2NH0.8u50gGA3yu4xQbAC-dcWphOsMMgOoqTKbptvVxZ_ARA",
+      "_id": {
+        "$oid": "6a231d5499cc7b3eb032c2c5"
+      }
+    }
+  ],
+  "__v": 1
+}]

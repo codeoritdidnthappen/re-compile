@@ -18,7 +18,7 @@ const ProgramSite = () => {
   // const [ selectedMonth, setSelectedMonth ] = useState(Object.keys(attendanceData)[0])
   const [ selectedMonth, setSelectedMonth ] = useState("May 2026")
 
-  const { attendance } = useSelector((state) => state.attendance)
+  const { attendance, months } = useSelector((state) => state.attendance)
 
   // const attendance = useMemo(() => {
   //   if (!attendanceData) return null
@@ -52,11 +52,9 @@ const ProgramSite = () => {
               onChange={(e) => setSelectedMonth(e.target.value)}
               className="select select-bordered w-full max-w-xs"
             >
-              <option value="January 2026">January 2026</option>
-              <option value="February 2026">February 2026</option>
-              <option value="March 2026">March 2026</option>
-              <option value="April 2026">April 2026</option>
-              <option value="May 2026">May 2026</option>
+              {months.map((m) => (
+                <option key={m} value={m}>{m}</option>
+              ))}
             </select>
           </div>
 
@@ -165,7 +163,7 @@ const ProgramSite = () => {
                       <Link to={`/admin/students/${student.docId}`} className="link link-primary">{student.lastName}</Link>
                     </td>
                     <td className="sticky left-24 bg-base-100 z-10">{student.firstName}</td>
-                    <td className="sticky left-48 bg-base-100 z-10">{student.docNumber}</td>
+                    <td className="sticky left-48 bg-base-100 z-10">{student.docId}</td>
                     <td className="sticky left-64 bg-base-100 z-10 text-xs">{student.status}</td>
                     {attendanceDates.map((date) => {
                       const attendance = student.attendance[date] || "-"
