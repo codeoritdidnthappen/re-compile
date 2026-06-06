@@ -4,6 +4,8 @@
 
 The application is deployed and available at [**https://re-compile.vercel.app**](https://re-compile.vercel.app/).
 
+To demo the app use `mwiza@strict-longboat.biz` `test` to work as an Admin, or `clarson@guilty-bookend.biz` `test` to work as a Case Manager.
+
 ---
 
 ## Origin
