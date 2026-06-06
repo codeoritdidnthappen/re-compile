@@ -1,5 +1,11 @@
 # re-compile
 
+## Live Demo
+
+The application is deployed and available at [**https://re-compile.vercel.app**](https://re-compile.vercel.app/).
+
+---
+
 ## Origin
 
 I gave myself the constraints to complete this project in a week and coding not at all or as little as possible, essentially treating it as what I might build during the [Gauntlet AI](https://gauntletai.com/) bootcamp. I started with a high level plan, and quickly found a groove with concise but specific prompts and agents to move quickly and focus more and more on features. What I found was that I was able to build a lot more than I originally imagined.
@@ -18,7 +24,7 @@ A full-stack case management and analytics platform built for non-profit organiz
 
 ### Student Management
 
-- Create and maintain detailed student profiles including personal info, incarceration details, class history, release data and employment outomces
+- Create and maintain detailed student profiles including personal info, incarceration details, class history, release data and employment outcomes
 - Track completion of modules, projects, and cohort assignments at the company, state and site/class level
 - Record job placements (tech and non-tech) with salary and timeline data after release
 - Log internships, bootcamps, degrees, and professional links (LinkedIn, GitHub, portfolio, resume)
@@ -35,10 +41,16 @@ A full-stack case management and analytics platform built for non-profit organiz
 - Filter statistics by company, state and site
 - Drill into individual state and site views
 
+### Site Management
+
+- Admin can add, edit, and archive individual sites (facilities/prisons) within each program
+- Each site tracks contract, instructor, and student count
+
 ### Attendance Tracking
 
 - Record monthly attendance by site
 - Summarized attendance reports by program abbreviation
+- Month selector on site attendance page populated dynamically from available data in MongoDB
 
 ### Grant Management
 
@@ -49,17 +61,28 @@ A full-stack case management and analytics platform built for non-profit organiz
 
 ### Weekly DOC Reporting
 
-- Dedicated view for generating weekly reports for each state's Department of Corrections
+- Dedicated sortable table view for weekly reports submitted to each state's Department of Corrections
+- Week navigator to page through historical weekly data
+- CSV export for the currently displayed week
+- Data stored in and fetched from MongoDB
 
 ### Authentication & Role-Based Access
 
+- Public user registration at `/signup` with both roles pre-selected for demo access
 - Email/password login with JWT-based session management
-- Role-aware navigation: Admin and Case Manager views
+- Users with multiple roles can toggle between Admin and Case Manager views from the navbar
 - 30-day token expiration with secure Argon2 password hashing
+
+### Dashboard
+
+- Admin and Case Manager dashboards with live data cards
+- Mini weekly report table card and student sample card
+- Laptops given count card showing students who received a laptop on release
+- Programs overview chart
 
 ### UI Customization
 
-- Several professional DaisyUI themes available from the navbar
+- Several professional DaisyUI themes available from the navbar, including custom themes matching real partner organization branding (adcrr, fdc, ndcs)
 
 ---
 
@@ -115,16 +138,29 @@ A full-stack case management and analytics platform built for non-profit organiz
 | GET | `/student/90day[/:caseManager]` | Students within 90 days of release |
 | GET | `/student/case-manager/:caseManager` | Students for a case manager |
 | GET | `/student/days-to-job` | Days from release to first job |
+| GET | `/student/laptops-given[/:state][/:site]` | Count of students who received a laptop |
 
 ### Programs — `/program`
 | Method | Path | Description |
 |---|---|---|
 | GET | `/program/:year` | Programs for a given year |
 | GET | `/program/state/:stateName` | Program data by state |
+| GET | `/program/id/:id` | Program by MongoDB ID |
 | GET | `/program/students/completed[/:state][/:site]` | Completion count |
 | GET | `/program/students/accepted[/:state][/:site]` | Acceptance count |
 | GET | `/program/jobs[/:state][/:site]` | Jobs placed count |
 | POST | `/program` | Create program |
+| PUT | `/program/:id` | Update program |
+| PUT | `/program/:id/archive` | Archive program |
+
+### Sites — `/site`
+| Method | Path | Description |
+|---|---|---|
+| POST | `/site/:programId` | Create site |
+| GET | `/site/:programId` | List non-archived sites for a program |
+| GET | `/site/:programId/:siteId` | Get a single site |
+| PUT | `/site/:programId/:siteId` | Update site |
+| PUT | `/site/:programId/:siteId/archive` | Archive site |
 
 ### Grants — `/grant`
 | Method | Path | Description |
@@ -139,6 +175,7 @@ A full-stack case management and analytics platform built for non-profit organiz
 | Method | Path | Description |
 |---|---|---|
 | POST | `/attendance` | Create attendance record |
+| GET | `/attendance/weekly` | All weekly report data |
 | GET | `/attendance/site/:siteId/:month` | Attendance by site and month |
 | GET | `/attendance/summary/:abbreviation` | Summary by program abbreviation |
 
@@ -164,13 +201,19 @@ re-compile/
 │       ├── auth/        # Login, auth slice, JWT handling
 │       ├── students/    # Student list, detail, 90-day views
 │       ├── programs/    # Program map and analytics
+│       ├── sites/       # Sites slice and service
 │       ├── grants/      # Grant list and detail views
 │       ├── attendance/  # Attendance data and views
-│       ├── weekly/      # DOC weekly report view
-│       └── store/       # Redux store and slices
+│       ├── users/       # User registration and slice
+│       └── admin/       # All protected admin/case-manager views
 ├── server/          # Express backend
-│   ├── routes/      # Route definitions
-│   ├── models/      # Mongoose schemas
+│   ├── auth/        # Auth routes and strategies
+│   ├── students/    # Student route handlers
+│   ├── programs/    # Program route handlers
+│   ├── sites/       # Site route handlers
+│   ├── grants/      # Grant route handlers
+│   ├── attendance/  # Attendance route handlers and models
+│   ├── users/       # User route handlers
 │   └── strategies/  # Passport auth strategies
 └── data/            # Seed scripts (Faker.js)
 ```
@@ -180,7 +223,8 @@ re-compile/
 ## Getting Started
 
 ### Prerequisites
-- Node.js 18+
+
+- Node.js 20.19+
 - MongoDB (local or Atlas)
 
 ### Environment Variables
@@ -219,6 +263,8 @@ cd client && npm run dev
 
 ### Seed the Database
 
+> **Note:** The seed scripts are still in progress and may not fully reflect the current data model.
+
 ```bash
 cd data
 node seedUsers.js
@@ -235,12 +281,20 @@ node seedGrants.js
 |---|---|
 | `/` | Public landing page |
 | `/login` | Login |
+| `/signup` | User registration |
 | `/admin/dashboard` | Admin/Case Manager dashboard |
 | `/admin/programs` | Program map (US states) |
-| `/admin/programs/:stateName` | State program detail |
-| `/admin/sites/:site` | Site-specific view |
+| `/admin/programs/:stateName` | State program detail and site cards |
+| `/admin/sites/:site` | Site attendance view |
+| `/admin/sites/:programId/add` | Add site to program |
+| `/admin/sites/:programId/:siteId/edit` | Edit or archive a site |
 | `/admin/90days` | 90-day case manager tracker |
 | `/admin/weekly` | Weekly DOC report |
+| `/admin/students` | Student list |
 | `/admin/students/:id` | Student detail |
+| `/admin/students/:id/edit` | Edit student |
 | `/admin/grants` | Grant list |
 | `/admin/grants/:id` | Grant detail |
+| `/admin/program-list` | Program list |
+| `/admin/program-list/:id` | Program detail |
+| `/admin/program-list/:id/edit` | Edit program |
