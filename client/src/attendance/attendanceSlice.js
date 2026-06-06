@@ -39,7 +39,6 @@ const attendanceSlice = createSlice({
         state.loading = false
       })
       .addCase(getAttendanceSummary.rejected, (state, action) => {
-        // console.log("getAttendanceSummary.rejected", action.error)
         state.loading = false
         // Handle error state
       })
