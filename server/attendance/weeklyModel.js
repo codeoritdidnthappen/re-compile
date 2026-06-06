@@ -8,4 +8,4 @@ const weeklySchema = new mongoose.Schema({
   }
 })
 
-export default mongoose.model("weekly", weeklySchema)
+export default mongoose.model("weeklies", weeklySchema)
