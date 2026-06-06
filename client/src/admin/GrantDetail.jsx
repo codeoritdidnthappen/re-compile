@@ -6,7 +6,7 @@ import { getGrantById } from "../grants/grantSlice"
 const Section = ({ title, children }) => (
   <div className="card bg-base-200 mb-4">
     <div className="card-body">
-      <h3 className="card-title text-primary">{title}</h3>
+      <h3 className="card-title text-secondary">{title}</h3>
       {children}
     </div>
   </div>
@@ -18,6 +18,26 @@ const Field = ({ label, value }) => {
     <div className="flex gap-2">
       <span className="font-semibold text-sm min-w-44">{label}:</span>
       <span className="text-sm">{String(value)}</span>
+    </div>
+  )
+}
+
+const EmailField = ({ label, value }) => {
+  if (!value) return null
+  return (
+    <div className="flex gap-2">
+      <span className="font-semibold text-sm min-w-44">{label}:</span>
+      <a href={`mailto:${value}`} className="text-sm link link-primary">{value}</a>
+    </div>
+  )
+}
+
+const WebsiteField = ({ label, value }) => {
+  if (!value) return null
+  return (
+    <div className="flex gap-2">
+      <span className="font-semibold text-sm min-w-44">{label}:</span>
+      <a href={value} target="_blank" rel="noreferrer" className="text-sm link link-primary">{value}</a>
     </div>
   )
 }
@@ -105,15 +125,9 @@ const GrantDetail = () => {
           <Field label="Organization" value={g.grantor?.organization} />
           <Field label="Contact Name" value={g.grantor?.contactName} />
           <Field label="Title" value={g.grantor?.contactTitle} />
-          <Field label="Email" value={g.grantor?.email
-            ? <a href={`mailto:${g.grantor.email}`} className="link link-primary">{g.grantor.email}</a>
-            : null}
-          />
+          <EmailField label="Email" value={g.grantor?.email} />
           <Field label="Phone" value={g.grantor?.phone} />
-          <Field label="Website" value={g.grantor?.website
-            ? <a href={g.grantor.website} target="_blank" rel="noreferrer" className="link link-primary">{g.grantor.website}</a>
-            : null}
-          />
+          <WebsiteField label="Website" value={g.grantor?.website} />
         </div>
       </Section>
 
