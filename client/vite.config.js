@@ -5,7 +5,6 @@ import svgr from "vite-plugin-svgr"
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
-  console.log("vite.config.js", mode)
   const env = loadEnv(mode, process.cwd(), "")
   return {
     plugins: [
